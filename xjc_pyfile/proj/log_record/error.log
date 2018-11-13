@@ -1,0 +1,193 @@
+2018-11-01 15:54:53,801 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:54:54,222 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:57:16,574 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:57:16,579 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:57:37,956 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:57:38,806 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:58:26,808 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:58:27,282 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:59:13,959 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:59:14,533 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:59:55,048 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 15:59:55,733 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:00:51,380 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:00:51,384 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:01:22,363 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:01:22,375 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:02:33,686 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:02:34,368 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:03:16,581 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:04:45,817 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:04:51,855 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:06:43,919 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:07:33,965 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:07:35,494 - schedular_task.py - [line:34] - ERROR - 定时任务开始
+2018-11-01 16:08:34,614 - schedular_task.py - [line:175] - ERROR - 定时任务开始
+2018-11-01 16:08:35,532 - schedular_task.py - [line:175] - ERROR - 定时任务开始
+2018-11-01 16:08:54,674 - schedular_task.py - [line:175] - ERROR - 定时任务开始
+2018-11-01 16:29:31,193 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:29:42,636 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:30:02,807 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:30:14,093 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:32:11,351 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:32:23,300 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:34:18,899 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:34:20,643 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:34:30,749 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:34:32,522 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:34:43,543 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:34:43,590 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:34:54,906 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:42:11,092 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 16:42:12,052 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 16:45:22,753 - schedular_task.py - [line:181] - ERROR - 定时任务开始
+2018-11-01 16:48:04,925 - schedular_task.py - [line:183] - ERROR - 定时任务开始
+2018-11-01 16:52:03,093 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-01 16:52:15,268 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 16:59:30,291 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 17:04:30,284 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 17:09:30,309 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 17:14:30,303 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 17:19:30,296 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-01 17:22:31,609 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-01 17:22:43,111 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:06:23,192 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:07:23,852 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:13:50,375 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:18:50,403 - scats_5min_volumns.py - [line:160] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:29:53,591 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:33:35,729 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:36:35,641 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:37:20,758 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:39:35,662 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:42:20,716 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:42:35,641 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:45:35,716 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:46:33,373 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:46:44,438 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:47:27,825 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:47:28,499 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:47:39,229 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:47:39,843 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:48:13,750 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:48:24,611 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:50:46,535 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 08:50:57,406 - alarm_data_regular_filter.py - [line:351] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 08:54:28,647 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 08:58:13,763 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 09:31:13,330 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 09:31:25,275 - alarm_data_regular_filter.py - [line:345] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 09:34:55,410 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 09:37:55,725 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 09:38:40,571 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 09:40:55,436 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 09:44:56,972 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 09:45:08,042 - alarm_data_regular_filter.py - [line:345] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 10:04:41,823 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 10:05:01,527 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 10:05:12,453 - alarm_data_regular_filter.py - [line:345] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-02 10:08:43,645 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:10:01,238 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 10:14:35,295 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 10:18:17,415 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:21:17,397 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:22:02,514 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:24:17,430 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:27:02,497 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:27:17,472 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:30:17,468 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:32:02,523 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:33:17,402 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:36:17,459 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:37:02,506 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:39:17,396 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:42:02,546 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:42:17,456 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:45:17,506 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:45:27,907 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 10:46:27,824 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 10:47:02,540 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:48:17,432 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:51:17,421 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:52:02,509 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:54:17,412 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:57:02,569 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 10:57:17,407 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:00:17,413 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:02:02,473 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:03:17,426 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:06:17,399 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:07:02,498 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:07:27,838 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:08:27,831 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:09:17,393 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:12:02,501 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:12:17,380 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:14:27,843 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:15:17,441 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:15:27,867 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:16:27,837 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:17:02,458 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:17:27,834 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:18:17,388 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:18:27,831 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:19:27,840 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:20:27,861 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:21:17,401 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:21:27,834 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:22:02,449 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:23:27,840 - SituationOperate.py - [line:203] - ERROR - 数据库连接失败！
+2018-11-02 11:24:17,399 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:27:02,547 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:27:17,401 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:30:17,395 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:32:02,445 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:33:17,378 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:36:17,375 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:37:02,437 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:39:17,377 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:42:02,450 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:42:17,384 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:45:17,423 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:47:02,437 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:48:17,391 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:51:17,377 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:52:02,444 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:54:17,384 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:57:02,458 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 11:57:17,398 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:00:17,392 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:02:02,442 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:03:17,380 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:06:17,372 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:07:02,438 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:09:17,384 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:12:02,691 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:12:17,395 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:15:17,478 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:17:02,442 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:18:17,375 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:21:17,388 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:22:02,472 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:24:17,378 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:27:02,479 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:27:17,394 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:30:17,404 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:32:02,448 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:33:17,391 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:36:17,378 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:37:02,486 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:39:17,378 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:42:02,485 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:42:17,399 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:45:17,424 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:47:02,464 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:48:17,380 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:51:17,379 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:52:02,435 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:54:17,392 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:57:02,464 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 12:57:17,378 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 13:00:17,390 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 13:02:02,429 - scats_5min_volumns.py - [line:161] - ERROR - ORA-12170: TNS: 连接超时
+2018-11-02 13:03:17,378 - Request_Data_From_Int.py - [line:267] - ERROR - ORA-12170: TNS: 连接超时

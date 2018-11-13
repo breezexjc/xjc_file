@@ -1,0 +1,3 @@
+proj为框架内容，包含config，controller，python_project，dao，interfaceImpl，vo等文件夹以及settings.py，urls.py，wsgi.py
+等配置文件。其中，config用于存放基础配置信息以及工具类，controller用于存放任务调度模块以及视图，python_project用于存放
+和django一起运行的后台程序。

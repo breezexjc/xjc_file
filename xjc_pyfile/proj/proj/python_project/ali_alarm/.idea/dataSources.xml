@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="research@192.168.20.45" uuid="724c1e3c-d18e-494c-a160-28639b08e40e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.20.45:5432/research</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="7867f493-cfa1-4ff1-a6b9-074dff8df173">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>G:/django/untitled/untitled/settings.py</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:G:\django\untitled\db.sqlite3</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="89892e2f-5f16-4aa4-b01e-1f5f571f7c45">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>G:/django/apple/apple/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.20.56:5432/postgis_21_sample</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="c2dc6a41-82fa-498b-810e-f413abd0f9a1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>G:/django/scats_api/scats_api/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.25.23:5432/postgis_24</jdbc-url>
+    </data-source>
+  </component>
+</project>
