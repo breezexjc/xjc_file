@@ -22,11 +22,11 @@ import threading
 import time
 import queue
 import datetime as dt
-import gc   # 垃圾回收
+import gc  # 垃圾回收
 import dbm
-# from .SituationAlarm import AlarmData,KDE_filter,CheckAlarm,KdeModelSave
-# from proj.config.log_record import LogRecord
+from .control_pram import IF_TEST
 import logging
+
 LogAlarm = logging.getLogger('sourceDns.webdns.views')  # 获取settings.py配置文件中logger名称
 # Log = LogRecord()
 # date = dt.datetime.now().date()
@@ -34,7 +34,7 @@ LogAlarm = logging.getLogger('sourceDns.webdns.views')  # 获取settings.py配�
 
 # 图表显示中文
 ####################################
-IF_TEST = False
+
 TEXT_DATE = '2018-10-20 23:54:00'
 TEST_WEEK = 3
 ####################################
@@ -43,21 +43,20 @@ TEST_WEEK = 3
 INT_NUM = 15
 TIME_POINT = 96
 # GROUPCOLUMN = 'date'
-GROUPCOLUMN = 'weekday'
-DRAW_INTERVAL = 15
+# GROUPCOLUMN = 'weekday'
+# DRAW_INTERVAL = 15
 PLOT_DATA_SAVE = r"insert into kde_alarm_predict values(%s,%s,%s,%s,%s,%s)"
 PLOT_DATA_SAVE2 = r'insert into disposal_alarm_kde_distribution values(%s,%s,%s,%s,%s,%s)'
-KDE_RANGE = 1.0
+# KDE_RANGE = 1.0
 KDE_TABLE = 'disposal_alarm_kde_distribution'
 ALARM_DATA_TABLE = 'disposal_alarm_data'
 KDE_RESULT_TABLE = 'disposal_alarm_data_kde_value'
 IF_SCATS_ID = False
-ALARM_PERCENT = 75
-SO_INTERVAL = '15minutes'
+# ALARM_PERCENT = 90
+# SO_INTERVAL = '15minutes'
 
 
 def alarm_filter(K, inter_list=None, site_id_list=None):
-
     A1 = AlarmData()
     if inter_list is not None and site_id_list is not None:
         match_data = A1.get_new_alarm_data(inter_list)
@@ -100,7 +99,7 @@ def new_alarm_get(q):
         start_date = current_date
         C2 = CheckAlarm()
         K1 = KDE_filter()
-        K1.model_initialize()   # 当日KDE模型初始化
+        K1.model_initialize()  # 当日KDE模型初始化
         # start_date = dt.datetime.now().date()
         C1 = CheckAlarm()
     except Exception as e:
@@ -122,8 +121,8 @@ def new_alarm_get(q):
                     try:
                         # his_model = C2.his_alarm_match(K_HIS)
                         # model_save.save_model(his_model, 'KdeHisModel_%s' % str(current_date))
-                        C1.clear_kde_table()    # 清空前天历史数据
-                        model_new = C1.new_alarm_match(K1, q)   # 计算新报警数据
+                        C1.clear_kde_table()  # 清空前天历史数据
+                        model_new = C1.new_alarm_match(K1, q)  # 计算新报警数据
                         start_date = current_date
                     except Exception as e:
                         LogAlarm.error(e)
@@ -144,7 +143,7 @@ def new_alarm_get(q):
 # 更新历史模型
 def his_model_update():
     local_time = dt.datetime.now()
-    last_date = local_time-dt.timedelta(days=1)
+    last_date = local_time - dt.timedelta(days=1)
     current_date = local_time.date()
     # print(local_time, "start")
     try:
@@ -159,7 +158,7 @@ def his_model_update():
         LogAlarm.error(e)
     else:
         try:
-            os.remove(r'.\kde_model'+r'\KdeHisModel_%s.bak' % str(last_date.date()))
+            os.remove(r'.\kde_model' + r'\KdeHisModel_%s.bak' % str(last_date.date()))
             os.remove(r'.\kde_model' + r'\KdeHisModel_%s.dat' % str(last_date.date()))
             os.remove(r'.\kde_model' + r'\KdeHisModel_%s.dir' % str(last_date.date()))
         except Exception as e:
@@ -169,82 +168,83 @@ def his_model_update():
 
 
 def kde_result_resolve_real(data, time_point):
-        result = []
-        for (key, value) in data.items():
-            key_split = key.split('-')
-            int_id = key_split[0]
-            dir = key_split[1]
-            weekday = key_split[2]
-            new_kde_value = value.get('KdeValue')
-            his_kde_value = value.get('HisKdeValue')
-            if new_kde_value > his_kde_value:
-                alarm_type = 1
-            else:
-                alarm_type = 0
-            # time_point = value.get('TimePoint')
-            result.append([int_id, dir, weekday, time_point, new_kde_value, his_kde_value,alarm_type])
-        df_kde_result = pd.DataFrame(result, columns=['int_id', 'dir', 'weekday', 'time_point', 'new_kde_value',
-                                                      'his_kde_value','alarm_type'])
-        df_int_sum = df_kde_result.groupby(['int_id', 'weekday','time_point'])[['new_kde_value','his_kde_value','alarm_type']].sum()
-        # for i in range(len(df_int_sum)):
-        #     if df_int_sum.iloc[i][]
-        # print(df_int_sum.agg(['sum']))
-        # print(df_int_sum)
-        result = []
+    result = []
+    for (key, value) in data.items():
+        key_split = key.split('-')
+        int_id = key_split[0]
+        dir = key_split[1]
+        weekday = key_split[2]
+        new_kde_value = value.get('KdeValue')
+        his_kde_value = value.get('HisKdeValue')
+        if new_kde_value > his_kde_value:
+            alarm_type = 1
+        else:
+            alarm_type = 0
+        # time_point = value.get('TimePoint')
+        result.append([int_id, dir, weekday, time_point, new_kde_value, his_kde_value, alarm_type])
+    df_kde_result = pd.DataFrame(result, columns=['int_id', 'dir', 'weekday', 'time_point', 'new_kde_value',
+                                                  'his_kde_value', 'alarm_type'])
+    df_int_sum = df_kde_result.groupby(['int_id', 'weekday', 'time_point'])[
+        ['new_kde_value', 'his_kde_value', 'alarm_type']].sum()
+    # for i in range(len(df_int_sum)):
+    #     if df_int_sum.iloc[i][]
+    # print(df_int_sum.agg(['sum']))
+    # print(df_int_sum)
+    result = []
 
-        for index, value in df_int_sum.iterrows():
-            if value[2] > 1:
-                value[2] = 1
-            result.append([index[0],index[2],value[0],value[1],str(value[2])])
+    for index, value in df_int_sum.iterrows():
+        if value[2] > 1:
+            value[2] = 1
+        result.append([index[0], index[2], value[0], value[1], str(value[2])])
 
-        # df_int_sum_values = df_int_sum.values
-        return result
+    # df_int_sum_values = df_int_sum.values
+    return result
 
 
 def kde_data_send(df_kde_result):
-        try:
-            A = AlarmData()
-            message = A.send_kde_result(df_kde_result)
-            LogAlarm.info(message)
-        except Exception as e:
-            LogAlarm.error(e)
+    try:
+        A = AlarmData()
+        message = A.send_kde_result(df_kde_result)
+        LogAlarm.info(message)
+    except Exception as e:
+        LogAlarm.error(e)
 
 
 def kde_predict(kde_model, time_point):
-        key_list = kde_model.keys()
-        # print("历史模型路口", key_list)
-        time_array = np.array([time_point])[:, np.newaxis]
-        kde_result = {}
-        local_time = dt.datetime.now()
-        if IF_TEST:
-            local_weekday = TEST_WEEK
-        else:
-            local_weekday = local_time.weekday()+1
-        year, month, day = (local_time.year, local_time.month, local_time.day)
+    key_list = kde_model.keys()
+    # print("历史模型路口", key_list)
+    time_array = np.array([time_point])[:, np.newaxis]
+    kde_result = {}
+    local_time = dt.datetime.now()
+    if IF_TEST:
+        local_weekday = TEST_WEEK
+    else:
+        local_weekday = local_time.weekday() + 1
+    year, month, day = (local_time.year, local_time.month, local_time.day)
 
-        for key in key_list:
-            model_weekday = key.split('-')[2]
-            # print("weekday", local_weekday, model_weekday)
-            if str(local_weekday) == model_weekday:
-                model = kde_model.get(key)[0]
-                alarm_count = kde_model.get(key)[1]
-                rdsectid = kde_model.get(key)[2]
-                kde_value = model.score_samples(time_array)
-                hour = time_array[:, 0]*DRAW_INTERVAL/60
-                minute = time_array[:, 0]*DRAW_INTERVAL % 60
-                alarm_time = dt.datetime(year, month, day, hour, minute, 0)
-                if IF_TEST:
-                    str_alarm_time = TEXT_DATE
-                else:
-                    str_alarm_time = dt.datetime.strftime(alarm_time, '%Y-%m-%d %H:%M:%S')
-                fre = list(alarm_count * np.exp(kde_value))[0]
-                if fre < 0.1:    #小于0.1的报警强度强制为0
-                    fre = 0.0
-                # print(int_id, dir_desc, round(fre, 2))
-                kde_result[key] = {'KdeValue': round(fre, 2), 'TimePoint': str_alarm_time,'RdsectId':rdsectid}
+    for key in key_list:
+        model_weekday = key.split('-')[2]
+        # print("weekday", local_weekday, model_weekday)
+        if str(local_weekday) == model_weekday:
+            model = kde_model.get(key)[0]
+            alarm_count = kde_model.get(key)[1]
+            rdsectid = kde_model.get(key)[2]
+            kde_value = model.score_samples(time_array)
+            hour = time_array[:, 0] * DRAW_INTERVAL / 60
+            minute = time_array[:, 0] * DRAW_INTERVAL % 60
+            alarm_time = dt.datetime(year, month, day, hour, minute, 0)
+            if IF_TEST:
+                str_alarm_time = TEXT_DATE
             else:
-                pass
-        return kde_result
+                str_alarm_time = dt.datetime.strftime(alarm_time, '%Y-%m-%d %H:%M:%S')
+            fre = list(alarm_count * np.exp(kde_value))[0]
+            if fre < 0.1:  # 小于0.1的报警强度强制为0
+                fre = 0.0
+            # print(int_id, dir_desc, round(fre, 2))
+            kde_result[key] = {'KdeValue': round(fre, 2), 'TimePoint': str_alarm_time, 'RdsectId': rdsectid}
+        else:
+            pass
+    return kde_result
 
 
 # 处理接口请求
@@ -274,13 +274,13 @@ def new_kde_cal():
             except FileNotFoundError as e:
                 print("# get KdeHisModel failed!")
                 # LogAlarm.info(e)
-                message = False
-                return message
+
+                return
             except dbm.error as e:
                 print("# get KdeHisModel failed!")
                 LogAlarm.info("kde model file not found")
-                message = False
-                return message
+
+                return
             else:
                 print("# get KdeHisModel succeed!")
                 date_list = time_point
@@ -310,12 +310,10 @@ def new_kde_cal():
                 except Exception as e:
                     print(e)
                     LogAlarm.error("异常错误")
-                    message = False
-                    return message
+                    return
         else:
             print("数据库连接失败！")
             pass
-
 
 
 # def his_alarm_kde_cal(q):
@@ -350,7 +348,7 @@ def alarm_type_judge(q1):
         time_array = np.array([time_point])[:, np.newaxis]
         kde_result = {}
         local_time = dt.datetime.now()
-        local_weekday = local_time.weekday()+1
+        local_weekday = local_time.weekday() + 1
         year, month, day = (local_time.year, local_time.month, local_time.day)
 
         for key in key_list:
@@ -361,18 +359,18 @@ def alarm_type_judge(q1):
                 alarm_count = kde_model.get(key)[1]
                 rdsectid = kde_model.get(key)[2]
                 kde_value = model.score_samples(time_array)
-                hour = time_array[:, 0]*DRAW_INTERVAL/60
-                minute = time_array[:, 0]*DRAW_INTERVAL % 60
+                hour = time_array[:, 0] * DRAW_INTERVAL / 60
+                minute = time_array[:, 0] * DRAW_INTERVAL % 60
                 alarm_time = dt.datetime(year, month, day, hour, minute, 0)
                 if IF_TEST:
                     str_alarm_time = TEXT_DATE
                 else:
                     str_alarm_time = dt.datetime.strftime(alarm_time, '%Y-%m-%d %H:%M:%S')
                 fre = list(alarm_count * np.exp(kde_value))[0]
-                if fre <0.1:    #小于0.1的报警强度强制为0
+                if fre < 0.1:  # 小于0.1的报警强度强制为0
                     fre = 0.0
                 # print(int_id, dir_desc, round(fre, 2))
-                kde_result[key] = {'KdeValue': round(fre, 2), 'TimePoint': str_alarm_time,'RdsectId':rdsectid}
+                kde_result[key] = {'KdeValue': round(fre, 2), 'TimePoint': str_alarm_time, 'RdsectId': rdsectid}
             else:
                 pass
         return kde_result
@@ -382,7 +380,7 @@ def alarm_type_judge(q1):
         time_array = np.array([time_point])[:, np.newaxis]
         kde_result = {}
         local_time = dt.datetime.now()
-        local_weekday = local_time.weekday()+1
+        local_weekday = local_time.weekday() + 1
         year, month, day = (local_time.year, local_time.month, local_time.day)
 
         for key in key_list:
@@ -393,8 +391,8 @@ def alarm_type_judge(q1):
             model = kde_model.get(key)[0]
             alarm_count = kde_model.get(key)[1]
             kde_value = model.score_samples(time_array)
-            hour = time_array[:, 0]*DRAW_INTERVAL/60
-            minute = time_array[:, 0]*DRAW_INTERVAL % 60
+            hour = time_array[:, 0] * DRAW_INTERVAL / 60
+            minute = time_array[:, 0] * DRAW_INTERVAL % 60
             alarm_time = dt.datetime(year, month, day, hour, minute, 0)
             str_alarm_time = dt.datetime.strftime(alarm_time, '%Y-%m-%d %H:%M:%S')
             fre = list(alarm_count * np.exp(kde_value))[0]
@@ -405,7 +403,7 @@ def alarm_type_judge(q1):
 
     def kde_result_resolve(data, time_point):
         result = []
-        for (key,value) in data.items():
+        for (key, value) in data.items():
             key_split = key.split('-')
             int_id = key_split[0]
             dir = key_split[1]
@@ -417,10 +415,11 @@ def alarm_type_judge(q1):
             else:
                 alarm_type = 0
             # time_point = value.get('TimePoint')
-            result.append([int_id, dir, weekday, time_point, new_kde_value, his_kde_value,alarm_type])
+            result.append([int_id, dir, weekday, time_point, new_kde_value, his_kde_value, alarm_type])
         df_kde_result = pd.DataFrame(result, columns=['int_id', 'dir', 'weekday', 'time_point', 'new_kde_value',
-                                                      'his_kde_value','alarm_type'])
-        df_int_sum = df_kde_result.groupby(['int_id', 'weekday','time_point'])[['new_kde_value','his_kde_value','alarm_type']].sum()
+                                                      'his_kde_value', 'alarm_type'])
+        df_int_sum = df_kde_result.groupby(['int_id', 'weekday', 'time_point'])[
+            ['new_kde_value', 'his_kde_value', 'alarm_type']].sum()
         # for i in range(len(df_int_sum)):
         #     if df_int_sum.iloc[i][]
         # print(df_int_sum.agg(['sum']))
@@ -430,7 +429,7 @@ def alarm_type_judge(q1):
         for index, value in df_int_sum.iterrows():
             if value[2] > 1:
                 value[2] = 1
-            result.append([index[0],index[2],value[0],value[1],str(value[2])])
+            result.append([index[0], index[2], value[0], value[1], str(value[2])])
 
         # df_int_sum_values = df_int_sum.values
         return result
@@ -444,7 +443,7 @@ def alarm_type_judge(q1):
         except Exception as e:
             LogAlarm.error(e)
 
-    def situation_of_alarm_cal(his_kde_result,delay_cict ):
+    def situation_of_alarm_cal(his_kde_result, delay_cict):
         alarm_keys = delay_cict.keys()
         SA_Value = {}
         for (key, value) in his_kde_result.items():
@@ -455,9 +454,9 @@ def alarm_type_judge(q1):
             new_kde_value = value.get('NewKdeValue')
             rdsectid = value.get('RdsectId')
             his_kde_value = value.get('KdeValue')
-            if int_id+'-'+dir in alarm_keys:
-                delay = delay_cict.get(int_id+'-'+dir)
-                SA_Value[int_id+'-'+dir] ={'RdsectId':rdsectid, 'SAValue':delay*new_kde_value}
+            if int_id + '-' + dir in alarm_keys:
+                delay = delay_cict.get(int_id + '-' + dir)
+                SA_Value[int_id + '-' + dir] = {'RdsectId': rdsectid, 'SAValue': delay * new_kde_value}
         return SA_Value
 
     start_date = dt.datetime.now().date()
@@ -469,7 +468,7 @@ def alarm_type_judge(q1):
             LogAlarm.info(e)
             time.sleep(60)
         except dbm.error as e:
-            LogAlarm.info("kde model file not found",e)
+            LogAlarm.info("kde model file not found", e)
             time.sleep(60)
         else:
             LogAlarm.info("# get KdeHisModel succeed!")
@@ -505,7 +504,7 @@ def alarm_type_judge(q1):
 
                                     his_kde_result[key]['NewKdeValue'] = 0
                                     # new_kde_result[key]['AlarmType'] = 2    # 未知类型
-                        df_kde_result = kde_result_resolve(his_kde_result,date_list[i])
+                        df_kde_result = kde_result_resolve(his_kde_result, date_list[i])
                         kde_data_send(df_kde_result)
                         SA = situation_of_alarm_cal(his_kde_result, delay_cict)
                 except Exception as e:
@@ -521,8 +520,8 @@ def create_process():
     #####################多线程############################
     all_thread = {}
     q1 = queue.Queue()
-    t1 = threading.Thread(target=new_alarm_get, args=(q1,),name='KDE模型计算')
-    t2 = threading.Thread(target=alarm_type_judge, args=(q1,),name='报警类型分析')
+    t1 = threading.Thread(target=new_alarm_get, args=(q1,), name='KDE模型计算')
+    t2 = threading.Thread(target=alarm_type_judge, args=(q1,), name='报警类型分析')
     # t3 = threading.Thread(target=so_run, args=(), name='匹配操作记录')
     # all_thread['t1'] = ([t1,new_alarm_get, (q1,), t1.name])
     # all_thread['t2'] = ([t2,alarm_type_judge, (q1,), t2.name])
@@ -542,8 +541,6 @@ def create_process():
     #     t3.join()
     # except:
     #     print('Caught an exception')
-
-
 
 
 def check_threading(thread_list):

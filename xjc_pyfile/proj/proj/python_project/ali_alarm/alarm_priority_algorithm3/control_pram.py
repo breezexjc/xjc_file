@@ -1,0 +1,5 @@
+IF_TEST = True
+TD = 30
+TA = 16
+TW = 16
+TRD = 10

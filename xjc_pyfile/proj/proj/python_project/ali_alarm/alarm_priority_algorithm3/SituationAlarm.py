@@ -25,6 +25,7 @@ import shelve
 from contextlib import closing
 import gc   # 垃圾回收
 import dbm
+from .control_pram import IF_TEST
 
 # IF_TEXT = False
 # TEXT_DATE = '2018-10-12 09:44:00'
@@ -33,7 +34,6 @@ import dbm
 TEST_DAY = '2018-11-14'
 INT_NUM = 15
 TIME_POINT = 96
-IF_TEST = False
 # GROUPCOLUMN = 'date'
 GROUPCOLUMN = 'weekday'
 DRAW_INTERVAL = 15

@@ -1,4 +1,4 @@
-from database import Postgres
+from proj.config.database import Postgres
 import pandas as pd
 import datetime as dt
 import json
