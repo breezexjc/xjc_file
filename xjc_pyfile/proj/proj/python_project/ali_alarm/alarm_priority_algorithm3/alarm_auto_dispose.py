@@ -125,6 +125,9 @@ class OperateAutoDis():
         """
         reponse_all = []
         # alarm_type 报警常发偶发判断结果
+        # self.frame_int_state = self.get_alarm_operate_type(alarm_int_list)
+        # int_type = self.get_int_type(alarm_int_list)
+        # alarm_type = self.get_alarm_type()
         try:
             self.frame_int_state = self.get_alarm_operate_type(alarm_int_list)
             int_type = self.get_int_type(alarm_int_list)
@@ -141,10 +144,10 @@ class OperateAutoDis():
                 fre_alarm_list = []
             for int in alarm_int_list:
                 int_alarm_type = int_type.get(int)
-                # 报警较少路口
+                # 报警较少路口,检测连续报警
                 if int_alarm_type == '0':
                     reponse_all = self.continue_alarm_judge(int, reponse_all)
-                # 报警较多路口
+                # 报警较多路口，常发报警人工处置，偶发报警检测连续报警
                 elif int_alarm_type == '1':
                     # 常发报警
                     if int in fre_alarm_list:
@@ -254,5 +257,5 @@ if __name__ == "__main__":
     O1 = OperateAutoDis()
     # O1.get_alarm_operate_type()
     result = O1.alarm_auto_judge(['14KC7097AL0', '14LMM097HE0'])
-    result2 = O1.alarm_auto_judge(['14KC7097AL0', '14LMM097HE0'])
+    result2 = O1.alarm_auto_judge(['14M1O097T80', '14LMM097HE0'])
     print(result2)

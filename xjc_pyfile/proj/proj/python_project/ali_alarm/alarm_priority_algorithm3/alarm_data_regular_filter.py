@@ -266,51 +266,54 @@ def new_kde_cal():
         if DB:
             time_point = DB[0]
             kde_model = DB[1]
-            model_save = KdeModelSave()
-            # print("# get KdeHisModel succeed!")
-            LogAlarm.info("# get KdeHisModel succeed!")
-            try:
-                his_kde_model = model_save.read_model('KdeHisModel_%s' % str(current_date))
-            except FileNotFoundError as e:
-                print("# get KdeHisModel failed!")
-                # LogAlarm.info(e)
-
-                return
-            except dbm.error as e:
-                print("# get KdeHisModel failed!")
-                LogAlarm.info("kde model file not found")
-
-                return
-            else:
-                print("# get KdeHisModel succeed!")
-                date_list = time_point
-                date_serice = (time_point.hour * 60 + time_point.minute) / DRAW_INTERVAL
-                new_kde_model = kde_model
-                # new_alarm_int = new_kde_model.keys()
-                # key_list = his_kde_model.keys()
-                his_kde_model_match = {}
-                # 匹配报警路口历史模型
-
-                for key, value in new_kde_model.items():
-                    result = his_kde_model.get(key)
-                    if result is not None:
-                        his_kde_model_match[key] = result
+            if kde_model:
+                model_save = KdeModelSave()
+                # print("# get KdeHisModel succeed!")
+                LogAlarm.info("# get KdeHisModel succeed!")
                 try:
-                    his_kde_result = kde_predict(his_kde_model_match, date_serice)
-                    new_kde_result = kde_predict(new_kde_model, date_serice)
-                    if his_kde_result:
-                        for key in new_kde_result.keys():
-                            his_value = his_kde_result.get(key)
-                            if his_value:
-                                new_kde_result[key]['HisKdeValue'] = his_value.get('KdeValue')
-                            else:
-                                new_kde_result[key]['HisKdeValue'] = 0
-                    df_kde_result = kde_result_resolve_real(new_kde_result, date_list)
-                    return df_kde_result
-                except Exception as e:
-                    print(e)
-                    LogAlarm.error("异常错误")
+                    his_kde_model = model_save.read_model('KdeHisModel_%s' % str(current_date))
+                except FileNotFoundError as e:
+                    print("# get KdeHisModel failed!")
+                    # LogAlarm.info(e)
+
                     return
+                except dbm.error as e:
+                    print("# get KdeHisModel failed!")
+                    LogAlarm.info("kde model file not found")
+
+                    return
+                else:
+                    print("# get KdeHisModel succeed!")
+                    date_list = time_point
+                    date_serice = (time_point.hour * 60 + time_point.minute) / DRAW_INTERVAL
+                    new_kde_model = kde_model
+                    # new_alarm_int = new_kde_model.keys()
+                    # key_list = his_kde_model.keys()
+                    his_kde_model_match = {}
+                    # 匹配报警路口历史模型
+
+                    for key, value in new_kde_model.items():
+                        result = his_kde_model.get(key)
+                        if result is not None:
+                            his_kde_model_match[key] = result
+                    try:
+                        his_kde_result = kde_predict(his_kde_model_match, date_serice)
+                        new_kde_result = kde_predict(new_kde_model, date_serice)
+                        if his_kde_result:
+                            for key in new_kde_result.keys():
+                                his_value = his_kde_result.get(key)
+                                if his_value:
+                                    new_kde_result[key]['HisKdeValue'] = his_value.get('KdeValue')
+                                else:
+                                    new_kde_result[key]['HisKdeValue'] = 0
+                        df_kde_result = kde_result_resolve_real(new_kde_result, date_list)
+                        return df_kde_result
+                    except Exception as e:
+                        print(e)
+                        LogAlarm.error("异常错误")
+                        return
+            else:
+                return
         else:
             print("数据库连接失败！")
             pass
