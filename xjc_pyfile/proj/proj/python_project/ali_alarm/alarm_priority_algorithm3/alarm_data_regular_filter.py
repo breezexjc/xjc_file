@@ -24,7 +24,7 @@ import queue
 import datetime as dt
 import gc  # 垃圾回收
 import dbm
-from .control_pram import IF_TEST
+from .control_pram import IF_TEST, TEST_DATE
 import logging
 
 LogAlarm = logging.getLogger('sourceDns.webdns.views')  # 获取settings.py配置文件中logger名称
@@ -35,8 +35,7 @@ LogAlarm = logging.getLogger('sourceDns.webdns.views')  # 获取settings.py配�
 # 图表显示中文
 ####################################
 
-TEXT_DATE = '2018-10-20 23:54:00'
-TEST_WEEK = 3
+# TEST_DATE = '2018-10-20 23:54:00'
 ####################################
 # from ali_alarm.log_record import LogRecord
 
@@ -54,6 +53,26 @@ KDE_RESULT_TABLE = 'disposal_alarm_data_kde_value'
 IF_SCATS_ID = False
 # ALARM_PERCENT = 90
 # SO_INTERVAL = '15minutes'
+model_save = KdeModelSave()
+
+def his_model_init():
+    global model_save
+    # print("# get KdeHisModel succeed!")
+    current_date =dt.datetime.now().date()
+    if model_save.his_model is not None:
+
+        if str(model_save.his_model[0]) != str(current_date):
+            print(model_save.his_model[0], current_date)
+            his_model_update()
+        else:
+            pass
+    else:
+        try:
+            model_save.read_model('KdeHisModel_%s' % str(current_date))
+        except Exception as e:
+            print("# get KdeHisModel failed!")
+            his_model_update()
+    return model_save.his_model[1]
 
 
 def alarm_filter(K, inter_list=None, site_id_list=None):
@@ -92,9 +111,6 @@ def new_alarm_get(q):
     current_date = local_time.date()
     # print(local_time, "start")
     try:
-        # K_HIS = KDE_filter()
-        # K_HIS.his_model_initialize()  # 历史KDE模型初始化
-        # model_save = KdeModelSave()
         # model_save.save_model(K_HIS.kde_model, 'KdeHisModel_%s' % str(current_date))    # 保存模型到本本地
         start_date = current_date
         C2 = CheckAlarm()
@@ -111,13 +127,11 @@ def new_alarm_get(q):
             local_time = dt.datetime.now()
             current_date = local_time.date()
             LogAlarm.info('checking new alarm data ... ')
-            # print(local_time, 'checking new alarm data ... ')
+            print(local_time, 'checking new alarm data ... ')
             try:
                 if current_date != start_date:  # 凌晨执行历史KDE模型更新
                     # Log.create_log(filename='log_%s' % current_date)
                     _unreachable = gc.collect()
-                    # print("unreachable object num:%d" % (_unreachable))
-                    # print("garbage object num:%d" % (len(gc.garbage)))
                     try:
                         # his_model = C2.his_alarm_match(K_HIS)
                         # model_save.save_model(his_model, 'KdeHisModel_%s' % str(current_date))
@@ -126,22 +140,21 @@ def new_alarm_get(q):
                         start_date = current_date
                     except Exception as e:
                         LogAlarm.error(e)
-
                 else:
                     try:
                         DB = C1.new_alarm_match(K1, q)
                         LogAlarm.info('kde value calculate finished!')
                     except Exception as e:
                         LogAlarm.error(e)
-
-                    time.sleep(60)
             except Exception as e:
                 LogAlarm.error(e)
+            finally:
                 time.sleep(60)
 
 
 # 更新历史模型
 def his_model_update():
+    global model_save
     local_time = dt.datetime.now()
     last_date = local_time - dt.timedelta(days=1)
     current_date = local_time.date()
@@ -149,7 +162,7 @@ def his_model_update():
     try:
         K_HIS = KDE_filter()
         K_HIS.his_model_initialize()  # 历史KDE模型初始化
-        model_save = KdeModelSave()
+        # model_save = KdeModelSave()
         model_save.save_model(K_HIS.kde_model, 'KdeHisModel_%s' % str(current_date))  # 保存模型到本本地
         # C1 = CheckAlarm()
         # C1.clear_kde_table()  # 清空前天历史数据
@@ -217,7 +230,7 @@ def kde_predict(kde_model, time_point):
     kde_result = {}
     local_time = dt.datetime.now()
     if IF_TEST:
-        local_weekday = TEST_WEEK
+        local_weekday = dt.datetime.strptime(TEST_DATE, '%Y-%m-%d').weekday()+1
     else:
         local_weekday = local_time.weekday() + 1
     year, month, day = (local_time.year, local_time.month, local_time.day)
@@ -234,7 +247,7 @@ def kde_predict(kde_model, time_point):
             minute = time_array[:, 0] * DRAW_INTERVAL % 60
             alarm_time = dt.datetime(year, month, day, hour, minute, 0)
             if IF_TEST:
-                str_alarm_time = TEXT_DATE
+                str_alarm_time = TEST_DATE
             else:
                 str_alarm_time = dt.datetime.strftime(alarm_time, '%Y-%m-%d %H:%M:%S')
             fre = list(alarm_count * np.exp(kde_value))[0]
@@ -256,67 +269,55 @@ def new_kde_cal():
     # print(local_time, 'checking new alarm data ... ')
     K1 = KDE_filter()
     C1 = CheckAlarm()
-    try:
-        DB = C1.new_alarm_match_real(K1)
-        LogAlarm.info('kde value calculate finished!')
-    except Exception as e:
-        LogAlarm.error(e)
-        time.sleep(60)
-    else:
-        if DB:
-            time_point = DB[0]
-            kde_model = DB[1]
-            if kde_model:
-                model_save = KdeModelSave()
-                # print("# get KdeHisModel succeed!")
-                LogAlarm.info("# get KdeHisModel succeed!")
-                try:
-                    his_kde_model = model_save.read_model('KdeHisModel_%s' % str(current_date))
-                except FileNotFoundError as e:
-                    print("# get KdeHisModel failed!")
-                    # LogAlarm.info(e)
+    DB = C1.new_alarm_match_real(K1)
+    LogAlarm.info('kde value calculate finished!')
+    # except Exception as e:
+    #     LogAlarm.error(e)
+    #     time.sleep(60)
+    # else:
+    if DB:
+        time_point = DB[0]
+        kde_model = DB[1]
+        if kde_model:
+            his_kde_model = his_model_init()
+            print("# get KdeHisModel succeed!")
+            date_list = time_point
+            date_serice = (time_point.hour * 60 + time_point.minute) / DRAW_INTERVAL
+            # print(kde_model)
+            new_kde_model = kde_model
+            # new_alarm_int = new_kde_model.keys()
+            # key_list = his_kde_model.keys()
+            his_kde_model_match = {}
+            # 匹配报警路口历史模型
 
-                    return
-                except dbm.error as e:
-                    print("# get KdeHisModel failed!")
-                    LogAlarm.info("kde model file not found")
-
-                    return
-                else:
-                    print("# get KdeHisModel succeed!")
-                    date_list = time_point
-                    date_serice = (time_point.hour * 60 + time_point.minute) / DRAW_INTERVAL
-                    new_kde_model = kde_model
-                    # new_alarm_int = new_kde_model.keys()
-                    # key_list = his_kde_model.keys()
-                    his_kde_model_match = {}
-                    # 匹配报警路口历史模型
-
-                    for key, value in new_kde_model.items():
-                        result = his_kde_model.get(key)
-                        if result is not None:
-                            his_kde_model_match[key] = result
-                    try:
-                        his_kde_result = kde_predict(his_kde_model_match, date_serice)
-                        new_kde_result = kde_predict(new_kde_model, date_serice)
-                        if his_kde_result:
-                            for key in new_kde_result.keys():
-                                his_value = his_kde_result.get(key)
-                                if his_value:
-                                    new_kde_result[key]['HisKdeValue'] = his_value.get('KdeValue')
-                                else:
-                                    new_kde_result[key]['HisKdeValue'] = 0
-                        df_kde_result = kde_result_resolve_real(new_kde_result, date_list)
-                        return df_kde_result
-                    except Exception as e:
-                        print(e)
-                        LogAlarm.error("异常错误")
-                        return
-            else:
+            for key, value in new_kde_model.items():
+                result = his_kde_model.get(key)
+                if result is not None:
+                    his_kde_model_match[key] = result
+            try:
+                assert len(his_kde_model_match.keys()) != 0, '匹配不到历史模型'
+                print(his_kde_model_match.keys())
+                his_kde_result = kde_predict(his_kde_model_match, date_serice)
+                new_kde_result = kde_predict(new_kde_model, date_serice)
+                if his_kde_result:
+                    for key in new_kde_result.keys():
+                        his_value = his_kde_result.get(key)
+                        if his_value:
+                            new_kde_result[key]['HisKdeValue'] = his_value.get('KdeValue')
+                        else:
+                            new_kde_result[key]['HisKdeValue'] = 0
+                df_kde_result = kde_result_resolve_real(new_kde_result, date_list)
+                print('df_kde_result',df_kde_result)
+                return df_kde_result
+            except Exception as e:
+                print(e)
+                LogAlarm.error("异常错误")
                 return
         else:
-            print("数据库连接失败！")
-            pass
+            return
+    else:
+        print("无法获取最新报警数据！")
+        pass
 
 
 # def his_alarm_kde_cal(q):
@@ -366,7 +367,7 @@ def alarm_type_judge(q1):
                 minute = time_array[:, 0] * DRAW_INTERVAL % 60
                 alarm_time = dt.datetime(year, month, day, hour, minute, 0)
                 if IF_TEST:
-                    str_alarm_time = TEXT_DATE
+                    str_alarm_time = TEST_DATE
                 else:
                     str_alarm_time = dt.datetime.strftime(alarm_time, '%Y-%m-%d %H:%M:%S')
                 fre = list(alarm_count * np.exp(kde_value))[0]
@@ -485,8 +486,10 @@ def alarm_type_judge(q1):
                 delay_cict = model_new[2]
 
                 if IF_TEST:
-                    date_list = pd.date_range('2018-10-20 00:00:00', '2018-10-20 23:00:00', freq='2min')
-                    date_serice = [(i.hour * 60 + i.minute) / DRAW_INTERVAL for i in date_list]
+                    # date_list = pd.date_range('2018-10-20 00:00:00', '2018-10-20 23:00:00', freq='2min')
+                    # date_serice = [(i.hour * 60 + i.minute) / DRAW_INTERVAL for i in date_list]
+                    date_list = [time_point]
+                    date_serice = [(time_point.hour * 60 + time_point.minute) / DRAW_INTERVAL]
                 else:
                     date_list = [time_point]
                     date_serice = [(time_point.hour * 60 + time_point.minute) / DRAW_INTERVAL]
@@ -590,7 +593,8 @@ def check_threading(thread_list):
 
 
 if __name__ == '__main__':
-    new_kde_cal()
+    # new_kde_cal()
+    create_process()
     # S1 = SituationOperate()
     # result = S1.operate_statistic()
 

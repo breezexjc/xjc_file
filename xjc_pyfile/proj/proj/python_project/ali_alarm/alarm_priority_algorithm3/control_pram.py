@@ -1,8 +1,9 @@
-IF_TEST = False
+IF_TEST = True
 TD = 30
 TA = 16
 TW = 16
 TRD = 10
-TEXT_DATE = '2018-10-12 09:44:00'
+TEST_DATE = '2018-11-22'
 ####################
-TEST_DAY = '2018-11-14'
+TEST_DAY = '2018-11-22'
+INTER_INF_IP = '192.168.20.46'

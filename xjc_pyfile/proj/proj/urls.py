@@ -9,4 +9,6 @@ urlpatterns = [
     url(r'^startInterface$', Interface.getJson2),
     url(r'^getOperate$', Interface.getOperate),
     # url(r'^runOperate$', Interface.runOperate)
+
+    url(r'^getAlarmAuto$', Interface.getAlarmAuto),
 ]

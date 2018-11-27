@@ -17,10 +17,8 @@ import shelve
 from contextlib import closing
 from .control_pram import *
 
-# IF_TEXT = False
-TEXT_DATE = '2018-10-12 09:44:00'
+
 ####################
-TEST_DAY = '2018-11-14'
 INT_NUM = 15
 TIME_POINT = 96
 # GROUPCOLUMN = 'date'
@@ -62,6 +60,81 @@ class AlarmData():
                      "or (a.inter_id=b.gaode_intid_up and b.t_angle!='-1' and to_char(a.t_angle,'999.9') ~ b.t_angle)) " \
                      "order by a.inter_id,a.time_point;"
 
+    sql_alarm_data2="""SELECT
+	al.inter_id,
+al.inter_name,
+	al.time_point,
+	al.delay,
+	al.roadsect_id,
+	al.scats_id,
+	(
+		CASE
+		WHEN t_angle <> '-1' THEN
+			t_angle
+		WHEN f_angle <> '-1' THEN
+			f_angle
+		END
+	) AS alarm_angle
+FROM
+	(
+		SELECT
+			kb.*, gis.scats_id
+		FROM
+			(
+				SELECT
+					A .roadsect_id,
+					A .alarm_id,
+					A .inter_id,
+					A .time_point,
+					A.inter_name,
+					A .delay,
+					A .t_angle,
+					A .f_angle
+				FROM
+					(
+						SELECT
+							ddad.roadsect_id,
+							ddad.alarm_id,
+							dad.inter_id,
+							dad.inter_name,
+							dad.time_point,
+							dad.delay,
+							dad.t_angle,
+							dad.f_angle
+						FROM
+							(
+								SELECT
+									*
+								FROM
+									disposal_alarm_data_detail
+							) ddad
+						LEFT JOIN(
+							SELECT
+								*
+							FROM
+								disposal_alarm_data
+						) dad ON dad.alarm_id = ddad.alarm_id
+						WHERE
+							dad.inter_id in ({3}) and 
+							dad.time_point between '{1}' and '{2}'
+				
+					) A
+			) kb
+		LEFT JOIN (
+			SELECT
+				T.*,gil.gaode_id
+			FROM
+				dblink (
+					'host={0} dbname=inter_info user=postgres password=postgres',
+					'select node_id,sys_code from pe_tobj_node_info'
+				) AS T (
+					node_id VARCHAR,
+					scats_id VARCHAR
+				) 
+				left join gaode_inter_rel gil on T.node_id = gil.inter_id
+		) gis ON kb.inter_id = gis.gaode_id
+	) al"""
+
     sql_alarm_data_init = "select a.*,b.rdsectid ,(case when (a.inter_id=b.gaode_intid_down and to_char(a.f_angle,'999.9')" \
                           " ~ b.f_angle) then b.down_node when (a.inter_id=b.gaode_intid_up and to_char(a.t_angle,'999.9')" \
                           " ~ b.t_angle) then b.up_node end) as scats_id,(case when (a.inter_id=b.gaode_intid_down and " \
@@ -73,8 +146,83 @@ class AlarmData():
                           "gaode_alarm_rdsect_match b " \
                           "on ((a.inter_id=b.gaode_intid_down and b.f_angle!='-1' and to_char(a.f_angle,'999.9') ~ b.f_angle) " \
                           "or (a.inter_id=b.gaode_intid_up and b.t_angle!='-1' and to_char(a.t_angle,'999.9') ~ b.t_angle)) " \
-                          "where b.rdsectid is not null order by a.inter_id,a.time_point;".format(ALARM_DATA_TABLE,
-                                                                                                  sdate)
+                          "where b.rdsectid is not null order by a.inter_id,a.time_point;".format(ALARM_DATA_TABLE,sdate)
+
+    sql_alarm_data_init2 = """
+    SELECT
+	al.inter_id,
+al.inter_name,
+	al.time_point,
+	al.delay,
+	al.roadsect_id,
+	al.scats_id,
+	(
+		CASE
+		WHEN t_angle <> '-1' THEN
+			t_angle
+		WHEN f_angle <> '-1' THEN
+			f_angle
+		END
+	) AS alarm_angle
+FROM
+	(
+		SELECT
+			kb.*, gis.scats_id
+		FROM
+			(
+				SELECT
+					A .roadsect_id,
+					A .alarm_id,
+					A .inter_id,
+					A .time_point,
+					A.inter_name,
+					A .delay,
+					A .t_angle,
+					A .f_angle
+				FROM
+					(
+						SELECT
+							ddad.roadsect_id,
+							ddad.alarm_id,
+							dad.inter_id,
+							dad.inter_name,
+							dad.time_point,
+							dad.delay,
+							dad.t_angle,
+							dad.f_angle
+						FROM
+							(
+								SELECT
+									*
+								FROM
+									disposal_alarm_data_detail
+							) ddad
+						LEFT JOIN (
+							SELECT
+								*
+							FROM
+								disposal_alarm_data
+						) dad ON dad.alarm_id = ddad.alarm_id
+						WHERE
+							to_char(dad.time_point ,'yyyy-mm-dd') = '{1}'
+				
+					) A
+			) kb
+		LEFT JOIN (
+			SELECT
+				T.*,gil.gaode_id
+			FROM
+				dblink (
+					'host={0} dbname=inter_info user=postgres password=postgres',
+					'select node_id,sys_code from pe_tobj_node_info'
+				) AS T (
+					node_id VARCHAR,
+					scats_id VARCHAR
+				) 
+				left join gaode_inter_rel gil on T.node_id = gil.inter_id
+		) gis ON kb.inter_id = gis.gaode_id
+	) al;
+    """.format(INTER_INF_IP,sdate)
 
     sql_his_alarm_get = "select a.inter_id,a.inter_name,a.time_point,a.delay,b.rdsectid,(case when " \
                         "(a.inter_id=b.gaode_intid_down and to_char(a.f_angle,'999.9') ~ b.f_angle) " \
@@ -86,8 +234,81 @@ class AlarmData():
                         "from {0} where time_point between CURRENT_DATE::TIMESTAMP-'30 day'" \
                         "::INTERVAL and CURRENT_DATE )a LEFT JOIN gaode_alarm_rdsect_match b on (a.inter_id=" \
                         "b.gaode_intid_down and  b.f_angle!='-1' and to_char(a.f_angle,'999.9') ~ b.f_angle) or " \
-                        "(a.inter_id=b.gaode_intid_up and b.t_angle!='-1' and to_char(a.t_angle,'999.9') ~ b.t_angle);" \
-        .format(ALARM_DATA_TABLE)
+                        "(a.inter_id=b.gaode_intid_up and b.t_angle!='-1' and to_char(a.t_angle,'999.9') ~ b.t_angle);".format(ALARM_DATA_TABLE)
+
+    sql_his_alarm_get2 = """SELECT
+	al.inter_id,
+al.inter_name,
+	al.time_point,
+	al.delay,
+	al.roadsect_id,
+	al.scats_id,
+	(
+		CASE
+		WHEN t_angle <> '-1' THEN
+			t_angle
+		WHEN f_angle <> '-1' THEN
+			f_angle
+		END
+	) AS alarm_angle
+FROM
+	(
+		SELECT
+			kb.*, gis.scats_id
+		FROM
+			(
+				SELECT
+					A .roadsect_id,
+					A .alarm_id,
+					A .inter_id,
+					A .time_point,
+					A.inter_name,
+					A .delay,
+					A .t_angle,
+					A .f_angle
+				FROM
+					(
+						SELECT
+							ddad.roadsect_id,
+							ddad.alarm_id,
+							dad.inter_id,
+							dad.inter_name,
+							dad.time_point,
+							dad.delay,
+							dad.t_angle,
+							dad.f_angle
+						FROM
+							(
+								SELECT
+									*
+								FROM
+									disposal_alarm_data_detail
+							) ddad
+						LEFT JOIN (
+							SELECT
+								*
+							FROM
+								disposal_alarm_data
+						) dad ON dad.alarm_id = ddad.alarm_id
+						WHERE
+							dad.time_point BETWEEN CURRENT_DATE :: TIMESTAMP - '30 day' :: INTERVAL
+						AND CURRENT_DATE
+					) A
+			) kb
+		LEFT JOIN (
+			SELECT
+				T.*,gil.gaode_id
+			FROM
+				dblink (
+					'host={0} dbname=inter_info user=postgres password=postgres',
+					'select node_id,sys_code from pe_tobj_node_info'
+				) AS T (
+					node_id VARCHAR,
+					scats_id VARCHAR
+				) 
+				left join gaode_inter_rel gil on T.node_id = gil.inter_id
+		) gis ON kb.inter_id = gis.gaode_id
+	) al""".format(INTER_INF_IP)
 
     sql_kde_send = r"insert into disposal_alarm_kde_distribution values(%s,%s,%s,%s,%s,%s,%s)"
     sql_get_kde_his_data = r"select * from disposal_alarm_kde_statistic where cal_date='%s' and site_id in (%s) "
@@ -96,7 +317,8 @@ class AlarmData():
 
     def __init__(self, inter_list=None, rdsectid=None):
         self.rdsectid = rdsectid
-        self.sql_alarm_data = AlarmData.sql_alarm_data
+        self.sql_alarm_data = AlarmData.sql_alarm_data2
+        self.sql_alarm_data_init = AlarmData.sql_alarm_data_init2
         self.sql_kde_send = AlarmData.sql_kde_send
         self.inter_list = inter_list
         self.db = PG
@@ -123,17 +345,18 @@ class AlarmData():
         else:
             today = local_time.date()
 
-        sdate = edate = str(today)
+        sdate = str(today)+' 00:00:00'
+        edate = local_time.strftime('%Y-%m-%d %H:%M:%S')
         stime = '00:00:00'
-        etime = str(local_time.time())
+        etime = local_time
         alarm_data = self.call_pg_data(
-            self.sql_alarm_data.format(sdate, edate, stime, etime, ALARM_DATA_TABLE) % pram[:-1])
+            self.sql_alarm_data.format(INTER_INF_IP, sdate,edate,pram[:-1]))
         # print(self.sql_alarm_data % pram[:-1])
         # print(alarm_data)
         return alarm_data
 
     def get_his_alarm_data(self):
-        alarm_data = self.call_pg_data(AlarmData.sql_his_alarm_get)
+        alarm_data = self.call_pg_data(AlarmData.sql_his_alarm_get2)
         return alarm_data
 
     def kde_data_send(self, data):
@@ -203,9 +426,9 @@ class KDE_filter():
         data['weekday'] = data['time_point'].apply(lambda x: x.weekday() + 1 if x else None)
         alarm_data = data
         if IF_SCATS_ID:
-            grouped = alarm_data.groupby(['scats_id', 'weekday', 'dir_desc'])
+            grouped = alarm_data.groupby(['scats_id', 'weekday', 'roadsect_id'])
         else:
-            grouped = alarm_data.groupby(['inter_id', 'weekday', 'dir_desc'])
+            grouped = alarm_data.groupby(['inter_id', 'weekday', 'roadsect_id'])
         plot_data = {}
         # print(grouped)
         # 数据分组-按日期分组绘图
@@ -221,7 +444,7 @@ class KDE_filter():
                 plot_data[k1][k2] = {}
             # 历史数据
             X = group['time'][:, np.newaxis]
-            resectid = list(set(group['rdsectid'].values))[0]
+            resectid = k3
             grouped_day = group.groupby(['date']).size()
             alarm_num = grouped_day.values
             # np.median(alarm_num)  # 中位数
@@ -260,9 +483,9 @@ class KDE_filter():
         # dir_alarm_regulartion(data,None)
         alarm_data = data
         if IF_SCATS_ID:
-            grouped = alarm_data.groupby(['scats_id', 'weekday', 'dir_desc'])
+            grouped = alarm_data.groupby(['scats_id', 'weekday', 'roadsect_id'])
         else:
-            grouped = alarm_data.groupby(['inter_id', 'weekday', 'dir_desc'])
+            grouped = alarm_data.groupby(['inter_id', 'weekday', 'roadsect_id'])
         plot_data = {}
         # print(grouped)
         # 数据分组-按日期分组绘图
@@ -336,45 +559,7 @@ class KDE_filter():
                     # current_date = dt.datetime.now().date()
                     # plot_data_save.append(
                     #     [int_list[i], int_name, current_date, dir, list(X_plot[:, 0]), log_dens_his_data])
-        # return plot_data_save
-        # resolve_kde_data = []
-        resolve_plot_data = []
-        # for data in plot_data_save:
-        #     site_id = data[0]
-        #     int_name = data[1]
-        #     date = data[2]
-        #     dir_desc = data[3]
-        #     time_label = data[4]
-        #     kde_alarm_his = data[5]
-        #     # kde_alarm_new = data[5]
-        #
-        #     def check_kde(list_kde, num):
-        #         if list_kde[num] <= 0.01:
-        #             q_kde_alarm = 0.00
-        #         else:
-        #             q_kde_alarm = round(list_kde[num], 2)
-        #         return q_kde_alarm
-        #
-        #     for num in range(len(time_label)):
-        #         time_stamp = time_label[num] * DRAW_INTERVAL
-        #         hour = int(math.floor(time_stamp / 60))
-        #         min = int(math.floor(time_stamp % 60))
-        #         # date = dt.datetime.now().date()
-        #         q_time = dt.time(hour, min, 0, 0)
-        #         q_datetime = dt.datetime.strptime(str(date) + ' ' + str(q_time), '%Y-%m-%d %H:%M:%S')
-        #
-        #         # print(q_datetime)
-        #         q_kde_alarm_his = check_kde(kde_alarm_his, num)
-        #         # q_kde_alarm_new = check_kde(kde_alarm_new, num)
-        #         # check_regular_alarm(q_kde_alarm_his, q_kde_alarm_new)
-        #         weekday = q_datetime.weekday()
-        #         resolve_kde_data.append([site_id, int_name, dir_desc, weekday, time_stamp, q_kde_alarm_his, str(date)])
-        #         resolve_plot_data.append([site_id, int_name, dir_desc, weekday, q_time, q_kde_alarm_his, str(date)])
-        #         # time_stamp = dt.datetime.fromtimestamp(time_stamp)
-        #         # if q_kde_alarm_his > 0 or q_kde_alarm_new >0:
-        #         #     print([site_id, int_name, week_day, q_time, q_kde_alarm_his, q_kde_alarm_new])
-        # return resolve_kde_data
-        # alarm_plot_data_save(resolve_plot_data, PLOT_DATA_SAVE2, KDE_STATISTIC)
+
 
     def get_kde_his_data(self):
 
@@ -382,28 +567,107 @@ class KDE_filter():
 
 
 class CheckAlarm(object):
-    sql_check_alarm = "SELECT a.inter_id,a.inter_name,d.inter_id as node_id,d.systemid as scats_id,a.count " \
-                      "as alarm_count " \
-                      "from(select inter_id,inter_name ,count(*) from {0} where time_point " \
-                      "BETWEEN to_timestamp(to_char(current_date,'yyyy-MM-dd')||' 00:00:00','yyyy-MM-dd hh24:mi:ss') " \
-                      "and to_timestamp(to_char(current_date,'yyyy-MM-dd')||' 23:59:59','yyyy-MM-dd hh24:mi:ss') " \
-                      "GROUP BY inter_id,inter_name " \
-                      ")a LEFT JOIN (select b.*,c.systemid from gaode_inter_rel b,pe_tobj_node c " \
-                      "where b.inter_id = c.nodeid)d on a.inter_id = d.gaode_id;".format(ALARM_DATA_TABLE)
 
-    sql_new_alarm_time = "select a.inter_id,a.inter_name,a.time_point,a.delay,b.rdsectid, (case when " \
-                         "(a.inter_id=b.gaode_intid_down and to_char(a.f_angle,'999.9') ~ b.f_angle) then b.down_node " \
-                         "when (a.inter_id=b.gaode_intid_up and to_char(a.t_angle,'999.9') ~ b.t_angle) " \
-                         "then b.up_node end) as scats_id,(case when (a.inter_id=b.gaode_intid_down and to_" \
-                         "char(a.f_angle,'999.9') ~ b.f_angle) then b.import_desc when (a.inter_id=b.gaode_intid_up " \
-                         "and to_char(a.t_angle,'999.9') ~ b.t_angle) then b.export_desc end )as dir_desc " \
-                         "from( select inter_id,inter_name,time_point,t_angle,f_angle,delay from {0} " \
-                         "where time_point= (select max(time_point) as new_alarm_time from {0}) )a " \
-                         "LEFT JOIN gaode_alarm_rdsect_match b on (a.inter_id=b.gaode_intid_down and  b.f_angle!='-1' " \
-                         "and b.down_node is not null " \
-                         "and to_char(a.f_angle,'999.9') ~ b.f_angle) or (a.inter_id=b.gaode_intid_up and b.t_angle!='-1'" \
-                         " and b.up_node is not null " \
-                         "and to_char(a.t_angle,'999.9') ~ b.t_angle) ".format(ALARM_DATA_TABLE)
+    # sql_new_alarm_time = "select a.inter_id,a.inter_name,a.time_point,a.delay,b.rdsectid, (case when " \
+    #                      "(a.inter_id=b.gaode_intid_down and to_char(a.f_angle,'999.9') ~ b.f_angle) then b.down_node " \
+    #                      "when (a.inter_id=b.gaode_intid_up and to_char(a.t_angle,'999.9') ~ b.t_angle) " \
+    #                      "then b.up_node end) as scats_id,(case when (a.inter_id=b.gaode_intid_down and to_" \
+    #                      "char(a.f_angle,'999.9') ~ b.f_angle) then b.import_desc when (a.inter_id=b.gaode_intid_up " \
+    #                      "and to_char(a.t_angle,'999.9') ~ b.t_angle) then b.export_desc end )as dir_desc " \
+    #                      "from( select inter_id,inter_name,time_point,t_angle,f_angle,delay from {0} " \
+    #                      "where time_point= (select max(time_point) as new_alarm_time from {0}) )a " \
+    #                      "LEFT JOIN gaode_alarm_rdsect_match b on (a.inter_id=b.gaode_intid_down and  b.f_angle!='-1' " \
+    #                      "and b.down_node is not null " \
+    #                      "and to_char(a.f_angle,'999.9') ~ b.f_angle) or (a.inter_id=b.gaode_intid_up and b.t_angle!='-1'" \
+    #                      " and b.up_node is not null " \
+    #                      "and to_char(a.t_angle,'999.9') ~ b.t_angle) ".format(ALARM_DATA_TABLE)
+    # 更新后的报警匹配
+    sql_new_alarm_time = """
+    SELECT
+	al.inter_id,
+al.inter_name,
+	al.time_point,
+	al.delay,
+	al.roadsect_id,
+	al.scats_id,
+	(
+		CASE
+		WHEN t_angle <> '-1' THEN
+			t_angle
+		WHEN f_angle <> '-1' THEN
+			f_angle
+		END
+	) AS alarm_angle
+FROM
+	(
+		SELECT
+			kb.*, gis.scats_id
+		FROM
+			(
+				SELECT
+					A .roadsect_id,
+					A .alarm_id,
+					A .inter_id,
+					A .time_point,
+					A.inter_name,
+					A .delay,
+					A .t_angle,
+					A .f_angle
+				FROM
+					(
+						SELECT
+							ddad.roadsect_id,
+							ddad.alarm_id,
+							dad.inter_id,
+							dad.inter_name,
+							dad.time_point,
+							dad.delay,
+							dad.t_angle,
+							dad.f_angle
+		
+						FROM
+							(
+								SELECT
+									*
+								FROM
+									disposal_alarm_data_detail
+							) ddad
+						LEFT JOIN (
+							SELECT
+								*
+							FROM
+								disposal_alarm_data
+						) dad ON dad.alarm_id = ddad.alarm_id
+						right JOIN 
+					  (
+ 							SELECT
+ 								max(time_point) AS time_point
+ 							FROM
+ 								disposal_alarm_data
+ 						)MT
+ 						on  MT.time_point =dad.time_point
+						WHERE
+							dad.time_point between '{1}' and '{2}'
+				
+					) A
+			) kb
+		LEFT JOIN (
+			SELECT
+				T.*,gil.gaode_id
+			FROM
+				dblink (
+					'host={0} dbname=inter_info user=postgres password=postgres',
+					'select node_id,sys_code from pe_tobj_node_info'
+				) AS T (
+					node_id VARCHAR,
+					scats_id VARCHAR
+				) 
+				left join gaode_inter_rel gil on T.node_id = gil.inter_id
+		) gis ON kb.inter_id = gis.gaode_id
+	) al
+;
+    """
+
 
     # print(sql_new_alarm_time)
     def __init__(self):
@@ -430,15 +694,20 @@ class CheckAlarm(object):
         result = PG.call_pg_data(sql, fram=True)
         return result
 
-    def count_alarm_data(self):
-        self.new_alarm = self.call_pg_data(CheckAlarm.sql_check_alarm)
-        if self.last_count:
-            alarm_filter()
+    def _create_data_select_time(self):
+        if IF_TEST:
+            local_time = dt.datetime.now()
+            sdate = TEST_DATE + ' 00:00:00'
+            edate = TEST_DATE +' '+local_time.strftime("%H:%M:%S")
+
         else:
-            self.last_count = self.new_count
+            local_time = dt.datetime.now()
+            sdate = str(local_time.date()) + ' 00:00:00'
+            edate = local_time.strftime("%Y-%m-%d %H:%M:%S")
+        return (sdate, edate)
 
     def kde_value_search(self, kde_alarm, time_serice):
-        grouped = kde_alarm.groupby(['site_id', 'weekday', 'dir_desc'])
+        grouped = kde_alarm.groupby(['site_id', 'weekday', 'roadsect_id'])
         kde_alarm = []
         for (int, week, dir), group in grouped:
             for i in range(len(group)):
@@ -473,7 +742,7 @@ class CheckAlarm(object):
         return kde_alarm
 
     def match_his_kde(self, kde_his_data, time_serice):
-        grouped = kde_his_data.groupby(['site_id', 'weekday', 'dir_desc'])
+        grouped = kde_his_data.groupby(['site_id', 'weekday', 'roadsect_id'])
         kde_alarm = []
         for (int, week, dir), group in grouped:
             for i in range(len(group)):
@@ -497,19 +766,19 @@ class CheckAlarm(object):
 
     def get_new_alarm_inf(self):
         delay_dict = {}
-        self.new_alarm = self.call_pg_data(CheckAlarm.sql_new_alarm_time)
+        (sdate, edate) = self._create_data_select_time()
+        self.new_alarm = self.call_pg_data(CheckAlarm.sql_new_alarm_time.format(INTER_INF_IP, sdate, edate))
+        # print(CheckAlarm.sql_new_alarm_time.format(demo_pg_inf.get('host'), sdate, edate))
         self.new_alarm_time = self.new_alarm['time_point'].drop_duplicates().values
-        # print(type(self.new_alarm_time[0]))
-        # print('new alarm data \n',self.new_alarm)
         time_point = pd.to_datetime(self.new_alarm_time[0]).to_pydatetime()
         inter_list = list(self.new_alarm['inter_id'].drop_duplicates().values)
         site_id_list = list(self.new_alarm['scats_id'].drop_duplicates().values)
         for i in range(len(self.new_alarm)):
             scats_id = self.new_alarm.iloc[i][5]
-            dir_desc = self.new_alarm.iloc[i][6]
+            dir_desc = self.new_alarm.iloc[i][4]
             delay = self.new_alarm.iloc[i][3]
             if scats_id is not None:
-                delay_dict[scats_id + '-' + dir_desc] = delay
+                delay_dict[str(scats_id) + '-' + dir_desc] = delay
             else:
                 continue
 
@@ -519,8 +788,10 @@ class CheckAlarm(object):
         # inter_list, site_id_list, time_point = self.check_new_alarm()
         try:
             inter_list, site_id_list, time_point, delay_dict = self.get_new_alarm_inf()
-        except TypeError as e:
-            pass
+        # except TypeError as e:
+        #     pass
+        except IndexError as e:
+            print("no alarm data today!")
         else:
             if self.last_alarm_time:
                 if self.last_alarm_time == time_point:
@@ -529,7 +800,7 @@ class CheckAlarm(object):
                 else:
                     start_time = dt.datetime.now()
                     print(start_time, 'get new alarm data! starting kde value calculate...')
-                    print(time_point)
+                    # print(time_point)
                     kde_model = alarm_filter(K, inter_list, site_id_list)
                     q.put([time_point, kde_model, delay_dict])
                     local_time = dt.datetime.now()
@@ -554,8 +825,11 @@ class CheckAlarm(object):
         # inter_list, site_id_list, time_point = self.check_new_alarm()
         try:
             inter_list, site_id_list, time_point, delay_dict = self.get_new_alarm_inf()
-        except TypeError as e:
-            pass
+        # except TypeError as e:
+        #     print(e)
+        except IndexError as e:
+            print(e)
+            print("no alarm data today!")
         else:
             print(inter_list, time_point)
             self.last_alarm_time = time_point
@@ -580,6 +854,7 @@ class KdeModelSave():
     def __init__(self):
         self.model_file_dir = r'.\kde_model'
         self.mkdir(self.model_file_dir)
+        self.his_model = None
 
     def mkdir(self, path):
         folder = os.path.exists(path)
@@ -593,10 +868,14 @@ class KdeModelSave():
     def save_model(self, model_file, file_name):
         with closing(shelve.open(self.model_file_dir + '\\' + file_name, 'c')) as f:
             f['model'] = model_file
+        current = dt.datetime.now().date()
+        self.his_model = [str(current), model_file]
 
     def read_model(self, file_name):
         with closing(shelve.open(self.model_file_dir + '\\' + file_name, 'r')) as f:
             model_file = f['model']
+        current = dt.datetime.now().date()
+        self.his_model = [str(current), model_file]
         return model_file
 
     def remove_model(self, file_name):

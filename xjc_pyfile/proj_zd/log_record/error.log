@@ -1,0 +1,691 @@
+2018-11-02 18:46:30,732 - schedular_task.py - [line:172] - ERROR - 'NoneType' object is not iterable
+2018-11-02 18:46:30,794 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 18:46:38,560 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 18:47:12,138 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 18:56:23,940 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 19:03:49,170 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 19:04:37,620 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 19:05:08,277 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-02 19:09:41,329 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 19:19:41,541 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 19:29:41,707 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 19:39:41,950 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 19:49:41,767 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 19:59:41,884 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 20:09:41,871 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 20:19:41,540 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 20:29:41,500 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 20:39:41,730 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 20:49:56,132 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 20:59:45,108 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 21:09:41,758 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 21:19:41,740 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 21:29:41,748 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 21:39:41,893 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 21:49:41,839 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 21:59:41,753 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 22:09:42,276 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 22:19:42,579 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 22:29:42,400 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 22:39:42,860 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 22:49:41,458 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 22:59:41,845 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 23:09:41,826 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 23:19:41,422 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 23:29:41,856 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 23:39:42,704 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 23:49:41,813 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-02 23:59:42,671 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 00:09:41,075 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 00:19:41,755 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 00:29:41,577 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 00:39:42,004 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 00:49:41,803 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 00:59:41,907 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 01:09:42,018 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 01:19:42,156 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 01:29:41,801 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 01:39:42,046 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 01:49:41,986 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 01:59:41,984 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 02:09:41,675 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 02:19:41,648 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 02:29:41,747 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 02:39:42,023 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 02:49:42,062 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 02:59:42,096 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 03:09:41,758 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 03:19:42,320 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 03:29:41,902 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 03:39:42,334 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 03:49:41,735 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 03:59:41,686 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 04:09:41,794 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 04:19:42,601 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 04:29:41,933 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 04:39:41,879 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 04:49:41,801 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 04:59:42,635 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 05:09:41,759 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 05:19:42,154 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 05:29:42,060 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 05:39:41,811 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 05:49:41,811 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 05:59:41,984 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 06:09:41,989 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 06:19:41,516 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 06:29:41,894 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 06:39:41,583 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 06:49:43,128 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 06:59:42,355 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 07:09:41,778 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 07:19:42,077 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 07:29:42,027 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 07:39:41,779 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 07:49:41,791 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 07:59:42,367 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 08:09:41,847 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 08:19:42,041 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 08:29:41,685 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 08:39:41,810 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 08:49:41,567 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 08:59:41,822 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 09:09:41,567 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 09:19:42,172 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 09:29:42,307 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 09:39:41,746 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 09:49:41,840 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 09:59:42,276 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 10:09:42,307 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 10:19:41,787 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 10:29:42,501 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 10:39:41,350 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 10:49:42,337 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 10:59:43,807 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 11:09:42,182 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 11:19:42,292 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 11:29:42,151 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 11:39:42,008 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 11:49:41,738 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 11:59:41,799 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 12:09:42,006 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 12:19:41,719 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 12:29:42,477 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 12:39:41,855 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 12:49:41,339 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 12:59:41,541 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 13:09:42,464 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 13:19:41,963 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 13:29:41,463 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 13:39:42,120 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 13:49:41,557 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 13:59:41,449 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 14:09:41,917 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 14:19:41,621 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 14:29:42,074 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 14:39:41,696 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 14:49:41,884 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 14:59:42,326 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 15:09:43,630 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 15:19:41,981 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 15:29:41,860 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 15:39:41,566 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 15:49:41,791 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 15:59:41,854 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 16:09:41,861 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 16:19:41,521 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 16:29:41,854 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 16:39:41,885 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 16:49:41,375 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-03 16:59:41,791 - scats_5min_volumns.py - [line:161] - ERROR - ORA-00001: 违反唯一约束条件 (ENJOYOR.GET_FLOW_INFORMATION_PK)
+
+2018-11-05 16:31:58,266 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:49:29,155 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:50:45,638 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:51:52,276 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:52:09,557 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:52:54,116 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:54:22,664 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-05 16:56:53,866 - schedular_task.py - [line:184] - ERROR - 定时任务开始
+2018-11-13 11:27:51,918 - SituationOperate.py - [line:237] - ERROR - so_run: could not establish connection
+DETAIL:  FATAL:  sorry, too many clients already
+
+CONTEXT:  SQL statement "insert into alarm_operate_match(userid,oper_time,scats_id,oper,meaning,oper_type,siteid,inter_id,inter_name,alarm_time,alarm_id)
+SELECT
+	d.*, e.alarm_id
+FROM
+	(
+		SELECT
+			userid,
+			opertime,
+			scats_id,
+			oper,
+			meaning,
+			all_type,
+			siteid,
+			inter_id,
+			inter_name,
+			MAX (time_point) AS alarm_time 
+   
+		FROM
+			(
+				SELECT
+					A .userid,
+					A .opertime,
+					A .oper,
+					A .meaning,
+					A .all_type,
+					A .siteid,
+					b.scats_id AS scats_id,
+					b.inter_id,
+					b.inter_name,
+					b.time_point,
+					b.alarm_id
+				FROM
+					(
+						SELECT
+							A .*, SUBSTRING (
+								A .siteid
+								FROM
+									'SS=#"%#"' FOR '#'
+							) AS subsystem_id,
+							SUBSTRING (
+								A .siteid
+								FROM
+									'I=#"%#"' FOR '#'
+							) AS scats_id
+						FROM
+							(
+								SELECT DISTINCT
+									oper,
+									meaning,
+									userid,
+									opertime,
+									opertype AS all_type,
+									siteid,
+									to_char(opertime, 'yyyy-mm-dd') AS operdate
+								FROM
+									record_data_parsing
+								WHERE
+ 						    siteid IS NOT NULL 								
+								AND opertype NOT IN ('Activated', 'Remove')
+								 and opertime between stime and etime
+								ORDER BY
+									userid,
+									siteid,
+									opertime
+							) A
+					) A
+				left JOIN (
+					SELECT
+						A .inter_id,
+						A .inter_name,
+						A .time_point,
+						A .alarm_id,
+						A .delay,
+						d.scats_id,
+						d.subsystem_id
+					FROM
+						disposal_alarm_data A,
+						(
+							SELECT
+								b.*, C .subsystem_id
+							FROM
+								(
+									SELECT
+										A .gaode_id,
+										A .gaode_name,
+										A .inter_id,
+										A .inter_name,
+										b.scats_id
+									FROM
+										(
+											gaode_inter_rel A
+											LEFT JOIN (
+												SELECT
+													*
+												FROM
+													dblink (
+														'host=33.83.100.145 dbname=inter_info user=postgres password=postgres',
+														'select sys_code, node_id from pe_tobj_node_info'
+													) AS T (
+														scats_id VARCHAR (15),
+														nodeid VARCHAR (50)
+													)
+											) b ON (
+												(
+													(A .inter_id) :: TEXT = (b.nodeid) :: TEXT
+												)
+											)
+										)
+								) b
+							LEFT JOIN subid_scatsid_relationship C ON b.scats_id = C .site_id
+						) d
+					WHERE A .inter_id = d.gaode_id
+					AND A .time_point between stime and etime
+				) b ON (
+					A .subsystem_id = b.subsystem_id
+					OR A .scats_id = b.scats_id
+				)
+				AND A .opertime BETWEEN b.time_point
+				AND (
+					b.time_point + time_interval :: INTERVAL
+				)
+			) T
+		GROUP BY
+			userid,
+			opertime,
+			scats_id,
+			siteid,
+			inter_name,
+			all_type,
+			inter_id,
+			oper,
+			meaning
+	) d
+inner JOIN (
+	SELECT DISTINCT
+		A .alarm_id,
+		A .inter_id,
+		A .time_point
+	FROM
+		disposal_alarm_data A
+	WHERE
+		A .time_point between stime and etime
+) e ON d.inter_id = e.inter_id
+AND d.alarm_time = e.time_point 
+LEFT JOIN (
+	SELECT
+		disp_id,
+		alarm_id
+	FROM
+		disposal_data
+	WHERE
+		date_day + date_time between stime and etime
+)f
+on e.alarm_id = f.alarm_id
+ORDER BY
+	userid,
+	opertime,
+	scats_id"
+PL/pgSQL function sql_alarm_operate_match(timestamp without time zone,timestamp without time zone,character varying) line 3 at SQL statement
+
+2018-11-13 11:28:52,122 - SituationOperate.py - [line:237] - ERROR - so_run: could not establish connection
+DETAIL:  FATAL:  sorry, too many clients already
+
+CONTEXT:  SQL statement "insert into alarm_operate_match(userid,oper_time,scats_id,oper,meaning,oper_type,siteid,inter_id,inter_name,alarm_time,alarm_id)
+SELECT
+	d.*, e.alarm_id
+FROM
+	(
+		SELECT
+			userid,
+			opertime,
+			scats_id,
+			oper,
+			meaning,
+			all_type,
+			siteid,
+			inter_id,
+			inter_name,
+			MAX (time_point) AS alarm_time 
+   
+		FROM
+			(
+				SELECT
+					A .userid,
+					A .opertime,
+					A .oper,
+					A .meaning,
+					A .all_type,
+					A .siteid,
+					b.scats_id AS scats_id,
+					b.inter_id,
+					b.inter_name,
+					b.time_point,
+					b.alarm_id
+				FROM
+					(
+						SELECT
+							A .*, SUBSTRING (
+								A .siteid
+								FROM
+									'SS=#"%#"' FOR '#'
+							) AS subsystem_id,
+							SUBSTRING (
+								A .siteid
+								FROM
+									'I=#"%#"' FOR '#'
+							) AS scats_id
+						FROM
+							(
+								SELECT DISTINCT
+									oper,
+									meaning,
+									userid,
+									opertime,
+									opertype AS all_type,
+									siteid,
+									to_char(opertime, 'yyyy-mm-dd') AS operdate
+								FROM
+									record_data_parsing
+								WHERE
+ 						    siteid IS NOT NULL 								
+								AND opertype NOT IN ('Activated', 'Remove')
+								 and opertime between stime and etime
+								ORDER BY
+									userid,
+									siteid,
+									opertime
+							) A
+					) A
+				left JOIN (
+					SELECT
+						A .inter_id,
+						A .inter_name,
+						A .time_point,
+						A .alarm_id,
+						A .delay,
+						d.scats_id,
+						d.subsystem_id
+					FROM
+						disposal_alarm_data A,
+						(
+							SELECT
+								b.*, C .subsystem_id
+							FROM
+								(
+									SELECT
+										A .gaode_id,
+										A .gaode_name,
+										A .inter_id,
+										A .inter_name,
+										b.scats_id
+									FROM
+										(
+											gaode_inter_rel A
+											LEFT JOIN (
+												SELECT
+													*
+												FROM
+													dblink (
+														'host=33.83.100.145 dbname=inter_info user=postgres password=postgres',
+														'select sys_code, node_id from pe_tobj_node_info'
+													) AS T (
+														scats_id VARCHAR (15),
+														nodeid VARCHAR (50)
+													)
+											) b ON (
+												(
+													(A .inter_id) :: TEXT = (b.nodeid) :: TEXT
+												)
+											)
+										)
+								) b
+							LEFT JOIN subid_scatsid_relationship C ON b.scats_id = C .site_id
+						) d
+					WHERE A .inter_id = d.gaode_id
+					AND A .time_point between stime and etime
+				) b ON (
+					A .subsystem_id = b.subsystem_id
+					OR A .scats_id = b.scats_id
+				)
+				AND A .opertime BETWEEN b.time_point
+				AND (
+					b.time_point + time_interval :: INTERVAL
+				)
+			) T
+		GROUP BY
+			userid,
+			opertime,
+			scats_id,
+			siteid,
+			inter_name,
+			all_type,
+			inter_id,
+			oper,
+			meaning
+	) d
+inner JOIN (
+	SELECT DISTINCT
+		A .alarm_id,
+		A .inter_id,
+		A .time_point
+	FROM
+		disposal_alarm_data A
+	WHERE
+		A .time_point between stime and etime
+) e ON d.inter_id = e.inter_id
+AND d.alarm_time = e.time_point 
+LEFT JOIN (
+	SELECT
+		disp_id,
+		alarm_id
+	FROM
+		disposal_data
+	WHERE
+		date_day + date_time between stime and etime
+)f
+on e.alarm_id = f.alarm_id
+ORDER BY
+	userid,
+	opertime,
+	scats_id"
+PL/pgSQL function sql_alarm_operate_match(timestamp without time zone,timestamp without time zone,character varying) line 3 at SQL statement
+
+2018-11-15 15:28:51,307 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 15:33:51,206 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 15:34:51,097 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:10:51,111 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:11:51,095 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:12:51,096 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:13:51,208 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:14:51,126 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:15:51,118 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:16:51,156 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:17:51,095 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:18:51,198 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:19:51,096 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-15 16:20:51,097 - SituationOperate.py - [line:204] - ERROR - 数据库连接失败！
+2018-11-19 16:36:56,096 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 16:46:40,470 - alarm_data_regular_filter.py - [line:136] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 16:50:12,562 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 16:50:39,852 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 16:51:06,336 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 16:53:11,028 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 16:53:49,833 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 16:54:50,255 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 16:56:51,222 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:05:07,865 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:13:11,988 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:15:51,100 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:18:11,252 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:18:52,063 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:20:38,576 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:20:53,026 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:22:54,962 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:25:04,551 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:25:15,631 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:26:37,710 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:27:01,685 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:28:01,944 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:29:11,779 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:29:27,757 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:29:51,743 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:30:03,099 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:32:00,345 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:32:05,261 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:33:00,774 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:40:31,553 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:41:19,183 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:51:05,828 - alarm_data_regular_filter.py - [line:136] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 17:52:58,671 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:53:10,267 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 17:53:22,083 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:55:51,736 - alarm_data_regular_filter.py - [line:263] - ERROR - no results to fetch
+2018-11-19 17:56:17,937 - alarm_data_regular_filter.py - [line:136] - ERROR - no results to fetch
+2018-11-19 18:05:23,185 - alarm_data_regular_filter.py - [line:263] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 18:06:41,255 - alarm_data_regular_filter.py - [line:263] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 18:07:00,949 - alarm_data_regular_filter.py - [line:263] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 18:08:23,548 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:08:58,778 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:09:31,953 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:09:42,404 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:10:03,476 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:11:05,933 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:12:11,713 - alarm_data_regular_filter.py - [line:263] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 18:15:09,616 - alarm_data_regular_filter.py - [line:311] - ERROR - '>' not supported between instances of 'float' and 'NoneType'
+2018-11-19 18:17:44,177 - alarm_data_regular_filter.py - [line:263] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 18:21:12,256 - alarm_data_regular_filter.py - [line:313] - ERROR - 异常错误
+2018-11-19 18:21:31,468 - alarm_data_regular_filter.py - [line:263] - ERROR - index 0 is out of bounds for axis 0 with size 0
+2018-11-19 18:23:52,619 - alarm_data_regular_filter.py - [line:313] - ERROR - 异常错误
+2018-11-20 10:19:08,998 - alarm_data_regular_filter.py - [line:312] - ERROR - 异常错误
+2018-11-26 15:40:45,615 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 15:44:05,308 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 15:44:44,916 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:24:27,413 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:24:46,658 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:26:46,622 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:28:47,433 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:30:46,454 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:32:46,625 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:34:26,594 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:36:46,798 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:38:46,934 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:40:46,643 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:42:46,938 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:44:46,690 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:46:46,923 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:48:46,786 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误
+2018-11-26 16:50:27,028 - alarm_data_regular_filter.py - [line:315] - ERROR - 异常错误

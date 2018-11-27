@@ -1,0 +1,194 @@
+2018-11-01 14:52:12,018 - schedular_task.py - [line:161] - ERROR - 'NoneType' object is not iterable
+2018-11-01 14:52:12,102 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:52:12,711 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:52:23,312 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:52:23,313 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:52:23,609 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:52:29,022 - schedular_task.py - [line:161] - ERROR - 'NoneType' object is not iterable
+2018-11-01 14:52:29,118 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:52:29,794 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:52:40,300 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:52:40,301 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:52:40,527 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:53:29,098 - schedular_task.py - [line:162] - ERROR - 'NoneType' object is not iterable
+2018-11-01 14:53:29,165 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:53:29,246 - schedular_task.py - [line:162] - ERROR - 'NoneType' object is not iterable
+2018-11-01 14:53:29,348 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:53:30,079 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:53:30,213 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:53:42,987 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:53:42,987 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:53:43,200 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:53:43,286 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:53:43,287 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:53:43,511 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:54:07,350 - schedular_task.py - [line:166] - INFO - scats基础信息获取成功
+2018-11-01 14:54:07,477 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:54:08,146 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:54:19,077 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:54:19,077 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:54:19,350 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:55:15,063 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:55:19,229 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:56:14,945 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:56:22,291 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:56:22,899 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:56:23,455 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:56:24,032 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:56:33,739 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:56:33,740 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:56:33,990 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:57:00,620 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:57:00,888 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 14:57:01,265 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:57:01,265 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:57:01,273 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 14:57:01,273 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 14:57:01,539 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:57:01,539 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 14:57:01,555 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 14:57:01,555 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 14:57:12,056 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:57:12,056 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:57:12,056 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:57:12,056 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:57:12,267 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:57:12,267 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 14:57:12,267 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:57:12,267 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:57:12,286 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:57:12,286 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:57:12,589 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:57:12,589 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 14:58:08,680 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:08,680 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:09,000 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:09,000 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:12,209 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:58:12,209 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:58:12,418 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:58:12,418 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:58:17,092 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:17,092 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:17,093 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:58:17,093 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:59:08,333 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:59:08,333 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 14:59:12,291 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:59:12,291 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:59:12,494 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 14:59:12,494 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:00:09,284 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:00:09,284 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:00:12,385 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:00:12,385 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:00:12,589 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:00:12,589 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:00:16,606 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:00:16,606 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:00:16,607 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:00:16,607 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:01:08,837 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:01:08,837 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:01:08,838 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:01:08,838 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:01:12,477 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:01:12,477 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:01:12,661 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:01:12,661 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:02:08,563 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:02:08,563 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:02:09,559 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:02:10,254 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:02:10,254 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:02:10,265 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 15:02:10,265 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 15:02:11,553 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:02:12,244 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:02:12,244 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:02:12,262 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 15:02:12,262 - scats_interface.py - [line:162] - INFO - scats基础信息获取成功
+2018-11-01 15:02:21,150 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:02:21,150 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:02:21,151 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:02:21,151 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:02:21,372 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:02:21,372 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:02:23,083 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:02:23,083 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:02:23,083 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:02:23,083 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:02:23,294 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:02:23,294 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:03:19,069 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:03:19,069 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:03:20,373 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:03:20,373 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:03:21,296 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:03:21,296 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:03:23,216 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:03:23,216 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:04:21,392 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:04:21,392 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:04:23,317 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:04:23,317 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:04:26,666 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:26,666 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:26,666 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:26,666 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:28,063 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:28,063 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:28,063 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:04:28,063 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:05:21,522 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:05:21,522 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:05:26,862 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:05:26,862 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:05:26,862 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:05:26,862 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:05:41,295 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:05:52,036 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:05:52,698 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:06:03,128 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:06:03,128 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:06:03,421 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:06:59,622 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:07:03,281 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:09:09,173 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:09:09,793 - scats_interface.py - [line:159] - INFO - scats基础信息获取成功
+2018-11-01 15:09:09,793 - scats_interface.py - [line:159] - INFO - scats基础信息获取成功
+2018-11-01 15:09:09,844 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:09:09,844 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:09:20,218 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:09:20,218 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:09:20,219 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:09:20,219 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:09:20,484 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:09:20,484 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:13:01,533 - schedular_task.py - [line:173] - INFO - scats基础信息获取成功
+2018-11-01 15:13:01,615 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:13:02,253 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:13:06,479 - schedular_task.py - [line:173] - INFO - scats基础信息获取成功
+2018-11-01 15:13:06,479 - schedular_task.py - [line:173] - INFO - scats基础信息获取成功
+2018-11-01 15:13:06,592 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:13:06,592 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:13:07,329 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:13:07,329 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:13:32,473 - schedular_task.py - [line:172] - INFO - scats基础信息获取成功
+2018-11-01 15:13:32,584 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:13:33,185 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:13:44,200 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:13:44,200 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:13:44,482 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:14:39,759 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:14:44,347 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:15:46,445 - schedular_task.py - [line:172] - INFO - scats基础信息获取成功
+2018-11-01 15:15:46,539 - alarm_data_regular_filter.py - [line:377] - INFO - 报警数据引擎启动！
+2018-11-01 15:15:47,129 - alarm_data_regular_filter.py - [line:313] - INFO - # get KdeHisModel succeed!
+2018-11-01 15:15:57,929 - alarm_data_regular_filter.py - [line:111] - INFO - 报警KDE计算程序初始化成功！
+2018-11-01 15:15:57,930 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:15:58,262 - alarm_data_regular_filter.py - [line:350] - ERROR - 'NoneType' object has no attribute 'keys'
+2018-11-01 15:16:53,837 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:16:58,063 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 
+2018-11-01 15:17:53,667 - SituationOperate.py - [line:233] - INFO - 完成一轮调控记录匹配
+2018-11-01 15:17:58,154 - alarm_data_regular_filter.py - [line:115] - INFO - checking new alarm data ... 

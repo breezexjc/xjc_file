@@ -1,0 +1,3 @@
+2018-11-01 13:08:47,794 - SituationOperate.py - [line:198] - ERROR - 数据库连接失败！
+2018-11-01 13:09:33,515 - SituationOperate.py - [line:198] - ERROR - 数据库连接失败！
+2018-11-01 13:12:31,175 - SituationOperate.py - [line:198] - ERROR - 数据库连接失败！

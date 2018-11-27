@@ -135,7 +135,6 @@ class OperateAutoDis():
         except Exception as e:
             print("获取路口报警类型失败 或 计算报警强度失败")
             print(e)
-            int_type = None
         else:
             int_type = dict(int_type)
             if alarm_type:
@@ -256,6 +255,6 @@ class OperateAutoDis():
 if __name__ == "__main__":
     O1 = OperateAutoDis()
     # O1.get_alarm_operate_type()
-    result = O1.alarm_auto_judge(['14KC7097AL0', '14LMM097HE0'])
-    result2 = O1.alarm_auto_judge(['14M1O097T80', '14LMM097HE0'])
-    print(result2)
+    result = O1.alarm_auto_judge(['14KC7097AL0'])
+    result2 = O1.alarm_auto_judge(['14KC7097AL0'])
+

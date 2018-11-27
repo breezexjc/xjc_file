@@ -183,10 +183,11 @@ def create_scheduler(message_queue):
     scheduler.add_jobstore(DjangoJobStore(), "default")
     date = dt.datetime.now()
     scheduler.add_job(main, "date", run_date=date, id='alarm_proj', args=[message_queue], replace_existing=True)
-    scheduler.add_job(manage.message_accept, "date", run_date=date, id='alarm_proj', args=[message_queue], replace_existing=True)
+    # scheduler.add_job(manage.message_accept, "date", run_date=date, id='alarm_proj', args=[message_queue], replace_existing=True)
     # scheduler.add_job(seperate_operate_record.main, "interval", minutes=1, id='operate_proj', args=[])
     # scheduler.add_job(time_task, "interval", seconds=5, id='mytask2', args=['mytask2',], replace_existing=True)
     scheduler.add_job(so_run, "interval", minutes=1, id='operate_match', args=[message_queue], replace_existing=True)
+
     try:
         group, int_list, scats_input = get_scats_int()
     except Exception as e:

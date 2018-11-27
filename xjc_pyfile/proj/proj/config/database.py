@@ -19,7 +19,7 @@ import cx_Oracle
 OracleUser = 'SIG_OPT_ADMIN/admin@192.168.20.56/orcl'
 
 demo_pg_inf = {'database': "signal_specialist",'user': "postgres",'password': "postgres",
-          'host': "192.168.20.46",'port': "5432"}
+          'host': "192.168.20.45",'port': "5432"}
 
 # demo_pg_inf = {'database': "signal_specialist",'user': "postgres",'password': "postgres",
 #           'host': "33.83.100.145",'port': "5432"}

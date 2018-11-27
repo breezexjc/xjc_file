@@ -18,11 +18,12 @@ from ..config.sql_text import SqlText
 global task_inf
 from ..python_project.ali_alarm import main as ali_main
 from multiprocessing import Process
-
+from ..python_project.ali_alarm.alarm_priority_algorithm3.alarm_auto_dispose import OperateAutoDis
 
 task_inf = {}
 RUNNING_TASK = {}
 OperateStatus = False
+autoAlarm = OperateAutoDis()
 
 def getJson2(request):
     global task_inf
@@ -138,6 +139,37 @@ def getOperate(request):
     else:
         response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
         return response
+
+
+def getAlarmAuto(request):
+    global autoAlarm
+
+    json_demo = {'appcode': False, 'result': []}
+    if request.GET:
+        json_demo2 = {'appcode': True, 'result': []}
+        if 'intList' in request.GET:
+            inter_id = request.GET['intList']
+            # print(inter_id)
+            result = json.loads(inter_id)
+            print(result)
+            int_list = []
+            for i in result:
+                # print(i)
+                int_id = i['interId']
+                int_list.append(int_id)
+            result = autoAlarm.alarm_auto_judge(int_list)
+            print(autoAlarm.int_auto)
+            json_demo2['result'] = result
+        response = JsonResponse(json_demo2, safe=False, json_dumps_params={'ensure_ascii': False})
+        return response
+    else:
+        response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
+        return response
+
+
+
+
+
 
 
 
