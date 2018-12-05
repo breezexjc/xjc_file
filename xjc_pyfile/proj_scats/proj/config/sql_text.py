@@ -134,3 +134,12 @@ order by aom.oper_time desc
         """
     sql_get_spilt_number="""select split ,count(*)  as spilt_number from scats_int_state_feedback group by split"""
     sql_get_cycle_number="""select cycle ,count(*)  as cycle_number from scats_int_state_feedback group by cycle"""
+    sql_get_interface_status = """
+          select * from interface_status_check where record_time between '{0}' and '{1}'
+          """
+    sql_get_parse_failed_detector = """
+          select * from parse_failed_detector_list where record_time = '{0}'
+          """
+
+    sql_delete_real_phase = """delete from st_realtime_phase_inf where pushtime < '{0}'"""
+    sql_delete_kde_vaue = """delete from disposal_alarm_data_kde_value where time_point <'{0}'"""

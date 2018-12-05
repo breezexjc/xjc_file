@@ -18,8 +18,9 @@ import cx_Oracle
 #           'host': "192.168.20.45",'port': "5432"}
 # OracleUser = 'SIG_OPT_ADMIN/admin@192.168.20.56/orcl'
 OracleUser = 'enjoyor/admin@33.83.100.139/orcl'
-demo_pg_inf = {'database': "signal_specialist",'user': "django",'password': "postgres",
-          'host': "33.83.100.145",'port': "5432"}
+demo_pg_inf = {'database': "signal_specialist", 'user': "django", 'password': "postgres",
+               'host': "33.83.100.145", 'port': "5432"}
+
 
 # demo_pg_inf = {'database': "signal_specialist",'user': "postgres",'password': "postgres",
 #           'host': "33.83.100.145",'port': "5432"}
@@ -27,6 +28,7 @@ demo_pg_inf = {'database': "signal_specialist",'user': "django",'password': "pos
 
 class Postgres(object):
     instance = None
+
     def __init__(self, pg_inf=demo_pg_inf):
         """
         :param pg_inf: 传入链接信息
@@ -40,8 +42,11 @@ class Postgres(object):
         self.conn = None
         self.cr = None
 
+    def __del__(self):
+        self.db_close()
+
     @classmethod
-    def get_instance(cls,pg_inf=demo_pg_inf ):
+    def get_instance(cls, pg_inf=demo_pg_inf):
         if cls.instance:
             return cls.instance
         else:
@@ -57,11 +62,11 @@ class Postgres(object):
                 print(e)
             pass
         try:
-            self.conn = psycopg2.connect(database=self.database,user=self.account,password=self.password,
-                                    host=self.ip,
-                                    port=self.port)
+            self.conn = psycopg2.connect(database=self.database, user=self.account, password=self.password,
+                                         host=self.ip,
+                                         port=self.port)
         except Exception as e:
-            print(self.ip +"Postgres connect failed",e)
+            print(self.ip + "Postgres connect failed", e)
             return self.conn, self.cr
         else:
             # print(self.ip +"Postgres connect succeed")
@@ -74,12 +79,12 @@ class Postgres(object):
                 self.cr.close()
                 self.conn.close()
             except Exception as e:
-                print('db_close',e)
+                print('db_close', e)
             finally:
                 self.conn = None
                 self.cr = None
 
-    def call_pg_data(self, sql, pg_inf=None, fram =None):
+    def call_pg_data(self, sql, pg_inf=None, fram=None):
         """
         :param sql: 需要执行的SQL语句
         :param pg_inf:如果要更改链接地址
@@ -87,6 +92,7 @@ class Postgres(object):
         :return: 默认返回元组格式数据
         """
         result = None
+
         def tuple2frame(result, index):
             column_name = []
             for i in range(len(index)):
@@ -94,6 +100,7 @@ class Postgres(object):
                 column_name.append(index_name)
             result = pd.DataFrame(result, columns=column_name)
             return result
+
         if pg_inf is not None:
             self.pg_inf = pg_inf
             self.ip = self.pg_inf['host']
@@ -194,7 +201,7 @@ class Postgres(object):
                     correct_num += 1
                 finally:
                     conn.commit()
-            print("插入成功:%s,插入失败:%s,其中主键重复：%s" % (correct_num, error_num,repet_num))
+            print("插入成功:%s,插入失败:%s,其中主键重复：%s" % (correct_num, error_num, repet_num))
             self.db_close()
         else:
             print("database connect failed")
@@ -229,13 +236,51 @@ class Postgres(object):
             print("database connect failed")
             # return pd.DataFrame({})
 
+    def execute(self, sql, pg_inf=None):
+        error_num = 0
+        correct_num = 0
+        repet_num = 0
+
+        if pg_inf is not None:
+            self.pg_inf = pg_inf
+            self.ip = self.pg_inf['host']
+            self.database = self.pg_inf['database']
+            self.port = self.pg_inf['port']
+            self.account = self.pg_inf['user']
+            self.password = self.pg_inf['user']
+            self.db_close()
+        else:
+            pass
+        cr = self.cr
+        conn = self.conn
+        if conn is None:
+            conn, cr = self.db_conn()
+        else:
+            pass
+        if cr:
+            try:
+                cr.execute(sql)
+            except Exception as e:
+                print("execute error", e)
+            # print("插入成功:%s,插入失败:%s,其中主键重复：%s" % (correct_num, error_num, repet_num))
+            # self.db_close()
+            finally:
+                conn.commit()
+        else:
+            print("database connect failed")
+            # return pd.DataFrame({})
+
 
 class Oracle(object):
     instance = None
+
     def __init__(self, user_inf=OracleUser):
         self.conn_inf = user_inf
         self.conn = None
         self.cr = None
+
+    def __del__(self):
+        self.db_close()
 
     @classmethod
     def get_instance(cls, user_inf=OracleUser):
@@ -248,11 +293,7 @@ class Oracle(object):
 
     def db_conn(self):
         if self.conn is not None:
-            try:
-                self.db_close()
-            except Exception as e:
-                print(e)
-            pass
+            self.db_close()
         try:
             self.conn = cx_Oracle.connect(self.conn_inf)
         except Exception as e:
@@ -410,7 +451,7 @@ class Oracle(object):
             # return pd.DataFrame({})
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     """
     样例
     单例模式：即整个项目只创建一个连接实例，若要多进程，多线程则加上锁
@@ -418,11 +459,11 @@ if __name__=='__main__':
     # 自定义连接信息
     pg_inf = {'database': "zkr", 'user': "postgres", 'password': "postgres",
               'host': "33.83.100.145", 'port': "5432"}
-    PG = Postgres.get_instance()   # 单例模式 即，整个项目只创建一个连接实例，若要多进程，多线程则加上锁
+    PG = Postgres.get_instance()  # 单例模式 即，整个项目只创建一个连接实例，若要多进程，多线程则加上锁
     PG2 = Postgres.get_instance()  # 返回的实例内存指向PG
     PG.conn = '123'
     print(PG2.conn)
-    PG3 = Postgres()    # 普通模式
+    PG3 = Postgres()  # 普通模式
     print(PG3.conn)
 
     # # 测试SQL

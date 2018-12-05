@@ -14,35 +14,51 @@
       <file leaf-file-name="Interface.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/controller/Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="212" column="16" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="16" />
+            <state relative-caret-position="4110">
+              <caret line="212" column="16" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="16" />
               <folding>
-                <element signature="e#963#2865#0" expanded="false" />
-                <element signature="e#2895#3546#0" expanded="false" />
-                <element signature="e#9899#12016#0" expanded="false" />
+                <element signature="e#963#2865#0" />
+                <element signature="e#2895#3546#0" />
+                <element signature="e#9899#12016#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alarm_data_regular_filter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alarm_data_regular_filter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_data_regular_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="549" column="19" lean-forward="false" selection-start-line="549" selection-start-column="19" selection-end-line="549" selection-end-column="19" />
+            <state relative-caret-position="1910">
+              <caret line="549" column="19" selection-start-line="549" selection-start-column="19" selection-end-line="549" selection-end-column="19" />
               <folding>
-                <element signature="e#2168#3236#0" expanded="false" />
-                <element signature="e#5209#6190#0" expanded="false" />
-                <element signature="e#6244#7489#0" expanded="false" />
-                <element signature="e#7530#7693#0" expanded="false" />
-                <element signature="e#7740#9207#0" expanded="false" />
-                <element signature="e#9242#11472#0" expanded="false" />
-                <element signature="e#11475#11502#0" expanded="false" />
-                <element signature="e#12527#13964#0" expanded="false" />
-                <element signature="e#14023#15103#0" expanded="false" />
-                <element signature="e#16564#16748#0" expanded="false" />
-                <element signature="e#21121#21594#0" expanded="false" />
-                <element signature="e#21597#21612#0" expanded="false" />
+                <element signature="e#2168#3236#0" />
+                <element signature="e#5209#6190#0" />
+                <element signature="e#6244#7489#0" />
+                <element signature="e#7530#7693#0" />
+                <element signature="e#7740#9207#0" />
+                <element signature="e#9242#11472#0" />
+                <element signature="e#11475#11502#0" />
+                <element signature="e#12527#13964#0" />
+                <element signature="e#14023#15103#0" />
+                <element signature="e#16564#16748#0" />
+                <element signature="e#21121#21594#0" />
+                <element signature="e#21597#21612#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alarm_auto_dispose.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="246" selection-start-line="246" selection-end-line="246" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#257#868#0" />
+                <element signature="e#283#752#0" />
+                <element signature="e#1365#1696#0" />
+                <element signature="e#1753#1891#0" />
               </folding>
             </state>
           </provider>
@@ -50,36 +66,21 @@
       </file>
       <file leaf-file-name="script.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log_record/script.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="23871" column="253" lean-forward="false" selection-start-line="23871" selection-start-column="242" selection-end-line="23871" selection-end-column="253" />
-              <folding />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file leaf-file-name="schedular_task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/controller/schedular_task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="134" column="88" lean-forward="false" selection-start-line="134" selection-start-column="74" selection-end-line="134" selection-end-column="88" />
+            <state relative-caret-position="660">
+              <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
               <folding>
-                <element signature="e#1486#1555#0" expanded="false" />
-                <element signature="e#1578#2025#0" expanded="false" />
-                <element signature="e#2050#2805#0" expanded="false" />
-                <element signature="e#2833#4515#0" expanded="false" />
-                <element signature="e#6740#6768#0" expanded="false" />
+                <element signature="e#1486#1555#0" />
+                <element signature="e#1578#2025#0" />
+                <element signature="e#2050#2805#0" />
+                <element signature="e#2833#4515#0" />
+                <element signature="e#6740#6768#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -87,12 +88,27 @@
       <file leaf-file-name="SituationAlarm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/SituationAlarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="-216">
+              <caret line="372" selection-start-line="372" selection-end-line="372" />
               <folding>
-                <element signature="e#12706#12992#0" expanded="false" />
-                <element signature="e#13042#15272#0" expanded="false" />
-                <element signature="e#15330#17345#0" expanded="false" />
+                <element signature="e#101#116#0" expanded="true" />
+                <element signature="e#0#934#0" />
+                <element signature="e#0#1316#1" />
+                <element signature="e#0#901#0" />
+                <element signature="e#5341#6648#0" />
+                <element signature="e#0#901#0" />
+                <element signature="e#0#1344#1" />
+                <element signature="e#10393#11077#0" />
+                <element signature="e#11121#11207#0" />
+                <element signature="e#11348#11640#0" />
+                <element signature="e#11687#11866#0" />
+                <element signature="e#11932#12097#0" />
+                <element signature="e#12139#12400#0" />
+                <element signature="e#12446#12663#0" />
+                <element signature="e#12706#12992#0" />
+                <element signature="e#13042#15272#0" />
+                <element signature="e#15330#17345#0" />
+                <element signature="e#17378#19382#0" />
               </folding>
             </state>
           </provider>
@@ -101,8 +117,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="302">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#0#140#0" expanded="true" />
               </folding>
@@ -110,51 +126,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/settings.py">
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proj/config/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="363">
+              <caret line="294" column="22" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
               <folding>
-                <element signature="e#4929#4969#0" expanded="false" />
+                <element signature="e#855#8576#0" />
+                <element signature="e#924#1263#0" />
+                <element signature="e#1296#1311#0" />
+                <element signature="e#1385#1538#0" />
+                <element signature="e#1571#2232#0" />
+                <element signature="e#2266#2531#0" />
+                <element signature="e#2598#4326#0" />
+                <element signature="e#4429#6666#0" />
+                <element signature="e#6738#7559#0" />
+                <element signature="e#8683#8755#0" />
+                <element signature="e#8788#8803#0" />
+                <element signature="e#8878#9035#0" />
+                <element signature="e#9068#9553#0" />
+                <element signature="e#9587#9852#0" />
+                <element signature="e#9925#11300#0" />
+                <element signature="e#11409#13423#0" />
+                <element signature="e#11985#13326#0" />
+                <element signature="e#13501#14166#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_record/all.log">
+      <file leaf-file-name="runStrategicinfo_getdata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/runStrategicinfo_getdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="5410" column="41" lean-forward="false" selection-start-line="5410" selection-start-column="41" selection-end-line="5410" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/config/database.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="797">
+              <caret line="672" column="65" selection-start-line="672" selection-start-column="65" selection-end-line="672" selection-end-column="65" />
               <folding>
-                <element signature="e#924#1263#0" expanded="false" />
-                <element signature="e#1296#1311#0" expanded="false" />
-                <element signature="e#1385#1538#0" expanded="false" />
-                <element signature="e#1571#2232#0" expanded="false" />
-                <element signature="e#2266#2531#0" expanded="false" />
-                <element signature="e#4429#6666#0" expanded="false" />
-                <element signature="e#6738#7559#0" expanded="false" />
-                <element signature="e#8613#14166#0" expanded="false" />
-                <element signature="e#8683#8755#0" expanded="false" />
-                <element signature="e#8788#8803#0" expanded="false" />
-                <element signature="e#8878#9035#0" expanded="false" />
-                <element signature="e#9068#9553#0" expanded="false" />
-                <element signature="e#9587#9852#0" expanded="false" />
-                <element signature="e#9925#11300#0" expanded="false" />
-                <element signature="e#11409#13423#0" expanded="false" />
-                <element signature="e#11985#13326#0" expanded="false" />
-                <element signature="e#13501#14166#0" expanded="false" />
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#334#1296#0" />
+                <element signature="e#24534#26095#0" />
               </folding>
             </state>
           </provider>
@@ -232,63 +241,65 @@
         <option value="$PROJECT_DIR$/proj/config/database.py" />
         <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/main.py" />
         <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/control_pram.py" />
-        <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py" />
         <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/SituationAlarm.py" />
-        <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/main.py" />
         <option value="$PROJECT_DIR$/proj/controller/schedular_task.py" />
         <option value="$PROJECT_DIR$/proj/settings.py" />
         <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_data_regular_filter.py" />
+        <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py" />
+        <option value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/main.py" />
+        <option value="$PROJECT_DIR$/proj/python_project/scats_interface/runStrategicinfo_getdata.py" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="114" />
-    <option name="width" value="1431" />
-    <option name="height" value="765" />
+    <option name="x" value="-91" />
+    <option name="y" value="65" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_zd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_zd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_zd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_zd" type="462c0819:PsiDirectoryNode" />
               <item name="proj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="python_project_test" type="462c0819:PsiDirectoryNode" />
+              <item name="proj_zd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_zd" type="462c0819:PsiDirectoryNode" />
+              <item name="proj" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/1_seperate_operate_record.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="H:/program/20180823_SUMO/sumo-web3d-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -311,6 +322,7 @@
   </component>
   <component name="RunManager" selected="Python.main (2)">
     <configuration name="alarm_auto_dispose (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -321,7 +333,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="proj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -329,6 +341,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -339,7 +352,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="proj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -347,6 +360,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -357,7 +371,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="proj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/controller/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -365,6 +379,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -375,7 +390,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="proj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -383,6 +398,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="schedular_task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -393,32 +409,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="proj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/controller/schedular_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.alarm_auto_dispose (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.schedular_task" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main (3)" />
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.alarm_auto_dispose (1)" />
+      <item itemvalue="Python.schedular_task" />
+      <item itemvalue="Python.main (3)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.alarm_auto_dispose (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.schedular_task" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.alarm_auto_dispose (1)" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.schedular_task" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -443,26 +456,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24952501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38942978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962447" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1935123" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -497,11 +518,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py</url>
-          <line>150</line>
+          <line>154</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -510,46 +531,48 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#4929#4969#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#46#55#0" expanded="false" />
-          </folding>
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/config/database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2187">
-          <caret line="100" column="32" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
           <folding>
-            <element signature="e#4429#6666#0" expanded="false" />
+            <element signature="e#924#1263#0" />
+            <element signature="e#1296#1311#0" />
+            <element signature="e#1385#1538#0" />
+            <element signature="e#1571#2232#0" />
+            <element signature="e#2266#2531#0" />
+            <element signature="e#4429#6666#0" />
+            <element signature="e#6738#7559#0" />
+            <element signature="e#8613#14166#0" />
+            <element signature="e#8683#8755#0" />
+            <element signature="e#8788#8803#0" />
+            <element signature="e#8878#9035#0" />
+            <element signature="e#9068#9553#0" />
+            <element signature="e#9587#9852#0" />
+            <element signature="e#9925#11300#0" />
+            <element signature="e#11409#13423#0" />
+            <element signature="e#11985#13326#0" />
+            <element signature="e#13501#14166#0" />
           </folding>
         </state>
       </provider>
@@ -557,451 +580,363 @@
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/GlobalContent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_predict/get_alarmdata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-551">
-          <caret line="204" column="65" lean-forward="false" selection-start-line="204" selection-start-column="65" selection-end-line="204" selection-end-column="65" />
+          <caret line="204" column="65" selection-start-line="204" selection-start-column="65" selection-end-line="204" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/SituationOperate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1026">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/operate_statistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/controller/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_operate_parsing/operate_record_resolve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-218">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#46#55#0" expanded="false" />
-          </folding>
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_group/alarm_direction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
-          <caret line="151" column="19" lean-forward="false" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
-          <folding />
+          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/2018-7-27back/alarm_strategy_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="452" column="20" lean-forward="false" selection-start-line="452" selection-start-column="20" selection-end-line="452" selection-end-column="20" />
-          <folding />
+          <caret line="452" column="20" selection-start-line="452" selection-start-column="20" selection-end-line="452" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/config/jdbcConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test2/python_project_test/seperate_operate_record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../test2/python_project_test/seperate_operate_record.py" />
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_operate_parsing/content.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-          <folding>
-            <element signature="e#1814#2119#0" expanded="false" />
-            <element signature="e#2145#3050#0" expanded="false" />
-          </folding>
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj/python_project/scats_operate_parsing/seperate_operate_record2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="1284" column="27" lean-forward="false" selection-start-line="1247" selection-start-column="3" selection-end-line="1284" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/scats_operate_parsing/seperate_operate_record2.py" />
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_operate_parsing/seperate_operate_record.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="1253" column="61" lean-forward="false" selection-start-line="1253" selection-start-column="61" selection-end-line="1253" selection-end-column="61" />
-          <folding />
+          <caret line="1253" column="61" selection-start-line="1253" selection-start-column="61" selection-end-line="1253" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/config/log_record.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/1_seperate_operate_record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1506" column="22" lean-forward="false" selection-start-line="1506" selection-start-column="8" selection-end-line="1506" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/1_seperate_operate_record.py" />
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/alarm_auto_dispose.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
-            <element signature="e#5225#5554#0" expanded="false" />
+            <element signature="e#5225#5554#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/SituationOperate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#15#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1099968596/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="4751" column="8" lean-forward="false" selection-start-line="4751" selection-start-column="8" selection-end-line="4751" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1099968596/builtins.py" />
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/SituationAlarm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="21" />
-          <folding>
-            <element signature="e#6227#6309#0" expanded="false" />
-            <element signature="e#6365#7008#0" expanded="false" />
-            <element signature="e#8382#8599#0" expanded="false" />
-            <element signature="e#8642#8927#0" expanded="false" />
-            <element signature="e#8977#11236#0" expanded="false" />
-            <element signature="e#11294#13303#0" expanded="false" />
-            <element signature="e#15436#15465#0" expanded="false" />
-            <element signature="e#24133#25846#0" expanded="false" />
-          </folding>
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/config/sql_text.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="138" column="23" lean-forward="false" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="23" />
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="23" />
           <folding>
-            <element signature="e#42#654#0" expanded="false" />
-            <element signature="e#682#2819#0" expanded="false" />
+            <element signature="e#42#654#0" />
+            <element signature="e#682#2819#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django_apscheduler/jobstores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#756#1334#0" expanded="false" />
-            <element signature="e#1377#5880#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django_apscheduler/jobstores.py" />
     <entry file="file://$PROJECT_DIR$/proj/controller/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#60#81#0" expanded="false" />
-          </folding>
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="21" />
-          <folding />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm2/alarm_data_regular_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5272">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-5272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/alarm_data_regular_filter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2170">
-          <caret line="514" column="4" lean-forward="false" selection-start-line="514" selection-start-column="4" selection-end-line="514" selection-end-column="4" />
+          <caret line="514" column="4" selection-start-line="514" selection-start-column="4" selection-end-line="514" selection-end-column="4" />
           <folding>
-            <element signature="e#7323#7506#0" expanded="false" />
-            <element signature="e#16920#17104#0" expanded="false" />
-            <element signature="e#17174#17784#0" expanded="false" />
-            <element signature="e#20360#21271#0" expanded="false" />
+            <element signature="e#7323#7506#0" />
+            <element signature="e#16920#17104#0" />
+            <element signature="e#17174#17784#0" />
+            <element signature="e#20360#21271#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kde_model/KdeHisModel_2018-11-26.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/log_record/task_info.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
-          <caret line="14118" column="0" lean-forward="false" selection-start-line="14118" selection-start-column="0" selection-end-line="14118" selection-end-column="0" />
-          <folding />
+          <caret line="14118" selection-start-line="14118" selection-end-line="14118" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/control_pram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/operate_statistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="e#257#868#0" expanded="false" />
+            <element signature="e#0#41#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_rdsect_match.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/config/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#924#1263#0" expanded="false" />
-            <element signature="e#1296#1311#0" expanded="false" />
-            <element signature="e#1385#1538#0" expanded="false" />
-            <element signature="e#1571#2232#0" expanded="false" />
-            <element signature="e#2266#2531#0" expanded="false" />
-            <element signature="e#4429#6666#0" expanded="false" />
-            <element signature="e#6738#7559#0" expanded="false" />
-            <element signature="e#8613#14166#0" expanded="false" />
-            <element signature="e#8683#8755#0" expanded="false" />
-            <element signature="e#8788#8803#0" expanded="false" />
-            <element signature="e#8878#9035#0" expanded="false" />
-            <element signature="e#9068#9553#0" expanded="false" />
-            <element signature="e#9587#9852#0" expanded="false" />
-            <element signature="e#9925#11300#0" expanded="false" />
-            <element signature="e#11409#13423#0" expanded="false" />
-            <element signature="e#11985#13326#0" expanded="false" />
-            <element signature="e#13501#14166#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/SituationAlarm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#12706#12992#0" expanded="false" />
-            <element signature="e#13042#15272#0" expanded="false" />
-            <element signature="e#15330#17345#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/log_record/all.log">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="-98">
-          <caret line="5410" column="41" lean-forward="false" selection-start-line="5410" selection-start-column="41" selection-end-line="5410" selection-end-column="41" />
-          <folding />
+          <caret line="5410" column="41" selection-start-line="5410" selection-start-column="41" selection-end-line="5410" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/controller/Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="212" column="16" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="16" />
+        <state relative-caret-position="4110">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="16" />
           <folding>
-            <element signature="e#963#2865#0" expanded="false" />
-            <element signature="e#2895#3546#0" expanded="false" />
-            <element signature="e#9899#12016#0" expanded="false" />
+            <element signature="e#963#2865#0" />
+            <element signature="e#2895#3546#0" />
+            <element signature="e#9899#12016#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log_record/error.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="1004" column="51" lean-forward="false" selection-start-line="1004" selection-start-column="26" selection-end-line="1004" selection-end-column="51" />
-          <folding />
+          <caret line="1004" column="51" selection-start-line="1004" selection-start-column="26" selection-end-line="1004" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log_record/script.log">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="23871" column="253" lean-forward="false" selection-start-line="23871" selection-start-column="242" selection-end-line="23871" selection-end-column="253" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/controller/schedular_task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="134" column="88" lean-forward="false" selection-start-line="134" selection-start-column="74" selection-end-line="134" selection-end-column="88" />
-          <folding>
-            <element signature="e#1486#1555#0" expanded="false" />
-            <element signature="e#1578#2025#0" expanded="false" />
-            <element signature="e#2050#2805#0" expanded="false" />
-            <element signature="e#2833#4515#0" expanded="false" />
-            <element signature="e#6740#6768#0" expanded="false" />
-          </folding>
+          <caret line="23871" column="253" selection-start-line="23871" selection-start-column="242" selection-end-line="23871" selection-end-column="253" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="960">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
-            <element signature="e#4929#4969#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#140#0" expanded="true" />
+            <element signature="e#4929#4969#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_data_regular_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="549" column="19" lean-forward="false" selection-start-line="549" selection-start-column="19" selection-end-line="549" selection-end-column="19" />
+        <state relative-caret-position="1910">
+          <caret line="549" column="19" selection-start-line="549" selection-start-column="19" selection-end-line="549" selection-end-column="19" />
           <folding>
-            <element signature="e#2168#3236#0" expanded="false" />
-            <element signature="e#5209#6190#0" expanded="false" />
-            <element signature="e#6244#7489#0" expanded="false" />
-            <element signature="e#7530#7693#0" expanded="false" />
-            <element signature="e#7740#9207#0" expanded="false" />
-            <element signature="e#9242#11472#0" expanded="false" />
-            <element signature="e#11475#11502#0" expanded="false" />
-            <element signature="e#12527#13964#0" expanded="false" />
-            <element signature="e#14023#15103#0" expanded="false" />
-            <element signature="e#16564#16748#0" expanded="false" />
-            <element signature="e#21121#21594#0" expanded="false" />
-            <element signature="e#21597#21612#0" expanded="false" />
+            <element signature="e#2168#3236#0" />
+            <element signature="e#5209#6190#0" />
+            <element signature="e#6244#7489#0" />
+            <element signature="e#7530#7693#0" />
+            <element signature="e#7740#9207#0" />
+            <element signature="e#9242#11472#0" />
+            <element signature="e#11475#11502#0" />
+            <element signature="e#12527#13964#0" />
+            <element signature="e#14023#15103#0" />
+            <element signature="e#16564#16748#0" />
+            <element signature="e#21121#21594#0" />
+            <element signature="e#21597#21612#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/runStrategicinfo_getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="672" column="65" selection-start-line="672" selection-start-column="65" selection-end-line="672" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#334#1296#0" />
+            <element signature="e#24534#26095#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/controller/schedular_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+          <folding>
+            <element signature="e#1486#1555#0" />
+            <element signature="e#1578#2025#0" />
+            <element signature="e#2050#2805#0" />
+            <element signature="e#2833#4515#0" />
+            <element signature="e#6740#6768#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/SituationAlarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
+          <folding>
+            <element signature="e#101#116#0" expanded="true" />
+            <element signature="e#0#934#0" />
+            <element signature="e#0#1316#1" />
+            <element signature="e#0#901#0" />
+            <element signature="e#5341#6648#0" />
+            <element signature="e#0#901#0" />
+            <element signature="e#0#1344#1" />
+            <element signature="e#10393#11077#0" />
+            <element signature="e#11121#11207#0" />
+            <element signature="e#11348#11640#0" />
+            <element signature="e#11687#11866#0" />
+            <element signature="e#11932#12097#0" />
+            <element signature="e#12139#12400#0" />
+            <element signature="e#12446#12663#0" />
+            <element signature="e#12706#12992#0" />
+            <element signature="e#13042#15272#0" />
+            <element signature="e#15330#17345#0" />
+            <element signature="e#17378#19382#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm1126/alarm_auto_dispose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#257#868#0" />
+            <element signature="e#283#752#0" />
+            <element signature="e#1365#1696#0" />
+            <element signature="e#1753#1891#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/config/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="294" column="22" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
+          <folding>
+            <element signature="e#855#8576#0" />
+            <element signature="e#924#1263#0" />
+            <element signature="e#1296#1311#0" />
+            <element signature="e#1385#1538#0" />
+            <element signature="e#1571#2232#0" />
+            <element signature="e#2266#2531#0" />
+            <element signature="e#2598#4326#0" />
+            <element signature="e#4429#6666#0" />
+            <element signature="e#6738#7559#0" />
+            <element signature="e#8683#8755#0" />
+            <element signature="e#8788#8803#0" />
+            <element signature="e#8878#9035#0" />
+            <element signature="e#9068#9553#0" />
+            <element signature="e#9587#9852#0" />
+            <element signature="e#9925#11300#0" />
+            <element signature="e#11409#13423#0" />
+            <element signature="e#11985#13326#0" />
+            <element signature="e#13501#14166#0" />
           </folding>
         </state>
       </provider>

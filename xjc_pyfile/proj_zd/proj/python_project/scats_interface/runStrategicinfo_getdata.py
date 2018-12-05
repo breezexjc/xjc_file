@@ -666,7 +666,6 @@ def thread_creat(group_num, int_grouped,IntStrInput):
             S_REPAIR_DATE = CONSTANT.S_REPAIR_DATE
             E_REPAIR_DATE = CONSTANT.E_REPAIR_DATE
             date_range = pd.date_range(S_REPAIR_DATE,E_REPAIR_DATE, freq='1H').tolist()
-
             for j in range(len(date_range)):
                 try:
                     print(CONSTANT.E_REPAIR_DATE)

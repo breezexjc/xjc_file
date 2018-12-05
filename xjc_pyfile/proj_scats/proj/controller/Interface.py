@@ -15,6 +15,7 @@ from ..controller import TaskModel
 # import json
 from ..config.database import Postgres
 from ..config.sql_text import SqlText
+import pandas as pd
 
 global task_inf
 # from ..python_project.ali_alarm import main as ali_main
@@ -170,9 +171,9 @@ def getOperateRatio(request):
             x1 = 1
             y1 = 1
             z1 = 1
-        adaptive = round((x1 / (x1 + y1 + z1)) * 100,1)
-        fixed = round((y1 / (x1 + y1 + z1)) * 100,1)
-        other = round((z1 / (x1 + y1 + z1)) * 100,1)
+        adaptive = round((x1 / (x1 + y1 + z1)) * 100, 1)
+        fixed = round((y1 / (x1 + y1 + z1)) * 100, 1)
+        other = round((z1 / (x1 + y1 + z1)) * 100, 1)
         operate[0]['value'] = adaptive
         operate[1]['value'] = fixed
         operate[2]['value'] = other
@@ -189,8 +190,8 @@ def getOperateRatio(request):
         if x2 == 0 and y2 == 0:
             x2 = 1
             y2 = 1
-        adaptive = round((x2 / (x2 + y2)) * 100,1)
-        fixed = round((y2 / (x2 + y2)) * 100,1)
+        adaptive = round((x2 / (x2 + y2)) * 100, 1)
+        fixed = round((y2 / (x2 + y2)) * 100, 1)
         operate[0]['value'] = adaptive
         operate[1]['value'] = fixed
         json_demo['cycle'] = operate
@@ -204,3 +205,51 @@ def getOperateRatio(request):
         return response
         # response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
         # return response
+
+
+def getInterfaceStatus(request):
+    # print(request.method)
+
+    if request.method == 'GET':
+        if 'sTime' in request.GET and 'eTime' in request.GET:
+            # json_demo = {'appcode': True, 'message': '请求成功，参数无误！', 'result': []}
+            sTime = request.GET['sTime']
+            eTime = request.GET['eTime']
+            pg = Postgres(pg_inf=SqlText.pg_inf_arith)
+            result = pg.call_pg_data(SqlText.sql_get_interface_status.format(sTime,eTime), fram=True)
+            dict = result.to_dict(orient='records')
+            json_demo = {'appcode': True, 'message': '请求成功，参数无误！', 'result': dict}
+        else:
+            json_demo = {'appcode': True, 'message': '请求失败，参数有误！', 'result': []}
+            pass
+        response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
+        return response
+    elif request.POST:
+        json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确', 'result': []}
+        response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
+        return response
+
+
+def getParseFailed(request):
+    json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确!', 'result': []}
+    print(request.method)
+
+    if request.method == 'GET':
+        if 'date' in request.GET:
+            date = request.GET['date']
+            pg = Postgres(pg_inf=SqlText.pg_inf_arith)
+            result = pg.call_pg_data(SqlText.sql_get_parse_failed_detector.format(date), fram=True)
+            dict = result.to_dict(orient='records')
+            json_demo = {'appcode': True, 'message': '请求成功，参数无误！', 'result': dict}
+            response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
+            return response
+        else:
+            json_demo = {'appcode': True, 'message': '请求失败，参数有误！', 'result': []}
+            response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
+            return response
+
+    elif request.POST:
+
+        json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确！', 'result': []}
+        response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
+        return response

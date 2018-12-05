@@ -4,6 +4,7 @@ import datetime as dt
 from proj.config.database import Postgres
 import logging
 from .control_pram import *
+
 logger = logging.getLogger('schedulerTask')  # 获取settings.py配置文件中logger名称
 
 
@@ -80,18 +81,21 @@ class OperateAutoDis():
         print('operate', result)
         return result
 
-    def alarm_auto_set(self, alarm_dispose_data):
+    def alarm_auto_set(self, alarm_dispose_data, int):
         auto = None
         # TD = 30
         # TA = 16
         # TW = 16
         # TRD = 10
-        print('alarm_dispose_data',alarm_dispose_data)
+        current_time = dt.datetime.now()
+        end_time = current_time + dt.timedelta(
+            seconds=60 * TRD)
+        # 设定默认值，无处置记录则返回默认值，推送人工
+        self.int_auto[int] = {'lastDis': '5', 'auto': 0, 'endTime': end_time}
+        print('alarm_dispose_data', alarm_dispose_data)
         for i in alarm_dispose_data:
             (int_id, time_point, auto_dis, alarm_id, dis_type, int_name) = i
-            current_time = dt.datetime.now()
             time_delta = (current_time - dt.datetime.strptime(str(time_point), '%Y-%m-%d %H:%M:%S')).seconds
-            current_time = dt.datetime.now()
             # 关注
             if dis_type == 1 and time_delta < 60 * TA:
                 end_time = dt.datetime.strptime(str(time_point), '%Y-%m-%d %H:%M:%S') + dt.timedelta(
@@ -111,7 +115,7 @@ class OperateAutoDis():
                 self.int_auto[int_id] = {'lastDis': '3', 'auto': 1, 'endTime': end_time}
                 auto = True
             else:
-                # 无处置记录
+                # 无有效处置记录
                 end_time = current_time + dt.timedelta(
                     seconds=60 * TRD)
                 self.int_auto[int_id] = {'lastDis': '5', 'auto': 0, 'endTime': end_time}
@@ -205,7 +209,8 @@ class OperateAutoDis():
             print(e)
         else:
             # 若路口匹配到了调控记录
-            auto = self.alarm_auto_set(match_dis_type)
+
+            auto = self.alarm_auto_set(match_dis_type, int)
             if auto is True:
                 reponse = {'alarmInt': int, 'autoDis': True}
                 reponse_all.append(reponse)
@@ -250,6 +255,8 @@ class OperateAutoDis():
                 # 路口被设置为自动处置，且未超时
                 reponse = {'alarmInt': int, 'autoDis': True}
                 reponse_all.append(reponse)
+
+
         return reponse_all
 
 
@@ -258,4 +265,3 @@ if __name__ == "__main__":
     # O1.get_alarm_operate_type()
     result = O1.alarm_auto_judge(['14L68097P40'])
     # result2 = O1.alarm_auto_judge(['14L68097P40'])
-

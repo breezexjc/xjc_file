@@ -128,7 +128,6 @@ def SecondToTime(s):
 def SearchSiteId(row, SiteId):
     Searchrow = []
     for i in row:
-
         if int(i[9]) == SiteId:
             Searchrow.append(list(i))
         else:
@@ -390,8 +389,6 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
         PhaseList = [A, B, C, D, E, F, G]
         PhaseBit = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
         PhaseTimeList = dict(zip(PhaseBit, PhaseList))  # 创建字典将相位和各相位的数据组合
-
-        number = 0
         PhaseStartTimeList = []
         StrPhaseStartTime = []
         PhaseTime_A = R_cycle_time  # A相位开始时间即周期开始时间
@@ -399,21 +396,21 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
         StrPhaseStartTime.append(R_cycle_time1[11:])  # 存入字符串格式的A相位开始时间用来输出
         RealPhase = []
         StrFstrDate = []
-        for q in PhaseBit:  # 遍历相位列表计算各相位开始时间，并存入StrPhaseStartTime
-            if PhaseTimeList[q] != None:
-                RealPhase.append(q)
-                PhaseDate = PhaseTimeOut(PhaseTimeList[q], ActualCycleTime)
-                DateStartTime = PhaseStartTimeList[number] + PhaseDate
-                StrPhaseDate = str(DateStartTime)[11:]
-                FstrDate = str(DateStartTime)[:10]
-                StrPhaseStartTime.append(StrPhaseDate)
-                StrFstrDate.append(FstrDate)
-                PhaseStartTimeList.append(DateStartTime)
-                number += 1
-            else:
-                pass
-        DictPhaseTime = dict(zip(RealPhase, StrPhaseStartTime))  # 创建字典来保存相位和对应的开始时间
-        DictFstrDate = dict(zip(RealPhase, StrFstrDate))
+        # for q in PhaseBit:  # 遍历相位列表计算各相位开始时间，并存入StrPhaseStartTime
+        #     if PhaseTimeList[q] != None:
+        #         RealPhase.append(q)
+        #         PhaseDate = PhaseTimeOut(PhaseTimeList[q], ActualCycleTime)
+        #         DateStartTime = PhaseStartTimeList[number] + PhaseDate
+        #         StrPhaseDate = str(DateStartTime)[11:]
+        #         FstrDate = str(DateStartTime)[:10]
+        #         StrPhaseStartTime.append(StrPhaseDate)
+        #         StrFstrDate.append(FstrDate)
+        #         PhaseStartTimeList.append(DateStartTime)
+        #         number += 1
+        #     else:
+        #         pass
+        # DictPhaseTime = dict(zip(RealPhase, StrPhaseStartTime))  # 创建字典来保存相位和对应的开始时间
+        # DictFstrDate = dict(zip(RealPhase, StrFstrDate))
 
         # itemlist = [A, ActiveLinkPlan, ActiveSystemPlan, ActualCycleTime, B, C, D, E, F, G, Id, IsSALK, NominalCycleTime,
         #         RecvTime, Region, RequiredCycleTime, Saturation, SiteID_T, StrategicCycleTime, SubSystemID]
@@ -421,7 +418,6 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
 
         SearchLane1 = SearchSiteId(row, SiteID_T)  # 检索配置表对应路口号，返回对应数据
         for z in RunStrInfo[j]['SalkList']:  # 遍历SalkList
-
             ADS = z['ADS']
             DS1 = z['DS1']
             DS2 = z['DS2']
@@ -437,7 +433,6 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
             VK2 = z['VK2']
             VK3 = z['VK3']
             VK4 = z['VK4']
-
             VO1 = z['VO3']
             VO2 = z['VO4']
             VO3 = z['VK1']
@@ -445,19 +440,8 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
             smId = z['smId']
             DSList = [DS1, DS2, DS3, DS4]
             VOList = [VO1, VO2, VO3, VO4]
-
-            # try:
-            #     OutPhaseTime = DictPhaseTime[PhaseBitMask[0]]   # 找出对应相位的开始时间
-            #     # OutFstrDate = DictFstrDate[PhaseBitMask[0]]
-            # except Exception as e:
-            #     print(str(SiteID)+'相位时长有误' ,e)
-            #     OutPhaseTime = None
-            #     continue
-            OutPhaseTime = None
-            # print(DictFstrDate)
-            # OutFstrDate = DictFstrDate[PhaseBitMask[0]]
-            # DATE_FstrDate = datetime.strptime(OutFstrDate, '%Y-%m-%d') # 日期转datetime格式
-            DATE_FstrDate = DATE_RECVTIME
+            OutPhaseTime = None     # 相位开始时间-字段废弃
+            DATE_FstrDate = DATE_RECVTIME   # 日期
             WeekDay = get_week_day(DATE_RECVTIME)  # 获取对应的星期
             CountLaneNo = 1
             ConfigVersion = ''
@@ -469,7 +453,8 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
             if IsSALK == 0:  # 如果IsSalk为0，将数据存入LIST
                 CountLaneNo = 0
                 for m in SearchLane:
-                    if PhaseBitMask == m[7] and SALKNo == int(m[8]):
+                    # 若配置表相位和通道号对应，则匹配车道 # 后改为只匹配通道号
+                    if SALKNo == int(m[8]):
                         LaneNo = SearchPhase(m, DSList)
                         for n in range(4):
                             DS = DSList[n]
@@ -485,10 +470,17 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
                                 pass
                     else:
                         pass
-                if CONSTANT.IF_CHECK:
-                    if CountLaneNo == 0:
-                        # print('路口：' + str(SiteID) + '相位' + PhaseBitMask + ' 日期：' + str(OutFstrDate) + ' 时间：' + str(FstrCycleStartTime))
-                        # print('未找到对应配置表，请检查配置表是否正确')
+                if CountLaneNo == 0:
+                    for n in range(4):
+                        DS = DSList[n]
+                        VO = VOList[n]
+                        # print(LaneNo)
+                        if DS is not None and VO is not None:
+                            itemlist = [SiteID, SALKNo, SALKNo*100+n, FstrCycleStartTime, OutPhaseTime,
+                                        PhaseBitMask, PhaseTime, ActualCycleTime, DS, VO, DATE_FstrDate,
+                                        WeekDay, ConfigVersion]
+                            list_AnalyzedRunInfo.append(itemlist)
+                    if CONSTANT.IF_CHECK:
                         if [str(SiteID), PhaseBitMask] not in resolve_fail_node:
                             resolve_fail_node.append([str(SiteID), PhaseBitMask])
                             lock.acquire()
@@ -505,10 +497,10 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
                                 f.close()
                             finally:
                                 lock.release()
-                    if CountLaneNo >= 2:
-                        # print('路口：' + str(SiteID) + '相位' + PhaseBitMask +' 日期：' + str(OutFstrDate) + ' 时间：' + str(FstrCycleStartTime))
-                        # print('匹配多行配置表数据，请检查配置表是否正确')
-
+                if CountLaneNo >= 2:
+                    # print('路口：' + str(SiteID) + '相位' + PhaseBitMask +' 日期：' + str(OutFstrDate) + ' 时间：' + str(FstrCycleStartTime))
+                    # print('匹配多行配置表数据，请检查配置表是否正确')
+                    if CONSTANT.IF_CHECK:
                         if [str(SiteID), PhaseBitMask] not in resolve_fail_node:
                             resolve_fail_node.append([str(SiteID), PhaseBitMask])
                             lock.acquire()
@@ -528,8 +520,7 @@ def SkitListOut(runstrinformation, row, list_AnalyzedRunInfo):
 
             else:
                 pass
-            # except Exception as e:
-            #     print('配置表发生未知错误',e)
+
 
         if j == len(RunStrInfo):
             j = 0
@@ -609,13 +600,13 @@ def RequestDynaDataFromInt(siteIDlist, IntStrInput, n):
                 else:
                     pass
 
-    Log.info('thread:%s successfully request int num=%s' % (n, scuuess_request))
+    # Log.info('thread:%s successfully request int num=%s' % (n, scuuess_request))
     if len(list_AnalyzedRunInfo) > 0:
-        Log.info('thread:%s receive salklist data successfully!num=%s' % (n, len(list_AnalyzedRunInfo)))
+        # Log.info('thread:%s receive salklist data successfully!num=%s' % (n, len(list_AnalyzedRunInfo)))
         print('thread:', n, 'scats接口数据接收完毕,')
 
     elif len(list_AnalyzedRunInfo) == 0:
-        Log.info('thread:%s no salklist data received!' % n)
+        # Log.info('thread:%s no salklist data received!' % n)
         print("scats接口获取数据失败")
     lock.acquire()
     try:
@@ -664,7 +655,8 @@ def thread_creat(group_num, int_grouped, IntStrInput, queue=None):
                     # thread.join()
                 for t in threads:
                     t.join()
-                print('all_over')
+                Log.info("get salk_list data num:%s " % data_num)
+                print('thread over')
             except Exception as e:
                 print('thread:', e)
             else:

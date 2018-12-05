@@ -10,9 +10,9 @@ if __name__ == '__main__':
     # result = new_kde_cal()
     # %%
     # result2 = new_kde_cal()
-    # O1 = OperateAutoDis()
+    O1 = OperateAutoDis()
     # O1.get_alarm_operate_type()
-    # result = O1.alarm_auto_judge(['14L68097P40'])
-    # result2 = O1.alarm_auto_judge(['14LHG097HM0'])
+    result = O1.alarm_auto_judge(['14KVJ097OO0'])
+    result2 = O1.alarm_auto_judge(['14LHG097HM0'])
     # print(result)
 
