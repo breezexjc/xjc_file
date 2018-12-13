@@ -234,6 +234,7 @@ def RequestDynaDataFromInt(StartTime,EndTime):
         print("操作记录请求成功")
     except Exception as e:
         print(e)
+        return e
         # print(GetManoperationRecord)
         # print(GetManoperationRecord[-3])
     if len(GetManoperationRecord) > 0:

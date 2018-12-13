@@ -7,13 +7,14 @@ from .pram_conf import *
 import cx_Oracle
 import numpy as np
 import datetime as dt
-from .runStrategicinfo_getdata import int_grouped,RequestDynaDataFromInt
+from .runStrategicinfo_getdata import int_grouped, RequestDynaDataFromInt
 from .Request_Data_From_Int import RequestDynaDataFromInt as operate_request
 from proj.tools.func_timer import timer
 
 from proj.config.database import Postgres
 from proj.config.sql_text import SqlText
 import threading
+
 
 class InterfaceCheck():
 
@@ -22,7 +23,7 @@ class InterfaceCheck():
         self.scats_id_list = []
         self.int_str_input = []
         self.int_group = 0
-        self.scats_id_init()    # 初始化路口编号、战略输入信息（配置表）
+        self.scats_id_init()  # 初始化路口编号、战略输入信息（配置表）
 
     def scats_id_init(self):
         try:
@@ -46,7 +47,7 @@ class InterfaceCheck():
                 int_id = [i[0] for i in IntersectIDlist]
                 int_num = len(int_id)
                 print("请求总路口数：", int_num)
-                group = round(int_num / CONSTANT.group_interval, 0)+1
+                group = round(int_num / CONSTANT.group_interval, 0) + 1
                 int_grouped_data = int_grouped(int_id, group)
                 self.int_group = int(group)
                 self.scats_id_list = int_grouped_data
@@ -56,8 +57,10 @@ class InterfaceCheck():
     def salk_list_request(self):
         CONSTANT.IF_DATA_REPAIR = True
         print("开始数据修复")
-        loss_time = self.loss_data_period_check('战略运行记录接口')
-        print('loss_time:%s'% loss_time)
+        yesterday = (dt.datetime.now() - dt.timedelta(days=1)).strftime('%Y-%m-%d') + ' 00:00:00'
+        today = (dt.datetime.now()).strftime('%Y-%m-%d') + ' 00:00:00'
+        loss_time = self.loss_data_period_check('战略运行记录接口', yesterday, today)
+        print('loss_time:%s' % loss_time)
         # thread_creat(self.int_group, self.scats_id_list, self.int_str_input)
         if loss_time is not None:
             for time in loss_time:
@@ -78,27 +81,27 @@ class InterfaceCheck():
                 for t in threads:
                     t.join()
 
-    def loss_data_period_check(self, interface_name):
+    def loss_data_period_check(self, interface_name, stime, etime):
 
         """
         缺失数据时段检测
         :return:
         """
         pg = Postgres(SqlText.pg_inf_arith)
-        result = pg.call_pg_data(sql_loss_data_period.format(interface_name), fram=True)
+        result = pg.call_pg_data(sql_loss_data_period.format(interface_name, stime, etime), fram=True)
         if result is not None and not result.empty:
             result_loss = result[result['data_num'] == 0]
             result = result[result['data_num'] != 0]
             data_num = result['data_num'].values
             avg_num = np.mean(data_num)
             dev = np.std(data_num)
-            print("%s今日各时段平均请求量:%s;标准差：%s"%(interface_name,avg_num,dev))
+            print("%s今日各时段平均请求量:%s;标准差：%s" % (interface_name, avg_num, dev))
             if avg_num > 0:
-                result_loss.append(result[result['data_num'] < avg_num - 3*dev])
+                result_loss.append(result[result['data_num'] < avg_num - 2 * dev])
             else:
                 result_loss.append(result)
             print(result_loss)
-            loss_time = result_loss['record_time'].apply(lambda x:str(x)).values.tolist()
+            loss_time = result_loss['record_time'].apply(lambda x: str(x)).values.tolist()
             return loss_time
 
     @timer
@@ -114,8 +117,8 @@ class InterfaceCheck():
         #                                                       dt.timedelta(minutes=15), '%Y-%m-%d %H:%M:%S')
         #         end_time = time
         #         operate_request(start_time, end_time)
-        stime = (dt.datetime.now()-dt.timedelta(days=1)).strftime('%Y-%m-%d') + ' 00:00:00'
-        etime = (dt.datetime.now()-dt.timedelta(days=1)).strftime('%Y-%m-%d') + ' 23:59:59'
+        stime = (dt.datetime.now() - dt.timedelta(days=1)).strftime('%Y-%m-%d') + ' 00:00:00'
+        etime = (dt.datetime.now() - dt.timedelta(days=1)).strftime('%Y-%m-%d') + ' 23:59:59'
         operate_request(stime, etime)
 
 
@@ -123,11 +126,3 @@ def main():
     I = InterfaceCheck()
     I.salk_list_request()
     I.operate_request()
-
-
-
-
-
-
-
-

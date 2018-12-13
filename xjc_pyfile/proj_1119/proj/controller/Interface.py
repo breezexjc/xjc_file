@@ -8,7 +8,9 @@ from ..vo.TestModelTestVO import *
 from ..config.task_registed.task_registed import RegistedTask
 # from ..controller.TaskModel import TaskRegister
 from ..python_project.ali_alarm.alarm_priority_algorithm3.alarm_auto_dispose import OperateAutoDis
+from ..python_project.scats_interface.data_request_check import InterfaceCheck
 import os, time
+import pandas as pd
 import datetime as dt
 # import multiprocessing
 # from multiprocessing import Queue, Process
@@ -239,6 +241,12 @@ def demo(request):
 
 def getInterfaceStatus(request):
     # print(request.method)
+    def plot_color_judge(record_time, loss_time):
+        if record_time in loss_time:
+            plot_color = 2
+        else:
+            plot_color = 1
+        return plot_color
 
     if request.method == 'GET':
         if 'sTime' in request.GET and 'eTime' in request.GET:
@@ -249,7 +257,26 @@ def getInterfaceStatus(request):
             # print(eTime)
             pg = Postgres(pg_inf=SqlText.pg_inf_arith)
             result = pg.call_pg_data(SqlText.sql_get_interface_status.format(sTime,eTime), fram=True)
-            dict = result.to_dict(orient='records')
+
+            ################################
+            result['plot_color'] = None
+            interface_neme = result['interface_name'].drop_duplicates().values.tolist()
+            # today = dt.datetime.now().strftime("%Y-%m-%d") + ' 00:00:00'
+            # now = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            LossCheck = InterfaceCheck()
+            final_df = pd.DataFrame(columns=result.columns)
+            for name in interface_neme:
+                loss_time = LossCheck.loss_data_period_check(name, sTime, eTime)
+                match_result = result[result['interface_name']==name]
+                print('loss_time',loss_time)
+                # print(match_result['record_time'].tolist())
+                # print(type(match_result['record_time'].values.tolist()[0]))
+                match_result['plot_color'] = match_result['record_time'].apply(lambda x: 1 if x.strftime("%Y-%m-%d %H:%M:%S") not in loss_time else 2)
+                # print(match_result)
+                final_df = final_df.append(match_result)
+            # print(final_df,'final_df')
+            dict = final_df.to_dict(orient='records')
+            ################################
             json_demo = {'appcode': True, 'message': '请求成功，参数无误！', 'result': dict}
         else:
             json_demo = {'appcode': False, 'message': '请求失败，参数有误！', 'result': []}
@@ -331,7 +358,6 @@ def getLaneStatus(request):
         json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确！', 'result': []}
         response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
         return response
-
 
 
 def getRequestManage(request):

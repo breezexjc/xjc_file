@@ -19,3 +19,4 @@
 2018-12-06 10:37:16,721 - SituationOperate.py - [line:236] - ERROR - so_run
 2018-12-06 10:43:16,736 - SituationOperate.py - [line:236] - ERROR - so_run
 2018-12-06 10:44:16,725 - SituationOperate.py - [line:236] - ERROR - so_run
+2018-12-13 11:48:12,953 - alarm_data_regular_filter.py - [line:345] - ERROR - 'NoneType' object has no attribute 'keys'

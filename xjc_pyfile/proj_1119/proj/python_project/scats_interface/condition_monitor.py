@@ -4,6 +4,10 @@ import datetime as dt
 import cx_Oracle
 import pandas as pd
 from proj.tools.func_timer import timer
+import requests
+import json
+from .data_request_check import InterfaceCheck
+
 
 # def time_count(func):
 #     def warpper(*args, **kwargs):
@@ -92,7 +96,29 @@ class InterfaceStatus():
         # print(current_date, start_time.strftime("%H:%M:%S"), current_time.strftime("%H:%M:%S"))
         salk_num = self.salklist_status(current_date, start_time.strftime("%H:%M:%S"),
                                         current_time.strftime("%H:%M:%S"))
-        message_salk = [['战略运行记录接口', current_time, salk_num]]
+        if salk_num == 0:
+            StartTime = (dt.datetime.now() - dt.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M:%S')
+            EndTime = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            SiteID = '1'
+            payload1 = {'SiteID': SiteID, 'STime': StartTime, 'ETime': EndTime}
+            # 4.3获取战略运行记录
+            try:
+                RunStrInformation = requests.get(r'http://33.83.100.138:8080/getStrategicmonitor.html',
+                                                 params=payload1, timeout=5)  # 4.3
+                RunStrInformation = RunStrInformation.text
+            except Exception as e:
+                print(type(e))
+                # Log.warning("RunStrInformation: request timeout!")
+                exception = "request failed,error type: %s" % type(e)
+            else:
+                RunStrInformation = json.loads(RunStrInformation)
+                if len(RunStrInformation['resultList']) > 0:
+                    exception = "request success,data length:%s" % len(RunStrInformation['resultList'])
+                else:
+                    exception = "request success,but no data"
+        else:
+            exception = None
+        message_salk = [['战略运行记录接口', current_time, salk_num, exception]]
         self.pg.send_pg_data(sql=sql_send_message, data=message_salk)
         return
 
@@ -108,7 +134,27 @@ class InterfaceStatus():
         else:
             operate_num = self.operate_status(start_time.strftime("%Y-%m-%d %H:%M:%S"),
                                               current_time.strftime("%Y-%m-%d %H:%M:%S"))
-        message_operate = [['人工操作记录接口', current_time, operate_num]]
+        if operate_num == 0:
+            StartTime = (dt.datetime.now() - dt.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M:%S')
+            EndTime = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            payload1 = {r'STime': StartTime, r'ETime': EndTime}
+            try:
+                get_response = requests.get(r'http://33.83.100.138:8080/getOperatorIntervention.html',
+                                            params=payload1, timeout=10)  # 4.7
+                GetManoperationRecord = get_response.text
+                print("操作记录请求成功")
+            except Exception as e:
+                print(e)
+                exception = "request failed,error type: %s" % type(e)
+            else:
+                GetManoperationRecord = json.loads(GetManoperationRecord)
+                if len(GetManoperationRecord['resultList']) > 0:
+                    exception = "request success,data length:%s" % len(GetManoperationRecord['resultList'])
+                else:
+                    exception = "request success,but no data"
+        else:
+            exception = None
+        message_operate = [['人工操作记录接口', current_time, operate_num, exception]]
         self.pg.send_pg_data(sql=sql_send_message, data=message_operate)
         return
 

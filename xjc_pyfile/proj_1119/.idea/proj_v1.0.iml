@@ -14,15 +14,16 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.6 (test)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (ali_alarm)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="20180823_SUMO" />
+    <orderEntry type="module" module-name="GITHUB" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="pytest" />
+    <option name="projectConfiguration" value="py.test" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>

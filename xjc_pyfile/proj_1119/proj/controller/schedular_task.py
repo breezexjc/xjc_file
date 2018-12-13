@@ -1,6 +1,6 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from django_apscheduler.jobstores import DjangoJobStore, register_events
-from apscheduler.events import EVENT_JOB_MAX_INSTANCES, EVENT_JOB_ERROR, EVENT_JOB_MISSED
+from apscheduler.events import EVENT_JOB_MAX_INSTANCES, EVENT_JOB_ERROR, EVENT_JOB_MISSED,EVENT_JOB_EXECUTED
 from ..python_project.ali_alarm.main import main as cal_kde_value
 from ..python_project.ali_alarm.alarm_priority_algorithm1126.SituationOperate import so_run
 from ..python_project.ali_alarm.alarm_priority_algorithm1126.alarm_data_regular_filter import his_model_update
@@ -160,14 +160,14 @@ def create_scheduler():
         scheduler.add_job(interface_check, 'cron', hour='2', minute='05', id='interface_check', replace_existing=True )
         # 启动所有调度任务（开车了，嘟嘟嘟）
         scheduler.start()
+        print(scheduler.get_jobs())
+        print(scheduler.state)
     except Exception as e:
         print(e)
         # 报错则调度器停止执行
         scheduler.shutdown()
     logger.info('start scheduler task')
     print("=======================定时任务启动==========================")
-    print(scheduler.get_jobs())
-    print(scheduler.state)
     logger.info('start task register,check on admin platform!')
     register_events(scheduler)
     # scheduler.add_executor()

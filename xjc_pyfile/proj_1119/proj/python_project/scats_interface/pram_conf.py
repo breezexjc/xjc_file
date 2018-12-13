@@ -13,7 +13,7 @@ and FINT_DETECTORID> :b
 """
 
 sql_send_message = """
-insert into interface_status_check(interface_name,record_time,data_num) values(%s,%s,%s)
+insert into interface_status_check(interface_name,record_time,data_num,exception) values(%s,%s,%s,%s)
 """
 
 sql_send_parse_failed_detector = """
@@ -21,7 +21,7 @@ insert into parse_failed_detector_list(scats_id,salk_no,detector,record_time) va
 """
 # 对缺失数据的时段进行检测
 sql_loss_data_period = """
-select * from interface_status_check where record_time > current_date and interface_name = '{0}'
+select * from interface_status_check where record_time between '{1}'and '{2}' and interface_name = '{0}'
 """
 
 interface_list = {

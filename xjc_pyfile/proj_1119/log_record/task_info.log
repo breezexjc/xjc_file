@@ -3264,3 +3264,7 @@
 2018-12-12 15:08:01,528 - schedular_task.py - [line:166] - INFO - start task register,check on admin platform!
 2018-12-12 15:09:58,449 - schedular_task.py - [line:162] - INFO - start scheduler task
 2018-12-12 15:09:58,539 - schedular_task.py - [line:166] - INFO - start task register,check on admin platform!
+2018-12-13 11:40:52,434 - schedular_task.py - [line:167] - INFO - start scheduler task
+2018-12-13 11:40:52,495 - schedular_task.py - [line:171] - INFO - start task register,check on admin platform!
+2018-12-13 11:48:06,378 - schedular_task.py - [line:167] - INFO - start scheduler task
+2018-12-13 11:48:06,378 - schedular_task.py - [line:171] - INFO - start task register,check on admin platform!
