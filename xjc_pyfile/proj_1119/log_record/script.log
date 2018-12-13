@@ -1,0 +1,917 @@
+2018-11-13 09:15:38,280 - base.py - [line:93] - WARNING - Not Found: /favicon.ico
+2018-11-13 10:20:25,535 - base.py - [line:93] - WARNING - Not Found: /getOperates
+2018-11-13 10:23:16,946 - base.py - [line:93] - WARNING - Not Found: /getOperates
+2018-11-13 10:24:04,388 - base.py - [line:93] - WARNING - Not Found: /getOperates
+2018-11-14 10:03:08,632 - base.py - [line:93] - WARNING - Not Found: /favicon.ico
+2018-11-14 16:47:55,880 - exception.py - [line:118] - ERROR - Internal Server Error: /getOperate
+Traceback (most recent call last):
+  File "H:\program\proj_v1.0\proj\config\database.py", line 116, in call_pg_data
+    cr.execute(sql)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 114, in getOperate
+    result = pg.call_pg_data(sql)
+  File "H:\program\proj_v1.0\proj\config\database.py", line 118, in call_pg_data
+    conn.commit()
+psycopg2.InterfaceError: connection already closed
+2018-11-15 08:47:52,157 - base.py - [line:93] - WARNING - Not Found: /favicon.ico
+2018-11-15 11:46:40,355 - exception.py - [line:118] - ERROR - Internal Server Error: /getOperate
+Traceback (most recent call last):
+  File "H:\program\proj_v1.0\proj\config\database.py", line 116, in call_pg_data
+    cr.execute(sql)
+psycopg2.InterfaceError: cursor already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 114, in getOperate
+    result = pg.call_pg_data(sql)
+  File "H:\program\proj_v1.0\proj\config\database.py", line 118, in call_pg_data
+    conn.commit()
+psycopg2.InterfaceError: connection already closed
+2018-11-15 14:35:07,280 - base.py - [line:93] - WARNING - Not Found: /favicon.ico
+2018-11-16 13:37:12,110 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'scatsId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 158, in getAlarmAuto
+    inter_id = request.GET['scatsId']
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'scatsId'
+2018-11-16 13:37:12,477 - base.py - [line:93] - WARNING - Not Found: /favicon.ico
+2018-11-16 13:37:58,641 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'scatsId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 158, in getAlarmAuto
+    inter_id = request.GET['scatsId']
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'scatsId'
+2018-11-16 13:38:47,719 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'scatsId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    inter_id = request.GET['scatsId']
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'scatsId'
+2018-11-16 13:39:15,761 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'scatsId'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    print(inter_id)
+  File "F:\ANACONDA\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'scatsId'
+2018-11-16 13:39:21,025 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 160, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "F:\ANACONDA\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "F:\ANACONDA\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "F:\ANACONDA\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-11-16 13:41:31,199 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 166, in getAlarmAuto
+    json_demo2['result'] = result
+UnboundLocalError: local variable 'result' referenced before assignment
+2018-11-16 13:45:03,857 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "F:\ANACONDA\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "F:\ANACONDA\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "F:\ANACONDA\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-11-16 13:45:07,567 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "F:\ANACONDA\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "F:\ANACONDA\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "F:\ANACONDA\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-11-16 13:45:29,543 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "F:\ANACONDA\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "F:\ANACONDA\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "F:\ANACONDA\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-11-16 13:50:34,685 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "F:\ANACONDA\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "F:\ANACONDA\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "F:\ANACONDA\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-11-16 13:52:01,964 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 161, in getAlarmAuto
+    result = autoAlarm.alarm_auto_judge(int_list)
+  File "H:\program\proj_v1.0\proj\python_project\ali_alarm\alarm_priority_algorithm3\alarm_auto_dispose.py", line 158, in alarm_auto_judge
+    fre_alarm_list = [i[0] for i in alarm_type if i[4]=='0' or i[4]=='0.0']
+TypeError: 'bool' object is not iterable
+2018-11-16 13:58:48,655 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 160, in getAlarmAuto
+    int_list = result['intList']
+TypeError: list indices must be integers or slices, not str
+2018-11-16 13:59:13,964 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 161, in getAlarmAuto
+    int_list = result['intList']
+TypeError: list indices must be integers or slices, not str
+2018-11-16 13:59:15,628 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 161, in getAlarmAuto
+    int_list = result['intList']
+TypeError: list indices must be integers or slices, not str
+2018-11-16 13:59:16,869 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 161, in getAlarmAuto
+    int_list = result['intList']
+TypeError: list indices must be integers or slices, not str
+2018-11-16 14:04:57,249 - base.py - [line:93] - WARNING - Not Found: /favicon.ico
+2018-11-16 15:50:21,617 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 159, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "F:\ANACONDA\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "F:\ANACONDA\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "F:\ANACONDA\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 4 (char 3)
+2018-11-19 08:10:17,319 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 167, in getAlarmAuto
+    result = autoAlarm.alarm_auto_judge(int_list)
+  File "H:\program\proj_v1.0\proj\python_project\ali_alarm\alarm_priority_algorithm3\alarm_auto_dispose.py", line 152, in alarm_auto_judge
+    fre_alarm_list = [i[0] for i in alarm_type if i[4]=='0' or i[4]=='0.0']
+TypeError: 'bool' object is not iterable
+2018-11-19 08:24:18,965 - exception.py - [line:118] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\ANACONDA\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\program\proj_v1.0\proj\controller\Interface.py", line 167, in getAlarmAuto
+    result = autoAlarm.alarm_auto_judge(int_list)
+  File "H:\program\proj_v1.0\proj\python_project\ali_alarm\alarm_priority_algorithm3\alarm_auto_dispose.py", line 152, in alarm_auto_judge
+    fre_alarm_list = [i[0] for i in alarm_type if i[4]=='0' or i[4]=='0.0']
+TypeError: 'NoneType' object is not iterable
+2018-11-21 10:35:03,026 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-22 13:41:03,157 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-23 10:51:44,809 - log.py - [line:228] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 150, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "D:\anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\anaconda\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 12 (char 11)
+2018-11-23 10:52:16,764 - log.py - [line:228] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 150, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "D:\anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\anaconda\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2018-11-23 10:52:25,717 - log.py - [line:228] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 150, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "D:\anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\anaconda\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 12 (char 11)
+2018-11-23 10:52:59,608 - log.py - [line:228] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 150, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "D:\anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\anaconda\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 12 (char 11)
+2018-11-23 10:53:00,437 - log.py - [line:228] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 150, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "D:\anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\anaconda\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 12 (char 11)
+2018-11-23 10:53:02,618 - log.py - [line:228] - ERROR - Internal Server Error: /getAlarmAuto
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 150, in getAlarmAuto
+    result = json.loads(inter_id)
+  File "D:\anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\anaconda\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 12 (char 11)
+2018-11-23 16:46:42,813 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-29 11:07:09,500 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-29 11:10:54,296 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-29 11:12:15,019 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-29 11:12:15,848 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-11-29 11:13:29,704 - log.py - [line:228] - WARNING - Not Found: /getAlarmAuto/
+2018-11-29 11:24:54,731 - log.py - [line:228] - WARNING - Not Found: /demo
+2018-11-29 11:25:46,701 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-05 09:35:12,964 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-05 09:35:57,267 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 09:45:13,968 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 249, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 09:45:47,701 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 249, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 09:45:48,434 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 249, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 09:50:18,087 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 13:27:14,910 - log.py - [line:228] - WARNING - Not Found: /demo/scats/getScheTask$
+2018-12-05 13:27:44,673 - log.py - [line:228] - WARNING - Not Found: /demo/scats/getScheTask$
+2018-12-05 13:27:45,948 - log.py - [line:228] - WARNING - Not Found: /demo/scats/getScheTask$
+2018-12-05 13:27:49,169 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 292, in getScheTask
+    result = pg.call_pg_data(SqlText.sql_sche_check, fram=True)
+AttributeError: type object 'SqlText' has no attribute 'sql_sche_check'
+2018-12-05 13:55:56,512 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-05 14:46:56,798 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 14:47:29,705 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:05:12,917 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:05:19,753 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:05:27,948 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:05:33,808 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:05:52,186 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:05:54,748 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:06:35,971 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:06:37,778 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:07:00,694 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:12:36,325 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:22:25,621 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:22:25,667 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:22:27,449 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:22:31,908 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:22:41,700 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:23:01,810 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:24:24,050 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-05 15:24:34,802 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 248, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-06 09:55:11,604 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 250, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-06 09:55:15,288 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getInterface
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 250, in getInterfaceStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-06 10:31:32,207 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getParseFailed
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 280, in getParseFailed
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-06 10:36:22,587 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getParseFailed
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 280, in getParseFailed
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-06 14:11:04,391 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-06 14:13:51,595 - log.py - [line:228] - WARNING - Not Found: /demo/scats/getScheTask$
+2018-12-06 16:24:15,744 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-06 16:26:34,422 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-06 16:26:59,434 - log.py - [line:228] - WARNING - Not Found: /demo/scats
+2018-12-07 16:27:29,612 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getLaneStatus
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\controller\Interface.py", line 321, in getLaneStatus
+    dict = result.to_dict(orient='records')
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2018-12-07 16:42:07,616 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-10 16:15:06,389 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getLaneStatus
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: warper() missing 1 required positional argument: 'func'
+2018-12-10 16:15:06,492 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-10 16:15:50,339 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: warper() missing 1 required positional argument: 'func'
+2018-12-10 16:16:00,298 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: warper() missing 1 required positional argument: 'func'
+2018-12-10 16:16:01,248 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: warper() missing 1 required positional argument: 'func'
+2018-12-10 16:17:58,237 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\tools\inter_face_return_manage.py", line 7, in warper
+    if request.META.has_key('HTTP_X_FORWARDED_FOR'):
+AttributeError: 'dict' object has no attribute 'has_key'
+2018-12-10 16:18:19,792 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\enjoyor_proj\proj_1119\proj\tools\inter_face_return_manage.py", line 7, in warper
+    if request.META.has_key('HTTP_X_FORWARDED_FOR'):
+AttributeError: 'dict' object has no attribute 'has_key'
+2018-12-10 16:20:42,224 - inter_face_return_manage.py - [line:17] - INFO - inter_face_name:getScheTaskcost time(s): 0IP:192.168.20.101
+2018-12-10 16:20:42,277 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getScheTask
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view proj.tools.inter_face_return_manage.warper didn't return an HttpResponse object. It returned None instead.
+2018-12-10 16:21:37,104 - inter_face_return_manage.py - [line:17] - INFO - inter_face_name:getScheTaskcost time(s): 0IP:192.168.20.101
+2018-12-10 16:22:15,445 - inter_face_return_manage.py - [line:17] - INFO - inter_face_name:getScheTaskcost time(s): 0IP:192.168.20.101
+2018-12-10 16:25:19,253 - inter_face_return_manage.py - [line:17] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.22
+2018-12-10 16:26:22,825 - inter_face_return_manage.py - [line:17] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.22
+2018-12-11 09:02:19,894 - inter_face_return_manage.py - [line:17] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.20.101
+2018-12-11 11:58:52,086 - log.py - [line:228] - WARNING - Not Found: /favicon.ico
+2018-12-11 11:59:02,497 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.20.101
+2018-12-11 11:59:49,712 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.20.101
+2018-12-11 11:59:50,313 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.20.101
+2018-12-11 12:01:16,910 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:34:21,466 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:34:24,479 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:34:35,221 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:34:40,637 - inter_face_return_manage.py - [line:27] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:36:07,936 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:36:08,952 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 12:36:48,511 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 13:31:36,036 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 13:31:37,121 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 13:44:08,888 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.23
+2018-12-11 13:44:30,520 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.23
+2018-12-11 13:44:34,930 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.23
+2018-12-11 13:44:36,950 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.23
+2018-12-11 13:44:40,150 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.23
+2018-12-11 13:48:40,751 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.23
+2018-12-11 14:51:35,430 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 14:51:58,436 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.23
+2018-12-11 16:17:45,144 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-11 16:17:50,908 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.47
+2018-12-11 16:18:13,568 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.47
+2018-12-11 16:24:37,801 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.20.101
+2018-12-11 16:24:51,957 - log.py - [line:228] - ERROR - Internal Server Error: /demo/scats/getRequestManage
+Traceback (most recent call last):
+  File "D:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\anaconda\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view proj.tools.inter_face_return_manage.warper didn't return an HttpResponse object. It returned None instead.
+2018-12-11 16:25:55,386 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.20.101
+2018-12-11 16:26:06,008 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.20.101
+2018-12-11 16:26:32,997 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.23
+2018-12-11 16:26:35,151 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.23
+2018-12-11 16:26:38,517 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.23
+2018-12-11 16:35:07,176 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-11 16:35:08,677 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.47
+2018-12-11 16:35:14,937 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.47
+2018-12-11 16:43:08,758 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.25.47
+2018-12-11 16:43:33,817 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.25.47
+2018-12-11 16:44:43,726 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.25.47
+2018-12-11 16:45:01,788 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.25.47
+2018-12-11 16:45:52,565 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getRequestManage cost time(s): 0IP:192.168.25.47
+2018-12-11 16:47:49,994 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getParseFailed cost time(s): 0IP:192.168.25.47
+2018-12-11 16:51:40,392 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-11 16:57:43,559 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-12 08:30:43,871 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-12 08:31:17,001 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-12 10:02:03,412 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47
+2018-12-12 10:02:20,133 - inter_face_return_manage.py - [line:28] - INFO - inter_face_name:getScheTask cost time(s): 0IP:192.168.25.47

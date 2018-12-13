@@ -1,0 +1,1775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58eb0799-e873-4509-903d-dfc20840eaf0" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ali_alarm$Spatial_Association_Analysis.coverage" NAME="Spatial_Association_Analysis Coverage Results" MODIFIED="1531817780644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1534732886892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/algorithm" />
+    <SUITE FILE_PATH="coverage/ali_alarm$sumo_web3d.coverage" NAME="sumo_web3d Coverage Results" MODIFIED="1535009789417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../sumo-web3d-master/sumo_web3d" />
+    <SUITE FILE_PATH="coverage/ali_alarm$AlarmAPI.coverage" NAME="AlarmAPI Coverage Results" MODIFIED="1532412281108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PROGRAME620/TransportationSignalOptPlatform_package/interface" />
+    <SUITE FILE_PATH="coverage/ali_alarm$alarm_direction.coverage" NAME="alarm_direction Coverage Results" MODIFIED="1532306812139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_group" />
+    <SUITE FILE_PATH="coverage/ali_alarm$start_demo__1_.coverage" NAME="start_demo (1) Coverage Results" MODIFIED="1534238877329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt_file" />
+    <SUITE FILE_PATH="coverage/ali_alarm$kafka_demo.coverage" NAME="kafka_demo Coverage Results" MODIFIED="1533182831187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$test_tensflow.coverage" NAME="test_tensflow Coverage Results" MODIFIED="1533197329006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Neural Network" />
+    <SUITE FILE_PATH="coverage/ali_alarm$process_inf.coverage" NAME="process_inf Coverage Results" MODIFIED="1534207928215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/后台进程启动与管理" />
+    <SUITE FILE_PATH="coverage/ali_alarm$cnn_alarm_push.coverage" NAME="cnn_alarm_push Coverage Results" MODIFIED="1532051919904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_group" />
+    <SUITE FILE_PATH="coverage/ali_alarm$runStrategicinfo_getdata.coverage" NAME="runStrategicinfo_getdata Coverage Results" MODIFIED="1533525940656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PROGRAME/TransportationSignalOptPlatform_package/interface" />
+    <SUITE FILE_PATH="coverage/ali_alarm$flowss.coverage" NAME="flowss Coverage Results" MODIFIED="1532935847235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/ali_alarm$rds_trajectory_plot5.coverage" NAME="rds_trajectory_plot5 Coverage Results" MODIFIED="1538105230418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../dingding_programe" />
+    <SUITE FILE_PATH="coverage/ali_alarm$node_group_v2.coverage" NAME="node_group_v2 Coverage Results" MODIFIED="1531812085327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1534478322961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/pyMC3_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$BP_.coverage" NAME="BP_交叉熵 Coverage Results" MODIFIED="1534139825054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/exprerimnet" />
+    <SUITE FILE_PATH="coverage/ali_alarm$count_alarm.coverage" NAME="count_alarm Coverage Results" MODIFIED="1532657197699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$pympg_test.coverage" NAME="pympg_test Coverage Results" MODIFIED="1534986691251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_predict" />
+    <SUITE FILE_PATH="coverage/ali_alarm$task.coverage" NAME="task Coverage Results" MODIFIED="1533526733730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/django/scats_api/api/templates/celery_task" />
+    <SUITE FILE_PATH="coverage/ali_alarm$start_demo.coverage" NAME="start_demo Coverage Results" MODIFIED="1534215316831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/后台进程启动与管理" />
+    <SUITE FILE_PATH="coverage/ali_alarm$get_alarmdata.coverage" NAME="get_alarmdata Coverage Results" MODIFIED="1535003603649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_predict" />
+    <SUITE FILE_PATH="coverage/ali_alarm$group_popup_info.coverage" NAME="group_popup_info Coverage Results" MODIFIED="1532650519113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$sumo_web3d__2_.coverage" NAME="sumo_web3d (2) Coverage Results" MODIFIED="1535017158812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../20180823_SUMO/新建文件夹/sumo-web3d-master/sumo_web3d" />
+    <SUITE FILE_PATH="coverage/ali_alarm$views.coverage" NAME="views Coverage Results" MODIFIED="1534471148429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/django/scats_api/api" />
+    <SUITE FILE_PATH="coverage/ali_alarm$net_service_level.coverage" NAME="net_service_level Coverage Results" MODIFIED="1531875896704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PROGRAME620/TransportationSignalOptPlatform_package/TransportationSignalOptPlatform/SystemDiagnose/NetCapModel" />
+    <SUITE FILE_PATH="coverage/ali_alarm$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1534151006790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt_file" />
+    <SUITE FILE_PATH="coverage/ali_alarm$test_input_array.coverage" NAME="test_input_array Coverage Results" MODIFIED="1533267037561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_15" />
+    <SUITE FILE_PATH="coverage/ali_alarm$map_computor.coverage" NAME="map_computor Coverage Results" MODIFIED="1534490415669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../trafficLightRL-upload" />
+    <SUITE FILE_PATH="coverage/ali_alarm$softmax_regression.coverage" NAME="softmax_regression Coverage Results" MODIFIED="1533200875145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1" />
+    <SUITE FILE_PATH="coverage/ali_alarm$models.coverage" NAME="models Coverage Results" MODIFIED="1532314635666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../interface" />
+    <SUITE FILE_PATH="coverage/ali_alarm$MAMC.coverage" NAME="MAMC Coverage Results" MODIFIED="1534497954967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/algorithm" />
+    <SUITE FILE_PATH="coverage/ali_alarm$Spatial_Association_Analysisv2.coverage" NAME="Spatial_Association_Analysisv2 Coverage Results" MODIFIED="1532656343988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$node_group_v3.coverage" NAME="node_group_v3 Coverage Results" MODIFIED="1532654997507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$realtime_phase_getdata.coverage" NAME="realtime_phase_getdata Coverage Results" MODIFIED="1534909111528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PROGRAME_JK/TransportationSignalOptPlatform_package/interface" />
+    <SUITE FILE_PATH="coverage/ali_alarm$client.coverage" NAME="client Coverage Results" MODIFIED="1533115066114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/django/scats_api/api" />
+    <SUITE FILE_PATH="coverage/ali_alarm$kafka.coverage" NAME="kafka Coverage Results" MODIFIED="1533175408503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$Message.coverage" NAME="Message Coverage Results" MODIFIED="1534214314489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/ActiveMQ" />
+    <SUITE FILE_PATH="coverage/ali_alarm$multiprocessing_demo.coverage" NAME="multiprocessing_demo Coverage Results" MODIFIED="1534225456844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$time_count.coverage" NAME="time_count Coverage Results" MODIFIED="1534152783152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt_file" />
+    <SUITE FILE_PATH="coverage/ali_alarm$runexp.coverage" NAME="runexp Coverage Results" MODIFIED="1534491270709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../trafficLightRL-upload" />
+    <SUITE FILE_PATH="coverage/ali_alarm$settings.coverage" NAME="settings Coverage Results" MODIFIED="1533111499415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/django/scats_api/scats_api" />
+    <SUITE FILE_PATH="coverage/ali_alarm$gaode_int_match.coverage" NAME="gaode_int_match Coverage Results" MODIFIED="1539575649833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../from周开荣" />
+    <SUITE FILE_PATH="coverage/ali_alarm$database_conn.coverage" NAME="database_conn Coverage Results" MODIFIED="1533287625178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1535016374976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/sumo_web3d/server" />
+    <SUITE FILE_PATH="coverage/ali_alarm$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1534238896738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tasks/task_test" />
+    <SUITE FILE_PATH="coverage/ali_alarm$train_lstm.coverage" NAME="train_lstm Coverage Results" MODIFIED="1533267107804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_15" />
+    <SUITE FILE_PATH="coverage/ali_alarm$alarm_main.coverage" NAME="alarm_main Coverage Results" MODIFIED="1534992628697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$sumo_web3d__1_.coverage" NAME="sumo_web3d (1) Coverage Results" MODIFIED="1535078115482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/sumo_web3d" />
+    <SUITE FILE_PATH="coverage/ali_alarm$active_plot.coverage" NAME="active_plot Coverage Results" MODIFIED="1538105955034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_predict" />
+    <SUITE FILE_PATH="coverage/ali_alarm$.coverage" NAME="后台多进程控制 Coverage Results" MODIFIED="1534141932545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$task1_scats_phase_split.coverage" NAME="task1_scats_phase_split Coverage Results" MODIFIED="1533526988293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/django/scats_api/api/templates/celery_task" />
+    <SUITE FILE_PATH="coverage/ali_alarm$server.coverage" NAME="server Coverage Results" MODIFIED="1535010893507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../sumo-web3d-master/sumo_web3d/server" />
+    <SUITE FILE_PATH="coverage/ali_alarm$alarm_data_regular_filter.coverage" NAME="alarm_data_regular_filter Coverage Results" MODIFIED="1539577737873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_predict" />
+    <SUITE FILE_PATH="coverage/ali_alarm$loading.coverage" NAME="loading Coverage Results" MODIFIED="1534150200783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt_file" />
+    <SUITE FILE_PATH="coverage/ali_alarm$socket.coverage" NAME="socket Coverage Results" MODIFIED="1533016541799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$MEIKUANG.coverage" NAME="MEIKUANG Coverage Results" MODIFIED="1534477297229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/pyMC3_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$stomp_demo.coverage" NAME="stomp_demo Coverage Results" MODIFIED="1534230687310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$test_instence.coverage" NAME="test_instence Coverage Results" MODIFIED="1533197155903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Neural Network" />
+    <SUITE FILE_PATH="coverage/ali_alarm$download.coverage" NAME="download Coverage Results" MODIFIED="1533198765604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1" />
+    <SUITE FILE_PATH="coverage/ali_alarm$convolutional.coverage" NAME="convolutional Coverage Results" MODIFIED="1533200993920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1" />
+    <SUITE FILE_PATH="coverage/ali_alarm$save_pic.coverage" NAME="save_pic Coverage Results" MODIFIED="1533199364092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1" />
+    <SUITE FILE_PATH="coverage/ali_alarm$Dataframe.coverage" NAME="Dataframe Coverage Results" MODIFIED="1531449053755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$demo.coverage" NAME="多进程demo Coverage Results" MODIFIED="1539571577104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/多线程多进程" />
+    <SUITE FILE_PATH="coverage/ali_alarm$AlarmAPIv2.coverage" NAME="AlarmAPIv2 Coverage Results" MODIFIED="1532413474996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PROGRAME620/TransportationSignalOptPlatform_package/interface" />
+    <SUITE FILE_PATH="coverage/ali_alarm$HMM.coverage" NAME="HMM Coverage Results" MODIFIED="1534732044623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/algorithm" />
+    <SUITE FILE_PATH="coverage/ali_alarm$app.coverage" NAME="app Coverage Results" MODIFIED="1532344901883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../interface" />
+    <SUITE FILE_PATH="coverage/ali_alarm$ten_try.coverage" NAME="ten_try Coverage Results" MODIFIED="1533197474313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Neural Network" />
+    <SUITE FILE_PATH="coverage/ali_alarm$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1534225677463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tasks/task_test" />
+    <SUITE FILE_PATH="coverage/ali_alarm$main.coverage" NAME="main Coverage Results" MODIFIED="1534239059253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt_file" />
+    <SUITE FILE_PATH="coverage/ali_alarm$read_write.coverage" NAME="read&amp;write Coverage Results" MODIFIED="1534210610823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/ActiveMQ" />
+    <SUITE FILE_PATH="coverage/ali_alarm$BUMB_WEIQI.coverage" NAME="BUMB_WEIQI Coverage Results" MODIFIED="1534731097394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/algorithm" />
+    <SUITE FILE_PATH="coverage/ali_alarm$alarm_strategy_input.coverage" NAME="alarm_strategy_input Coverage Results" MODIFIED="1532653970110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ali_alarm$bayes_predict.coverage" NAME="bayes_predict Coverage Results" MODIFIED="1538987503261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alarm_predict" />
+    <SUITE FILE_PATH="coverage/ali_alarm$stomp.coverage" NAME="stomp Coverage Results" MODIFIED="1533115404337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo" />
+    <SUITE FILE_PATH="coverage/ali_alarm$RNN_TEST.coverage" NAME="RNN_TEST Coverage Results" MODIFIED="1533280982771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/Tensflow_Project/exprerimnet" />
+    <SUITE FILE_PATH="coverage/ali_alarm$HMM2.coverage" NAME="HMM2 Coverage Results" MODIFIED="1534737174693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_demo/algorithm" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ali_alarm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="alarm_data_regular_filter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="51" column="28" selection-start-line="57" selection-start-column="22" selection-end-line="58" selection-end-column="34" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+                <element signature="e#2965#3134#0" />
+                <element signature="e#917#1714#0" />
+                <element signature="e#3720#4065#0" />
+                <element signature="e#4391#4583#0" />
+                <element signature="e#6069#6154#0" />
+                <element signature="e#4755#4970#0" />
+                <element signature="e#8178#8698#0" />
+                <element signature="e#4654#10577#0" />
+                <element signature="e#2377#2666#0" />
+                <element signature="e#5784#7668#0" />
+                <element signature="e#9116#11000#0" />
+                <element signature="e#6857#10165#0" />
+                <element signature="e#10932#10936#0" />
+                <element signature="e#11344#11397#0" />
+                <element signature="e#12241#12410#0" />
+                <element signature="e#13358#13990#0" />
+                <element signature="e#15221#16174#0" />
+                <element signature="e#25715#26450#0" />
+                <element signature="e#27743#27773#0" />
+                <element signature="e#21672#22749#0" />
+                <element signature="e#13889#13971#0" />
+                <element signature="e#28352#29120#0" />
+                <element signature="e#31409#37160#0" />
+                <element signature="e#26690#27780#0" />
+                <element signature="e#36126#36805#0" />
+                <element signature="e#36394#41902#0" />
+                <element signature="e#36442#37782#0" />
+                <element signature="e#37841#38913#0" />
+                <element signature="e#38957#40148#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gaode_int_match.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../from周开荣/gaode_int_match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="271" selection-start-line="271" selection-end-line="271" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://F:/ANACONDA/Lib/threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="840" column="31" selection-start-line="840" selection-start-column="25" selection-end-line="840" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="后台多进程控制.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../python_demo/后台多进程控制.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://F:/ANACONDA/Lib/dbm/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alarm_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alarm_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alarm_predict/database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" selection-start-line="8" selection-start-column="1" selection-end-line="10" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#590#817#0" />
+                <element signature="e#850#1258#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="超多进程demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../python_demo/超多进程demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+              <folding>
+                <element signature="e#16#38#0" expanded="true" />
+                <element signature="e#346#534#0" />
+                <element signature="e#1734#2659#0" />
+                <element signature="e#2726#4299#0" />
+                <element signature="e#4339#4771#0" />
+                <element signature="e#4812#6082#0" />
+                <element signature="e#6108#6672#0" />
+                <element signature="e#6710#8082#0" />
+                <element signature="e#8117#9241#0" />
+                <element signature="e#9267#10326#0" />
+                <element signature="e#10355#11241#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="程序计时器.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../python_demo/程序计时器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="多进程demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../python_demo/多线程多进程/多进程demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>弹窗基础数据：获取数据-连接oracle失败</find>
+      <find>SCENARIOS_PATH</find>
+      <find>configuration_file</find>
+      <find>set_xticks</find>
+      <find>time_list</find>
+      <find>X</find>
+      <find>week_keys</find>
+      <find>plot_data</find>
+      <find>class Alarm_Cla</find>
+      <find>class Alarm</find>
+      <find>input()</find>
+      <find>input</find>
+      <find>lasr_month</find>
+      <find>take_action</find>
+      <find>run</find>
+      <find>start</find>
+      <find>start_sumo</find>
+      <find>SumoAgent</find>
+      <find>disposal_alarm_data</find>
+      <find>score_samples</find>
+      <find>new_kde_predict</find>
+      <find>inter_name</find>
+      <find>print(kde</find>
+      <find>print(</find>
+      <find>checking new alarm data</find>
+      <find>get new alarm data! starting kde value calculate...</find>
+      <find>NewKdeValue</find>
+      <find>send_kde_result</find>
+      <find>can't get alarm</find>
+      <find>gaode_alarm_rdsect_match</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>group</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>H:\program\ali_alarm</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../PyQt_file/start_demo.py" />
+        <option value="D:/tasks/task_test/t1.py" />
+        <option value="$PROJECT_DIR$/../PROGRAME_JK/TransportationSignalOptPlatform_package/interface/超多进程demo.py" />
+        <option value="$PROJECT_DIR$/../python_demo/pyMC3_demo/MEIKUANG.py" />
+        <option value="$PROJECT_DIR$/../python_demo/pyMC3_demo/demo1.py" />
+        <option value="$PROJECT_DIR$/../python_demo/tools/判断节假日.py" />
+        <option value="$PROJECT_DIR$/../trafficLightRL-upload/map_computor.py" />
+        <option value="$PROJECT_DIR$/../trafficLightRL-upload/runexp.py" />
+        <option value="$PROJECT_DIR$/../ai-projects-master/bayesian_inference/.ipynb_checkpoints/bayes_rule_applied-checkpoint.ipynb" />
+        <option value="$PROJECT_DIR$/../python_demo/algorithm/MAMC.py" />
+        <option value="$PROJECT_DIR$/../python_demo/algorithm/BUMB_WEIQI.py" />
+        <option value="$PROJECT_DIR$/../python_demo/algorithm/HMM.py" />
+        <option value="$PROJECT_DIR$/../python_demo/algorithm/test1.py" />
+        <option value="$PROJECT_DIR$/../python_demo/algorithm/HMM2.py" />
+        <option value="$PROJECT_DIR$/Spatial_Association_Analysisv2.py" />
+        <option value="$PROJECT_DIR$/../python_demo/database_conn.py" />
+        <option value="$PROJECT_DIR$/alarm_main.py" />
+        <option value="$PROJECT_DIR$/../PROGRAME_JK/TransportationSignalOptPlatform_package/interface/real_time_phase_inf.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/hzgps_mean_decreasev2.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/hzgps_continuity_v3.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/hzgps_match.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/轨迹匹配/hzgps_mean_decreasev2.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/轨迹匹配/hzgps_continuity_v3.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/轨迹匹配/GlobalVar.py" />
+        <option value="$PROJECT_DIR$/../轨迹数据匹配/轨迹匹配/hzgps_match.py" />
+        <option value="$PROJECT_DIR$/../python_demo/stomp_demo.py" />
+        <option value="$PROJECT_DIR$/../PROGRAME_AL/TransportationSignalOptPlatform_package/main.py" />
+        <option value="G:/django/scats_api/api/views.py" />
+        <option value="$PROJECT_DIR$/../PROGRAME_JK/TransportationSignalOptPlatform_package/interface/realtime_phase_getdata.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/pgmpy_test2.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/pympg_test.py" />
+        <option value="$PROJECT_DIR$/group_popup_info.py" />
+        <option value="$PROJECT_DIR$/../sumo-web3d-master/sumo_web3d/server/server.py" />
+        <option value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/sumo_web3d/server/server.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/666.py" />
+        <option value="$PROJECT_DIR$/../scats/interface/runStrategicinfo_getdata.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/trees.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/DBSCAN.py" />
+        <option value="$PROJECT_DIR$/../interface/post_siteID.py" />
+        <option value="$PROJECT_DIR$/../interface/post_siteID_salklist.py" />
+        <option value="$PROJECT_DIR$/../interface/runStrategicinfo_getdata.py" />
+        <option value="$PROJECT_DIR$/../dingding_programe/rds_trajectory_plot5.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/active_plot.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/bayes_predict.py" />
+        <option value="$PROJECT_DIR$/../python_demo/超多进程demo.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/kde_result" />
+        <option value="$PROJECT_DIR$/alarm_predict/get_alarmdata.py" />
+        <option value="$PROJECT_DIR$/../python_demo/多线程多进程/多进程demo.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/database.py" />
+        <option value="$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py" />
+        <option value="$PROJECT_DIR$/../from周开荣/gaode_int_match.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master_905backpack/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../sumo-web3d-master/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/chai-as-promised/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/chai-http/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/chai/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/geojson/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/lodash/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/material-ui/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/mocha/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/polyline/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/proj4/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/promises-a-plus/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/react-addons-linked-state-mixin/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/react/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/three/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/webvr-api/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/@types/ws/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/arrify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/as-number/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/assert/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/assert/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/assert/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/assertion-error/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/async-limiter/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/awesome-typescript-loader/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/awesome-typescript-loader/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/babel-code-frame/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/babel-code-frame/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/babel-code-frame/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/babel-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/babel-runtime/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/babel-runtime/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/base/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/big.js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/bowser/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/braces/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/braces/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/braces/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/browserify-aes/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/browserify-zlib/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/browserify-zlib/test/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/buffer/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/builtin-status-codes/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/center-align/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chai-as-promised/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chai-http/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chai-roughly/node_modules/deep-eql/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chai-roughly/node_modules/type-detect/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chai-roughly/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chai/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chain-function/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chalk/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/change-emitter/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/check-error/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/cliui/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/constants-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/cookiejar/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/create-react-class/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/crypto-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/css-in-js-utils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/dat.gui/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/date-now/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/deep-eql/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/dom-helpers/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/domain-browser/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/emojis-list/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/enhanced-resolve/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/enhanced-resolve/node_modules/tapable/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/enhanced-resolve/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/events/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-brackets/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-brackets/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-range/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-range/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-range/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extglob/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/extrude-polyline/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/fbjs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/form-data/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/formidable/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/get-func-name/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/gl-vec2/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/hoist-non-react-statics/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/https-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/hyphenate-style-name/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/imports-loader/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/imports-loader/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/indexof/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/inline-style-prefixer/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/interpret/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ip-regex/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-ip/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-odd/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/isomorphic-fetch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/jade/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/jade/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/jade/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/json5/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/keycode/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/lodash.merge/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/lodash.throttle/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/make-error/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/material-ui/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/math-random/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mgrs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/micromatch/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/micromatch/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/micromatch/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/micromatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mocha/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mocha/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/nanomatch/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/nanomatch/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/nanomatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/node-libs-browser/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/node-libs-browser/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/optimist/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/os-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/pako/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/path-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/path-parse/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/pathval/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/pbkdf2-compat/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/polyline-miter-util/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/polyline/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/preserve/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/prettier/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/process/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/proj4/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/prop-types/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/querystring-es3/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/querystring/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/randomatic/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/randomatic/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/react-event-listener/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/react-transition-group/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/react/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/readdirp/examples/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/readdirp/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/readdirp/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/readdirp/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/recompose/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ripemd160/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/set-getter/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/set-immediate-shim/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/sha.js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/simple-assign/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/snapdragon-node/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-list-map/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-map-loader/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-map-loader/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stats.js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-browserify/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-browserify/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-browserify/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-http/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-http/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-http/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-http/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/stream-http/test/browser/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/string-hash/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/superagent/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/symbol-observable/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tapable/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/three-mtl-loader/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/three-obj-loader/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/three-orbit-controls/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/three-simplicial-complex/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/three/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/timers-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/to-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/to-iso-string/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ts-node/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tsconfig/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tslint/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tslint/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tslint/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tsutils/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/tty-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/type-detect/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/typescript/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ua-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/uglify-js/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ultron/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/url/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/url/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/v8flags/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/vm-browserify/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/warning/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/watchpack/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack-core/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack-core/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack/node_modules/enhanced-resolve/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack/node_modules/enhanced-resolve/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/webpack/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/wkt-parser/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/node_modules/yn/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/package.json" />
+      <path value="$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master_905backpack/package.json" />
+      <path value="$PROJECT_DIR$/../sumo-web3d-master/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="957" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ali_alarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ali_alarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="ali_alarm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ali_alarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="ali_alarm" type="462c0819:PsiDirectoryNode" />
+              <item name="alarm_predict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ali_alarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="from周开荣" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="program" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="program" />
+        <option name="myAddSourceRoots" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\program\20180823_SUMO" />
+      <recent name="H:\program\PyQt_file" />
+      <recent name="H:\program\python_demo\后台进程启动与管理" />
+      <recent name="G:\django\scats_api" />
+      <recent name="G:\django\scats_api\api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\program\interface" />
+      <recent name="H:\program\PROGRAME_JK\TransportationSignalOptPlatform_package\interface" />
+      <recent name="D:\tasks\task_test" />
+      <recent name="H:\program\python_demo\celery_demo" />
+      <recent name="G:\django\scats_api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.alarm_data_regular_filter">
+    <configuration name="active_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ali_alarm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alarm_predict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alarm_predict/active_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="alarm_data_regular_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ali_alarm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alarm_predict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="bayes_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ali_alarm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alarm_predict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alarm_predict/bayes_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="多进程demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="program" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_demo/多线程多进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_demo/多线程多进程/多进程demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="gaode_int_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="program" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../from周开荣" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../from周开荣/gaode_int_match.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="apple" type="Python.DjangoServer" factoryName="Django server">
+      <module name="apple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="apple.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration name="scats_api" type="Python.DjangoServer" factoryName="Django server">
+      <module name="scats_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration name="untitled" type="Python.DjangoServer" factoryName="Django server">
+      <module name="celery_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.apple" />
+      <item itemvalue="Django server.scats_api" />
+      <item itemvalue="Django server.untitled" />
+      <item itemvalue="Python.active_plot" />
+      <item itemvalue="Python.bayes_predict" />
+      <item itemvalue="Python.alarm_data_regular_filter" />
+      <item itemvalue="Python.多进程demo" />
+      <item itemvalue="Python.gaode_int_match" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.alarm_data_regular_filter" />
+        <item itemvalue="Python.gaode_int_match" />
+        <item itemvalue="Python.多进程demo" />
+        <item itemvalue="Python.bayes_predict" />
+        <item itemvalue="Python.active_plot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58eb0799-e873-4509-903d-dfc20840eaf0" name="Default" comment="" />
+      <created>1521593358083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521593358083</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="957" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32997763" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26101694" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.3894967" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.5007542" side_tool="true" weight="0.18976545" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007542" side_tool="true" weight="0.18976545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/node_group.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PROGRAME620/TransportationSignalOptPlatform_package/interface/AlarmAPI.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1/convolutional.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1/convolutional.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://G:/Tensflow_Project/Deep-Learning-21-Examples-master/chapter_1/convolutional.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PROGRAME_JK/TransportationSignalOptPlatform_package/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PyQt_file/start_demo.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../trafficLightRL-upload/map_computor.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/get_alarmdata.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../interface/runStrategicinfo_getdata.py</url>
+          <line>689</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../interface/post_siteID_salklist.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>734</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>700</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>757</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>796</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>800</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/bayes_predict.py</url>
+          <line>714</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py</url>
+          <line>608</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/get_alarmdata.py</url>
+          <line>272</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py</url>
+          <line>644</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="152" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../scats/interface/runStrategicinfo_getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/trees.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1136312457/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86220">
+          <caret line="2874" column="8" selection-start-line="2874" selection-start-column="8" selection-end-line="2874" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180823_SUMO/sumo-web3d-master/sumo_web3d/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface/post_siteID.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/matplotlib/artist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25830">
+          <caret line="877" selection-start-line="877" selection-end-line="877" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1136312457/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="809" column="8" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface/post_siteID_salklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/matplotlib/tight_layout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9600">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/matplotlib/backends/backend_agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15810">
+          <caret line="549" selection-start-line="549" selection-end-line="549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46110">
+          <caret line="1572" selection-start-line="1572" selection-end-line="1572" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="942" column="33" selection-start-line="942" selection-start-column="33" selection-end-line="942" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="544" selection-start-line="544" selection-end-line="544" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/plot_pic/(14,东进口).png" />
+    <entry file="file://$PROJECT_DIR$/alarm_predict/active_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" selection-start-line="16" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dingding_programe/rds_trajectory_plot5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="171" selection-start-line="171" selection-end-line="180" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_demo/进度条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#44#1196#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6510">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12570">
+          <caret line="430" selection-start-line="430" selection-end-line="430" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71640">
+          <caret line="2441" selection-start-line="2441" selection-end-line="2441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47640">
+          <caret line="1644" selection-start-line="1644" selection-end-line="1644" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/pandas/core/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12630">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66810">
+          <caret line="2317" selection-start-line="2317" selection-end-line="2317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface/venv/Lib/site-packages/flask/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="539" column="8" selection-start-line="539" selection-start-column="8" selection-end-line="539" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload/map_computor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="404" lean-forward="true" selection-start-line="404" selection-end-line="404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload/sumo_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="964">
+          <caret line="57" column="15" selection-start-line="57" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload/runexp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload/traffic_light_dqn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="e#3300#4668#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload/network_agent.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2354" selection-start-line="2354" selection-end-line="2354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/site-packages/sklearn/neighbors/kde.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="e#3431#4272#0" />
+            <element signature="e#4312#4991#0" />
+            <element signature="e#6024#6449#0" />
+            <element signature="e#6513#8217#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/multiprocessing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface/runStrategicinfo_getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="715" selection-start-line="715" selection-end-line="715" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#11695#20260#0" />
+            <element signature="e#20334#23586#0" />
+            <element signature="e#21084#22812#0" />
+            <element signature="e#23712#25382#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interface/realtime_phase_getdata0822.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6930">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/bayes_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="742" column="12" selection-start-line="742" selection-start-column="12" selection-end-line="742" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#748#901#0" />
+            <element signature="e#935#6347#0" />
+            <element signature="e#4050#4847#0" />
+            <element signature="e#4888#5040#0" />
+            <element signature="e#5088#5410#0" />
+            <element signature="e#5455#5555#0" />
+            <element signature="e#5604#6347#0" />
+            <element signature="e#6375#7527#0" />
+            <element signature="e#7627#7818#0" />
+            <element signature="e#7862#8135#0" />
+            <element signature="e#10164#12230#0" />
+            <element signature="e#12273#14958#0" />
+            <element signature="e#14998#15997#0" />
+            <element signature="e#16040#17885#0" />
+            <element signature="e#17931#24254#0" />
+            <element signature="e#24300#26296#0" />
+            <element signature="e#26341#26345#0" />
+            <element signature="e#26350#26379#0" />
+            <element signature="e#34754#36124#0" />
+            <element signature="e#36131#36160#0" />
+            <element signature="e#38109#40217#0" />
+            <element signature="e#38365#38638#0" />
+            <element signature="e#40530#40610#0" />
+            <element signature="e#40658#41859#0" />
+            <element signature="e#41897#43496#0" />
+            <element signature="e#43542#43620#0" />
+            <element signature="e#43668#46588#0" />
+            <element signature="e#44609#46343#0" />
+            <element signature="e#50057#53022#0" />
+            <element signature="e#55906#56063#0" />
+            <element signature="e#46862#46976#0" />
+            <element signature="e#47033#47333#0" />
+            <element signature="e#47377#48173#0" />
+            <element signature="e#48209#48613#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/dbm/dumb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/DBSCAN.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/kde_result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/kde_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="1" column="2474" selection-start-line="1" selection-start-column="2474" selection-end-line="1" selection-end-column="2475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/get_alarmdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="203" column="1" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
+          <folding>
+            <element signature="e#1031#1993#0" />
+            <element signature="e#2032#2248#0" />
+            <element signature="e#2287#2861#0" />
+            <element signature="e#2935#5920#0" />
+            <element signature="e#5956#7023#0" />
+            <element signature="e#7063#7128#0" />
+            <element signature="e#7204#10283#0" />
+            <element signature="e#10330#12385#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/dbm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_demo/多线程多进程/多进程demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_demo/超多进程demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+          <folding>
+            <element signature="e#16#38#0" expanded="true" />
+            <element signature="e#346#534#0" />
+            <element signature="e#1734#2659#0" />
+            <element signature="e#2726#4299#0" />
+            <element signature="e#4339#4771#0" />
+            <element signature="e#4812#6082#0" />
+            <element signature="e#6108#6672#0" />
+            <element signature="e#6710#8082#0" />
+            <element signature="e#8117#9241#0" />
+            <element signature="e#9267#10326#0" />
+            <element signature="e#10355#11241#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_demo/程序计时器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_demo/后台多进程控制.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ANACONDA/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="840" column="31" selection-start-line="840" selection-start-column="25" selection-end-line="840" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-start-column="1" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#590#817#0" />
+            <element signature="e#850#1258#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../from周开荣/gaode_int_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm_predict/alarm_data_regular_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="51" column="28" selection-start-line="57" selection-start-column="22" selection-end-line="58" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+            <element signature="e#2965#3134#0" />
+            <element signature="e#917#1714#0" />
+            <element signature="e#3720#4065#0" />
+            <element signature="e#4391#4583#0" />
+            <element signature="e#6069#6154#0" />
+            <element signature="e#4755#4970#0" />
+            <element signature="e#8178#8698#0" />
+            <element signature="e#4654#10577#0" />
+            <element signature="e#2377#2666#0" />
+            <element signature="e#5784#7668#0" />
+            <element signature="e#9116#11000#0" />
+            <element signature="e#6857#10165#0" />
+            <element signature="e#10932#10936#0" />
+            <element signature="e#11344#11397#0" />
+            <element signature="e#12241#12410#0" />
+            <element signature="e#13358#13990#0" />
+            <element signature="e#15221#16174#0" />
+            <element signature="e#25715#26450#0" />
+            <element signature="e#27743#27773#0" />
+            <element signature="e#21672#22749#0" />
+            <element signature="e#13889#13971#0" />
+            <element signature="e#28352#29120#0" />
+            <element signature="e#31409#37160#0" />
+            <element signature="e#26690#27780#0" />
+            <element signature="e#36126#36805#0" />
+            <element signature="e#36394#41902#0" />
+            <element signature="e#36442#37782#0" />
+            <element signature="e#37841#38913#0" />
+            <element signature="e#38957#40148#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

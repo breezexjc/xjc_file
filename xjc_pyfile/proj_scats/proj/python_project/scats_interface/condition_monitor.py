@@ -5,7 +5,6 @@ import cx_Oracle
 import pandas as pd
 
 
-
 def time_count(func):
     def warpper(*args, **kwargs):
         stime = dt.datetime.now()
@@ -13,6 +12,7 @@ def time_count(func):
         etime = dt.datetime.now()
         print("[DeBug] {0} CostTime: {1} ".format(func.__name__, (etime - stime).seconds))
         return res
+
     return warpper
 
 
@@ -59,29 +59,30 @@ class InterfaceStatus():
         return data_num
 
     @time_count
-    def parsing_failed_check(self,date):
+    def parsing_failed_check(self, date):
         # stime = dt.datetime.strptime(stime, '%Y-%m-%d %H:%M:%S')
         # etime = dt.datetime.strptime(etime, '%Y-%m-%d %H:%M:%S')
         try:
-            self.cr.execute(sql_failed_detector, a=date,b=100)
+            self.cr.execute(sql_failed_detector, a=date, b=100)
         except cx_Oracle.InterfaceError:
             self.conn, self.cr = self.ora.db_conn()
-            self.cr.execute(sql_failed_detector, a=date,b=100)
+            self.cr.execute(sql_failed_detector, a=date, b=100)
         result = self.cr.fetchall()
         # print(result)
         self.conn.commit()
         return result
 
-    def salk_send(self,delta=15):
+    def salk_send(self, delta=15):
         current_time = dt.datetime.now()
-        start_time = current_time-dt.timedelta(minutes=delta)
+        start_time = current_time - dt.timedelta(minutes=delta)
         current_date = str(current_time.date())
-        salk_num = self.salklist_status(current_date, start_time.strftime("%H:%M:%S"),current_time.strftime("%H:%M:%S"))
+        salk_num = self.salklist_status(current_date, start_time.strftime("%H:%M:%S"),
+                                        current_time.strftime("%H:%M:%S"))
         message_salk = [['战略运行记录接口', current_time, salk_num, None]]
         self.pg.send_pg_data(sql=sql_send_message, data=message_salk)
         return
 
-    def operate_send(self,delta=15):
+    def operate_send(self, delta=15):
         current_time = dt.datetime.now()
         start_time = current_time - dt.timedelta(minutes=delta)
         operate_num = self.operate_status(start_time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -93,9 +94,11 @@ class InterfaceStatus():
     def parse_failed_detector_send(self):
         current_time = dt.datetime.now()
         current_date = str(current_time.date())
+        current_date = '2018-11-05'
         failed_detector = self.parsing_failed_check(current_date)
         self.pg.send_pg_data(sql=sql_send_parse_failed_detector, data=failed_detector)
         return
+
 
 def main():
     I = InterfaceStatus()

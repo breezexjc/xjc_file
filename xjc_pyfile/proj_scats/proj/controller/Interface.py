@@ -220,7 +220,7 @@ def getInterfaceStatus(request):
             dict = result.to_dict(orient='records')
             json_demo = {'appcode': True, 'message': '请求成功，参数无误！', 'result': dict}
         else:
-            json_demo = {'appcode': True, 'message': '请求失败，参数有误！', 'result': []}
+            json_demo = {'appcode': False, 'message': '请求失败，参数有误！', 'result': []}
             pass
         response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
         return response
@@ -244,7 +244,7 @@ def getParseFailed(request):
             response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
             return response
         else:
-            json_demo = {'appcode': True, 'message': '请求失败，参数有误！', 'result': []}
+            json_demo = {'appcode': False, 'message': '请求失败，参数有误！', 'result': []}
             response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
             return response
 
@@ -253,3 +253,25 @@ def getParseFailed(request):
         json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确！', 'result': []}
         response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
         return response
+
+
+def getScheTask(request):
+    json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确!', 'result': []}
+    print(request.method)
+    if request.method == 'GET':
+
+        pg = Postgres(pg_inf=SqlText.pg_inf_arith)
+        result = pg.call_pg_data(SqlText.sql_sche_check, fram=True)
+        dict = result.to_dict(orient='records')
+        json_demo = {'appcode': True, 'message': '请求成功，参数无误！', 'result': dict}
+        response = JsonResponse(json_demo, safe=True, json_dumps_params={'ensure_ascii': False})
+        return response
+
+    elif request.POST:
+
+        json_demo = {'appcode': False, 'message': '请求失败，请检查请求方式是否正确！', 'result': []}
+        response = JsonResponse(json_demo, safe=False, json_dumps_params={'ensure_ascii': False})
+        return response
+
+
+

@@ -1,5 +1,8 @@
 
 class SqlText():
+    pg_inf_arith = {'database': "arithmetic", 'user': "postgres", 'password': "postgres",
+                    'host': "192.168.20.46", 'port': "5432"}
+
     sql_operate_match = """
 SELECT aom.*,acc.user_name,
 (case when oper_type='Split' then '优化绿信比' 
@@ -143,3 +146,19 @@ order by aom.oper_time desc
 
     sql_delete_real_phase = """delete from st_realtime_phase_inf where pushtime < '{0}'"""
     sql_delete_kde_vaue = """delete from disposal_alarm_data_kde_value where time_point <'{0}'"""
+
+    sql_sche_check = """
+    SELECT
+        dad."name",dadj.status,dad.next_run_time,dadj.duration,dadj."exception",dadj.traceback
+    FROM
+        django_apscheduler_djangojob dad
+    LEFT JOIN 
+    (select a.job_id,a.run_time,a.duration,a.status,a."exception",a.traceback
+     from django_apscheduler_djangojobexecution_copy a
+    left JOIN(
+    select job_id,max(run_time) as run_time from
+    django_apscheduler_djangojobexecution
+    GROUP BY job_id) b
+    on a.job_id=b.job_id and a.run_time=b.run_time
+    ) dadj ON dad."id" = dadj.job_id
+    """
