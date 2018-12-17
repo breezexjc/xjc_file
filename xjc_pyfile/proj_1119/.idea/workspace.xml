@@ -13,48 +13,37 @@
     <SUITE FILE_PATH="coverage/proj_v1_0$runexp.coverage" NAME="runexp Coverage Results" MODIFIED="1542186366963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload" />
     <SUITE FILE_PATH="coverage/proj_1119$manage.coverage" NAME="manage Coverage Results" MODIFIED="1544678288901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj_1119$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1544676807452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proj/python_project/scats_interface" />
+    <SUITE FILE_PATH="coverage/proj_1119$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1544758755535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test22" />
     <SUITE FILE_PATH="coverage/proj_v1_0$seperate_operate_record.coverage" NAME="seperate_operate_record Coverage Results" MODIFIED="1542173768401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proj/python_project/scats_operate_parsing" />
+    <SUITE FILE_PATH="coverage/proj_1119$LSTM_TEST.coverage" NAME="LSTM_TEST Coverage Results" MODIFIED="1545008054693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../DeepLearn" />
     <SUITE FILE_PATH="coverage/proj_v1_0$main.coverage" NAME="main Coverage Results" MODIFIED="1542586327924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3" />
     <SUITE FILE_PATH="coverage/proj_v1_0$alarm_rdsect_match.coverage" NAME="alarm_rdsect_match Coverage Results" MODIFIED="1542593531158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3" />
     <SUITE FILE_PATH="coverage/proj_v1_0$map_computor.coverage" NAME="map_computor Coverage Results" MODIFIED="1542186347043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Interface.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/controller/Interface.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="268" column="44" selection-start-line="268" selection-start-column="44" selection-end-line="268" selection-end-column="44" />
-              <folding>
-                <element signature="e#24#60#0" expanded="true" />
-                <element signature="e#3613#5897#0" />
-                <element signature="e#5930#6854#0" />
-                <element signature="e#6900#10324#0" />
-                <element signature="e#11718#13103#0" />
-                <element signature="e#13154#13889#0" />
-                <element signature="e#13942#14760#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fromnumeric.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/ANACONDA/Lib/site-packages/numpy/core/fromnumeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3451">
-              <caret line="2919" selection-start-line="2919" selection-end-line="2919" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="630">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -62,11 +51,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/ANACONDA/Lib/site-packages/apscheduler/schedulers/background.py">
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../test22/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="330">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request_Data_From_Int.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proj/proj/python_project/scats_interface/Request_Data_From_Int.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="runStrategicinfo_getdata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proj/proj/python_project/scats_interface/runStrategicinfo_getdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21810">
+              <caret line="740" column="4" selection-start-line="740" selection-start-column="4" selection-end-line="740" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runStrategicinfo_getdata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proj_scats/proj/python_project/scats_interface/runStrategicinfo_getdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="765" column="27" selection-start-line="765" selection-start-column="27" selection-end-line="765" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSTM_TEST.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../DeepLearn/LSTM_TEST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../test22/database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9840">
+              <caret line="330" column="55" selection-start-line="330" selection-start-column="55" selection-end-line="330" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -74,21 +113,11 @@
       <file leaf-file-name="sql_text.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/config/sql_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedular_task.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/controller/schedular_task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="169" column="68" selection-start-line="169" selection-start-column="68" selection-end-line="169" selection-end-column="68" />
+            <state relative-caret-position="3480">
+              <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
               <folding>
-                <element signature="e#0#65#0" expanded="true" />
-                <element signature="e#3090#4772#0" />
-                <element signature="e#4802#4946#0" />
+                <element signature="e#994#2738#0" />
+                <element signature="e#2786#3031#0" />
               </folding>
             </state>
           </provider>
@@ -97,56 +126,32 @@
       <file leaf-file-name="condition_monitor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/condition_monitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="927">
+            <state relative-caret-position="4350">
               <caret line="153" column="61" selection-start-line="153" selection-start-column="61" selection-end-line="153" selection-end-column="61" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
-                <element signature="e#1010#1439#0" />
-                <element signature="e#1504#2015#0" />
-                <element signature="e#2078#2779#0" />
-                <element signature="e#4597#4950#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_request_check.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_request_check.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/data_request_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="2190">
               <caret line="83" column="67" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
-              <folding>
-                <element signature="e#708#1787#0" />
-                <element signature="e#1841#3144#0" />
-                <element signature="e#3147#4009#0" />
-                <element signature="e#4061#4774#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pram_conf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/pram_conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -185,6 +190,11 @@
         <option value="$PROJECT_DIR$/proj/python_project/scats_interface/main.py" />
         <option value="$PROJECT_DIR$/proj/controller/Interface.py" />
         <option value="$PROJECT_DIR$/proj/python_project/scats_interface/data_request_check.py" />
+        <option value="$PROJECT_DIR$/../test/test2.py" />
+        <option value="$PROJECT_DIR$/../proj_scats/proj/python_project/scats_interface/runStrategicinfo_getdata.py" />
+        <option value="$PROJECT_DIR$/../test22/database.py" />
+        <option value="$PROJECT_DIR$/../test22/test2.py" />
+        <option value="$PROJECT_DIR$/../../../DeepLearn/LSTM_TEST.py" />
       </list>
     </option>
   </component>
@@ -198,10 +208,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="741" />
-    <option name="y" value="91" />
-    <option name="width" value="974" />
-    <option name="height" value="968" />
+    <option name="x" value="125" />
+    <option name="y" value="377" />
+    <option name="width" value="1101" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -211,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,40 +229,23 @@
               <item name="proj_1119" type="b2602c69:ProjectViewProjectNode" />
               <item name="GITHUB" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="proj_1119" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GITHUB" type="462c0819:PsiDirectoryNode" />
-              <item name="xjc_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_1119" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GITHUB" type="462c0819:PsiDirectoryNode" />
-              <item name="xjc_file" type="462c0819:PsiDirectoryNode" />
-              <item name="xjc_pyfile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_1119" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GITHUB" type="462c0819:PsiDirectoryNode" />
-              <item name="xjc_file" type="462c0819:PsiDirectoryNode" />
-              <item name="xjc_pyfile" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_1119" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="H:/program/cnn-lstm-bilstm-deepcnn-clstm-in-pytorch-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\GITHUB\xjc_file\xjc_pyfile\test22" />
+      <recent name="H:\GITHUB\xjc_file\xjc_pyfile\test" />
       <recent name="H:\program\proj_v1.0\proj\python_project\ali_alarm\alarm_priority_algorithm3" />
       <recent name="H:\program\proj_v1.0\proj\python_project\scats_operate_parsing" />
     </key>
@@ -268,7 +262,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.LSTM_TEST">
+    <configuration name="LSTM_TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GITHUB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../DeepLearn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../DeepLearn/LSTM_TEST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="alarm_rdsect_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="proj_v1.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,25 +320,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="proj_v1.0" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="proj_v1.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,20 +339,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="runexp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180823_SUMO" />
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GITHUB" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test22" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../20180823_SUMO/trafficLightRL-upload/runexp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test22/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,19 +382,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.proj_v1.0" />
-      <item itemvalue="Python.runexp" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.alarm_rdsect_match" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.manage" />
+      <item itemvalue="Python.test2" />
+      <item itemvalue="Python.LSTM_TEST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LSTM_TEST" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.alarm_rdsect_match" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.runexp" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +500,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -515,13 +508,13 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26203808" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34714445" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -545,36 +538,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../test22/test2.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/proj/controller/Interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#60#0" expanded="true" />
-            <element signature="e#3613#5897#0" />
-            <element signature="e#5930#6854#0" />
-            <element signature="e#6900#10324#0" />
-            <element signature="e#11718#13103#0" />
-            <element signature="e#13154#13889#0" />
-            <element signature="e#13942#14760#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/alarm_auto_dispose.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5010">
@@ -593,30 +567,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/real_time_salkdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/controller/schedular_task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
           <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-            <element signature="e#3090#4772#0" />
-            <element signature="e#4802#4946#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,12 +586,6 @@
           <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="19" />
           <folding>
             <element signature="e#24#60#0" expanded="true" />
-            <element signature="e#3613#5897#0" />
-            <element signature="e#5930#6854#0" />
-            <element signature="e#6900#10324#0" />
-            <element signature="e#11718#13103#0" />
-            <element signature="e#13154#13889#0" />
-            <element signature="e#13942#14760#0" />
           </folding>
         </state>
       </provider>
@@ -664,11 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3600">
           <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-            <element signature="e#3090#4772#0" />
-            <element signature="e#4802#4946#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,20 +625,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/real_time_salkdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/alarm_rdsect_match.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -702,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42480">
           <caret line="1416" column="56" lean-forward="true" selection-start-line="1416" selection-start-column="56" selection-end-line="1416" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,9 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="1400" selection-start-line="1400" selection-end-line="1400" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,13 +738,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/real_time_salkdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/content.py" />
     <entry file="file://$PROJECT_DIR$/proj/python_project/ali_alarm/alarm_priority_algorithm3/alarm_rdsect_match.py">
@@ -824,16 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="515" column="32" selection-start-line="503" selection-start-column="8" selection-end-line="515" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/config/sql_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -848,11 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="169" column="68" selection-start-line="169" selection-start-column="68" selection-end-line="169" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-            <element signature="e#3090#4772#0" />
-            <element signature="e#4802#4946#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,11 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="61" />
-          <folding>
-            <element signature="e#9785#9874#0" />
-            <element signature="e#9893#10050#0" />
-            <element signature="e#10126#10455#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,37 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/condition_monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="153" column="61" selection-start-line="153" selection-start-column="61" selection-end-line="153" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#1010#1439#0" />
-            <element signature="e#1504#2015#0" />
-            <element signature="e#2078#2779#0" />
-            <element signature="e#4597#4950#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,30 +799,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/controller/Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="7470">
           <caret line="268" column="44" selection-start-line="268" selection-start-column="44" selection-end-line="268" selection-end-column="44" />
           <folding>
             <element signature="e#24#60#0" expanded="true" />
-            <element signature="e#3613#5897#0" />
-            <element signature="e#5930#6854#0" />
-            <element signature="e#6900#10324#0" />
-            <element signature="e#11718#13103#0" />
-            <element signature="e#13154#13889#0" />
-            <element signature="e#13942#14760#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/data_request_check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="2190">
           <caret line="83" column="67" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/python_project/scats_interface/condition_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4350">
+          <caret line="153" column="61" selection-start-line="153" selection-start-column="61" selection-end-line="153" selection-end-column="61" />
           <folding>
-            <element signature="e#708#1787#0" />
-            <element signature="e#1841#3144#0" />
-            <element signature="e#3147#4009#0" />
-            <element signature="e#4061#4774#0" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/config/sql_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+          <folding>
+            <element signature="e#994#2738#0" />
+            <element signature="e#2786#3031#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test22/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9840">
+          <caret line="330" column="55" selection-start-line="330" selection-start-column="55" selection-end-line="330" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test22/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proj/proj/python_project/scats_interface/Request_Data_From_Int.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proj/proj/python_project/scats_interface/runStrategicinfo_getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21810">
+          <caret line="740" column="4" selection-start-line="740" selection-start-column="4" selection-end-line="740" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proj_scats/proj/python_project/scats_interface/runStrategicinfo_getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="765" column="27" selection-start-line="765" selection-start-column="27" selection-end-line="765" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../DeepLearn/LSTM_TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
         </state>
       </provider>
     </entry>

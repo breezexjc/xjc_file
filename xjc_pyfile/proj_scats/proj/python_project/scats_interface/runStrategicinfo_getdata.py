@@ -610,7 +610,7 @@ def RequestDynaDataFromInt(siteIDlist, IntStrInput, n):
         print("scats接口获取数据失败")
     lock.acquire()
     try:
-        real_phase_split_send(list_RunStrInfo, n)
+        # real_phase_split_send(list_RunStrInfo, n)
         scats_salk_data_send(list_RunStrInfo, list_RunStrInfoSalkList, list_AnalyzedRunInfo, n)
     finally:
         lock.release()
