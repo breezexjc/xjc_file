@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://H:/program/20180823_SUMO/.idea/20180823_SUMO.iml" filepath="H:/program/20180823_SUMO/.idea/20180823_SUMO.iml" />
       <module fileurl="file://$PROJECT_DIR$/../20180823_SUMO/.idea/20180823_SUMO.iml" filepath="$PROJECT_DIR$/../20180823_SUMO/.idea/20180823_SUMO.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../.idea/GITHUB.iml" filepath="$PROJECT_DIR$/../../../.idea/GITHUB.iml" />
+      <module fileurl="file://H:/program/LSTM/.idea/LSTM.iml" filepath="H:/program/LSTM/.idea/LSTM.iml" />
+      <module fileurl="file://H:/program/ali_alarm/alarm_predict/.idea/alarm_predict.iml" filepath="H:/program/ali_alarm/alarm_predict/.idea/alarm_predict.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/proj_v1.0.iml" filepath="$PROJECT_DIR$/.idea/proj_v1.0.iml" />
+      <module fileurl="file://H:/program/python_demo/.idea/python_demo.iml" filepath="H:/program/python_demo/.idea/python_demo.iml" />
     </modules>
   </component>
 </project>

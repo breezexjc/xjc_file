@@ -141,19 +141,19 @@ def create_scheduler():
     scheduler.add_job(monitor, "interval", minutes=15, id='interface_monitor', args=[], replace_existing=True)
 
 
-    # try:
-    #     group, int_list, scats_input = get_scats_int()
-    # except Exception as e:
-    #     logger.error(e)
-    #     print(e)
-    # else:
-    #     logger.info("get scats basic inf successfully!")
-    #     scheduler.add_job(thread_creat, "interval", minutes=5, id='scats_salklist', args=[group, int_list, scats_input],
-    #                       replace_existing=True)
-    #     scheduler.add_job(RequestDynaDataFromInt, "interval", minutes=5, id='scats_volumns', args=[int_list],
-    #                       replace_existing=True)
-    #     scheduler.add_job(get_operate, "interval", minutes=3, id='scats_operate', args=[],
-    #                       replace_existing=True)
+    try:
+        group, int_list, scats_input = get_scats_int()
+    except Exception as e:
+        logger.error(e)
+        print(e)
+    else:
+        logger.info("get scats basic inf successfully!")
+        scheduler.add_job(thread_creat, "interval", minutes=5, id='scats_salklist', args=[group, int_list, scats_input],
+                          replace_existing=True)
+        scheduler.add_job(RequestDynaDataFromInt, "interval", minutes=5, id='scats_volumns', args=[int_list],
+                          replace_existing=True)
+        scheduler.add_job(get_operate, "interval", minutes=3, id='scats_operate', args=[],
+                          replace_existing=True)
     scheduler.start()
     logger.info('start scheduler task')
     print("=======================定时任务启动==========================")

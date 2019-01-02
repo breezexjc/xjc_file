@@ -18,12 +18,16 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="20180823_SUMO" />
     <orderEntry type="module" module-name="GITHUB" />
+    <orderEntry type="module" module-name="LSTM" />
+    <orderEntry type="module" module-name="alarm_predict" />
+    <orderEntry type="module" module-name="python_demo" />
+    <orderEntry type="module" module-name="20180823_SUMO" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="py.test" />
+    <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>

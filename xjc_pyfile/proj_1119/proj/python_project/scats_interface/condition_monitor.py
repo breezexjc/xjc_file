@@ -1,4 +1,4 @@
-from proj.config.database import Oracle, Postgres
+from proj.config.database import Oracle, Postgres,ConnectInf
 from proj.python_project.scats_interface.pram_conf import *
 import datetime as dt
 import cx_Oracle
@@ -165,6 +165,7 @@ class InterfaceStatus():
         if IF_TEST:
             current_date = '2018-11-09'
         failed_detector = self.parsing_failed_check(current_date)
+        pg = Postgres(ConnectInf.pg_inf_inter_info)
         self.pg.send_pg_data(sql=sql_send_parse_failed_detector, data=failed_detector)
         return
 

@@ -8,7 +8,8 @@ select count(*) from GET_MANOPERATION_RECORD where OPERTIME between :a and :b
 """
 
 sql_failed_detector = """
-select distinct FSTR_INTERSECTID,FINT_SA,FINT_DETECTORID,FSTR_DATE  from HZ_SCATS_OUTPUT where fstr_date =to_date(: a,'yyyy-MM-dd')
+select distinct FSTR_INTERSECTID,FINT_SA  from HZ_SCATS_OUTPUT where fstr_date =to_date(: a,'yyyy-MM-dd')
+and ( FSTR_CYCLE_STARTTIME >:c and FSTR_CYCLE_STARTTIME <:d)
 and FINT_DETECTORID> :b
 """
 
@@ -19,6 +20,11 @@ insert into interface_status_check(interface_name,record_time,data_num,exception
 sql_send_parse_failed_detector = """
 insert into parse_failed_detector_list(scats_id,salk_no,detector,record_time) values(%s,%s,%s,%s)
 """
+sql_send_parse_failed_detector = """
+insert into pe_tobj_channel_error(scats_id,salk_no,detector,record_time) values(%s,%s,%s,%s)
+"""
+
+
 # 对缺失数据的时段进行检测
 sql_loss_data_period = """
 select * from interface_status_check where record_time between '{1}'and '{2}' and interface_name = '{0}'

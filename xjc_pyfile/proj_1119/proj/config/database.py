@@ -13,7 +13,41 @@ import cx_Oracle
 # pg_inf = {'database': "signal_specialist",'user': "postgres",'password': "postgres",
 #           'host': "192.168.20.56",'port': "5432"}
 
-
+class ConnectInf:
+    """公司本地192网段"""
+    demo_OracleUser = 'SIG_OPT_ADMIN/admin@192.168.20.56/orcl'
+    demo_pg_inf = {'database': "signal_specialist", 'user': "django", 'password': "postgres",
+                   'host': "192.168.20.46", 'port': "5432"}
+    pg_inf_research = {'database': "research", 'user': "postgres", 'password': "postgres",
+                                 'host': "192.168.20.45",'port': "5432"}
+    OracleUser_Enjoyor = 'enjoyor/admin@192.168.20.56/orcl'
+    pg_inf_arith = {'database': "arithmetic", 'user': "postgres", 'password': "postgres",
+                    'host': "192.168.20.46", 'port': "5432"}
+    pg_inf_django = {'database': "django", 'user': "django", 'password': "postgres",
+                     'host': "192.168.20.45", 'port': "5432"}
+    INTER_INF_IP = '192.168.20.45'
+    """支队33网段"""
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #         'NAME': 'django',  # 数据库名字(需要先创建)
+    #         'USER': 'django',  # 登录用户名
+    #         'PASSWORD': 'postgres',  # 密码
+    #         'HOST': '33.83.100.144',  # 数据库IP地址,留空默认为localhost
+    #         'PORT': '5432',  # 端口
+    #     }
+    # }
+    # pg_inf_research = {'database': "research",'user': "postgres",'password': "postgres",
+    #           'host': "33.83.100.144",'port': "5432"}
+    # demo_OracleUser = 'enjoyor/admin@33.83.100.139/orcl'
+    # demo_pg_inf = {'database': "signal_specialist", 'user': "django", 'password': "postgres",
+    #                'host': "33.83.100.145", 'port': "5432"}
+    # OracleUser_Enjoyor = demo_OracleUser
+    # pg_inf_arith = {'database': "arithmetic", 'user': "postgres", 'password': "postgres",
+    #                 'host': "33.83.100.145", 'port': "5432"}
+    # pg_inf_django = {'database': "django", 'user': "django", 'password': "postgres",
+    #                  'host': "33.83.100.144", 'port': "5432"}
+    # INTER_INF_IP = '33.83.100.145'
 # pg_inf = {'database': "research",'user': "postgres",'password': "postgres",
 #           'host': "192.168.20.45",'port': "5432"}
 # OracleUser = 'SIG_OPT_ADMIN/admin@192.168.20.56/orcl'
